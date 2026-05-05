@@ -1,0 +1,20 @@
+{
+	"parent": "trollkin_v3:trollkin/tool",
+	"display": {
+		"icon": {
+			"id": "minecraft:slime_ball"
+		},
+		"title": {
+			"translate": "trollkin_v3.advancement.slime"
+		},
+		"description": {
+			"translate": "trollkin_v3.advancement.slime.desc"
+		},
+		"frame": "challenge"
+	},
+	"criteria": {
+		"trollkin": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

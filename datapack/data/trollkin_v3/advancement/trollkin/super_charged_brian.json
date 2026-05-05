@@ -1,0 +1,26 @@
+{
+	"parent": "trollkin_v3:trollkin/charged_brian",
+	"display": {
+		"icon": {
+			"id": "minecraft:test_block",
+			"components": {
+				"item_model": "trollkin_v3:super_charged_brian"
+			}
+		},
+		"title": {
+			"translate": "trollkin_v3.advancement.super_charged_brian"
+		},
+		"description": {
+			"translate": "trollkin_v3.advancement.super_charged_brian.desc"
+		},
+		"frame": "challenge"
+	},
+	"criteria": {
+		"brian": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "trollkin_v3:super_charged_brian"
+			}
+		}
+	}
+}

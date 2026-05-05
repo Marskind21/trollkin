@@ -1,0 +1,31 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "#": "minecraft:red_sand",
+        "+": "minecraft:ender_pearl"
+    },
+    "pattern": [
+        "###",
+        "#+#",
+        "###"
+    ],
+    "result": {
+        "count": 1,
+        "id": "minecraft:player_head",
+        "components": {
+            "minecraft:profile": {
+				"texture": "trollkin_v3:item/players/endermars21"
+			},
+            "minecraft:item_name": {
+                "translate": "trollkin_v3.item.endermars21"
+            },
+            "minecraft:custom_data": {
+                "item": "endermars21"
+            },
+            "minecraft:equippable": {
+                "slot": "head",
+                "equip_sound": "minecraft:entity.evoker.prepare_wololo"
+            }
+        }
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "rainbow",
+    "key": {
+        "1": "minecraft:red_dye",
+        "2": "minecraft:orange_dye",
+        "3": "minecraft:yellow_dye",
+        "4": "minecraft:lime_dye",
+        "5": "minecraft:green_dye",
+        "6": "minecraft:cyan_dye",
+        "7": "minecraft:blue_dye",
+        "8": "minecraft:purple_dye"
+    },
+    "pattern": [
+        "812",
+        "7 3",
+        "654"
+    ],
+    "result": {
+        "count": 8,
+        "id": "minecraft:black_dye",
+        "components": {
+            "minecraft:item_model": "trollkin_v3:rainbow_dye",
+            "minecraft:item_name": {
+                "translate": "trollkin_v3.item.rainbow_dye"
+            },
+            "minecraft:custom_data": {
+                "item": "rainbow_dye"
+            }
+        }
+    }
+}

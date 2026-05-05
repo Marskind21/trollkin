@@ -1,0 +1,23 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		"minecraft:carved_pumpkin",
+		"#trollkin_v3:music_disc"
+	],
+	"result": {
+		"id": "minecraft:recovery_compass",
+		"count": 1,
+		"components": {
+			"minecraft:item_model": "trollkin_v3:music_disc",
+            "minecraft:item_name": {
+                "translate": "trollkin_v3.item.music_disc"
+            },
+            "minecraft:custom_data": {
+                "item": "music_disc"
+            },
+			"minecraft:jukebox_playable": "trollkin_v3:trollkin_soundtrack",
+			"minecraft:max_stack_size": 1
+		}
+	},
+	"group": "music_disc"
+}

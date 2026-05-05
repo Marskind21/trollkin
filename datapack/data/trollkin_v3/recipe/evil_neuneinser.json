@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "neun",
+    "key": {
+        "#": "minecraft:cyan_wool",
+        "+": "minecraft:yellow_wool"
+    },
+    "pattern": [
+        "##+",
+        "##+",
+        "##+"
+    ],
+    "result": {
+        "count": 1,
+        "id": "minecraft:test_block",
+        "components": {
+            "minecraft:item_model": "trollkin_v3:evil_neuneinser",
+            "minecraft:item_name": {
+                "translate": "trollkin_v3.item.evil_neuneinser"
+            },
+            "minecraft:custom_data": {
+                "item": "evil_neuneinser"
+            }
+        }
+    }
+}

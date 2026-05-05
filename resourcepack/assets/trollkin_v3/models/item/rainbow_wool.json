@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:block/cube_all",
+    "textures": {
+        "all": "trollkin_v3:item/rainbow_wool"
+    }
+}

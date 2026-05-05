@@ -1,0 +1,20 @@
+{
+	"parent": "trollkin_v3:trollkin/teleporter",
+	"display": {
+		"icon": {
+			"id": "minecraft:zombified_piglin_spawn_egg"
+		},
+		"title": {
+			"translate": "trollkin_v3.advancement.teleporter.piglin"
+		},
+		"description": {
+			"translate": "trollkin_v3.advancement.teleporter.piglin.desc"
+		},
+		"frame": "challenge"
+	},
+	"criteria": {
+		"trollkin": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

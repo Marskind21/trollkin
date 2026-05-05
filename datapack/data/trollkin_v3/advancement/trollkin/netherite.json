@@ -1,0 +1,20 @@
+{
+	"parent": "trollkin_v3:trollkin/netherrack",
+	"display": {
+		"icon": {
+			"id": "minecraft:netherite_scrap"
+		},
+		"title": {
+			"translate": "trollkin_v3.advancement.netherite"
+		},
+		"description": {
+			"translate": "trollkin_v3.advancement.netherite.desc"
+		},
+		"frame": "challenge"
+	},
+	"criteria": {
+		"trollkin": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

@@ -1,0 +1,7 @@
+{
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "trollkin_v3:item/player_chestplate",
+		"layer1": "minecraft:trims/items/chestplate_trim_copper"
+	}
+}

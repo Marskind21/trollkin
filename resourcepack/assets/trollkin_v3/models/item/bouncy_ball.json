@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "trollkin_v3:item/bouncy_ball"
+    }
+}

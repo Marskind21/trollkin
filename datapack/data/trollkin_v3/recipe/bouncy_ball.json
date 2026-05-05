@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "group": "mego",
+    "ingredients": [
+        "minecraft:slime_ball",
+        "minecraft:red_dye"
+    ],
+    "result": {
+        "count": 2,
+        "id": "minecraft:test_block",
+        "components": {
+            "minecraft:item_model": "trollkin_v3:bouncy_ball",
+            "minecraft:item_name": {
+                "translate": "trollkin_v3.item.bouncy_ball"
+            },
+            "minecraft:custom_data": {
+                "item": "bouncy_ball"
+            }
+        }
+    }
+}

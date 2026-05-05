@@ -1,0 +1,27 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		"minecraft:bundle",
+		"minecraft:cornflower",
+		"minecraft:dandelion",
+		"minecraft:open_eyeblossom",
+		"minecraft:oxeye_daisy",
+		"minecraft:poppy",
+		"minecraft:blue_orchid",
+		"minecraft:pink_petals",
+		"minecraft:wildflowers"
+	],
+	"result": {
+		"count": 1,
+		"id": "minecraft:test_block",
+		"components": {
+            "minecraft:item_model": "trollkin_v3:flower_bundle",
+            "minecraft:item_name": {
+                "translate": "trollkin_v3.item.flower_bundle"
+            },
+            "minecraft:custom_data": {
+                "item": "flower_bundle"
+            }
+        }
+	}
+}

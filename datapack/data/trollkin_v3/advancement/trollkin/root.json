@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:carved_pumpkin"
+		},
+		"title": {
+			"translate": "trollkin_v3.advancement.root"
+		},
+		"description": {
+			"translate": "trollkin_v3.advancement.root.desc"
+		},
+		"frame": "challenge",
+		"background": "trollkin_v3:gui/advancements/backgrounds/trollkin",
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"criteria": {
+		"trollkin": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

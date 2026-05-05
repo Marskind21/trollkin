@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "mego",
+    "key": {
+        "#": "minecraft:field_masoned_banner_pattern",
+        "1": "minecraft:stone_bricks",
+        "2": "minecraft:bricks",
+        "3": "minecraft:tuff_bricks",
+        "4": "minecraft:deepslate_bricks",
+        "5": "minecraft:mud_bricks",
+        "6": "minecraft:resin_bricks",
+        "7": "minecraft:nether_bricks"
+    },
+    "pattern": [
+        "1 2",
+        "3#4",
+        "567"
+    ],
+    "result": {
+        "count": 7,
+        "id": "minecraft:test_block",
+        "components": {
+            "minecraft:item_model": "trollkin_v3:mego",
+            "minecraft:item_name": {
+                "translate": "trollkin_v3.item.mego"
+            },
+            "minecraft:custom_data": {
+                "item": "mego"
+            }
+        }
+    }
+}

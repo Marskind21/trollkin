@@ -1,0 +1,32 @@
+{
+	"parent": "trollkin_v3:trollkin/root",
+	"display": {
+		"icon": {
+			"id": "minecraft:end_stone"
+		},
+		"title": {
+			"translate": "trollkin_v3.advancement.end"
+		},
+		"description": {
+			"translate": "trollkin_v3.advancement.end.desc"
+		},
+		"frame": "challenge"
+	},
+	"criteria": {
+		"endstone": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "trollkin_v3:end_stone"
+			}
+		},
+		"chorus_fruit": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "trollkin_v3:chorus_fruit"
+			}
+		}
+	},
+	"requirements": [
+		["endstone","chorus_fruit"]
+	]
+}

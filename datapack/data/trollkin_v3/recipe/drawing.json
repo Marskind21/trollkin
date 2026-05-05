@@ -1,0 +1,43 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "mego",
+    "key": {
+        "#": "minecraft:paper",
+        "+": "minecraft:yellow_dye",
+        "-": "minecraft:red_dye",
+        "*": "minecraft:lime_dye",
+        "/": "minecraft:light_blue_dye"
+    },
+    "pattern": [
+        " + ",
+        "/#-",
+        " * "
+    ],
+    "result": {
+        "count": 1,
+        "id": "minecraft:item_frame",
+        "components": {
+            "minecraft:item_model": "trollkin_v3:drawing",
+            "minecraft:item_name": {
+                "translate": "trollkin_v3.item.drawing"
+            },
+            "minecraft:custom_data": {
+                "item": "drawing"
+            },
+			"minecraft:entity_data": {
+				"id":"minecraft:item_frame",
+				"Item": {
+					"id":"minecraft:test_block",
+					"count":1,
+					"components": {
+						"minecraft:item_name": {
+							"translate":"trollkin_v3.item.drawing"
+						},
+						"minecraft:item_model":"trollkin_v3:drawing"
+						}
+					},
+				"Invisible": true
+			}
+        }
+    }
+}

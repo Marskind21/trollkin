@@ -1,0 +1,103 @@
+{
+    "music.intro": {
+        "sounds": [
+            {
+                "name": "trollkin_v3:trollkin_intro",
+                "stream": true,
+				"volume": 0.5
+            }
+        ]
+    },
+    "music.nothing": {
+        "sounds": [
+            {
+                "name": "trollkin_v3:trollkin_nothing",
+                "stream": true,
+				"volume": 0.5
+            }
+        ]
+    },
+    "music.sans": {
+        "sounds": [
+            {
+                "name": "trollkin_v3:trollkin_sans",
+                "stream": true,
+				"volume": 0.5
+            }
+        ]
+    },
+    "music.sus": {
+        "sounds": [
+            {
+                "name": "trollkin_v3:trollkin_sus",
+                "stream": true,
+				"volume": 0.5
+            }
+        ]
+    },
+    "music.science": {
+        "sounds": [
+            {
+                "name": "trollkin_v3:trollkin_science",
+                "stream": true,
+				"volume": 0.5
+            }
+        ]
+    },
+    "music.science_2": {
+        "sounds": [
+            {
+                "name": "trollkin_v3:trollkin_more_science",
+                "stream": true,
+				"volume": 0.5
+            }
+        ]
+    },
+    "music.chaos": {
+        "sounds": [
+            {
+                "name": "trollkin_v3:trollkin_chaos",
+                "stream": true,
+				"volume": 0.5
+            }
+        ]
+    },
+    "music.art": {
+        "sounds": [
+            {
+                "name": "trollkin_v3:trollkin_art",
+                "stream": true,
+				"volume": 0.5
+            }
+        ]
+    },
+	"music_disc": {
+        "sounds": [
+            {
+                "name": "trollkin_v3:trollkin_disc",
+                "stream": true,
+				"volume": 0.5
+            }
+        ]
+    },
+	"music_disc_slow": {
+        "sounds": [
+            {
+                "name": "trollkin_v3:trollkin_disc",
+                "stream": true,
+				"volume": 0.5,
+				"pitch": 0.5
+            }
+        ]
+    },
+	"music_disc_fast": {
+        "sounds": [
+            {
+                "name": "trollkin_v3:trollkin_disc",
+                "stream": true,
+				"volume": 0.5,
+				"pitch": 2
+            }
+        ]
+    }
+}

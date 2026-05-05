@@ -1,0 +1,28 @@
+{
+	"parent": "trollkin_v3:trollkin/root",
+	"display": {
+		"icon": {
+			"id": "minecraft:player_head",
+			"components": {
+				"profile": {
+					"texture": "trollkin_v3:item/players/spielmitstil"
+				}
+			}
+		},
+		"title": {
+			"translate": "trollkin_v3.advancement.spielmitstil"
+		},
+		"description": {
+			"translate": "trollkin_v3.advancement.spielmitstil.desc"
+		},
+		"frame": "challenge"
+	},
+	"criteria": {
+		"spielmitstil": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "trollkin_v3:spielmitstil"
+			}
+		}
+	}
+}

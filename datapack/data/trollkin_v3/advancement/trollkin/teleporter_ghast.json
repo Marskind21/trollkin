@@ -1,0 +1,20 @@
+{
+	"parent": "trollkin_v3:trollkin/teleporter",
+	"display": {
+		"icon": {
+			"id": "minecraft:ghast_spawn_egg"
+		},
+		"title": {
+			"translate": "trollkin_v3.advancement.teleporter.ghast"
+		},
+		"description": {
+			"translate": "trollkin_v3.advancement.teleporter.ghast.desc"
+		},
+		"frame": "challenge"
+	},
+	"criteria": {
+		"trollkin": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

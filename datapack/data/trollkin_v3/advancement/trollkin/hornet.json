@@ -1,0 +1,26 @@
+{
+	"parent": "trollkin_v3:trollkin/root",
+	"display": {
+		"icon": {
+			"id": "minecraft:test_block",
+			"components": {
+				"item_model": "trollkin_v3:hornet"
+			}
+		},
+		"title": {
+			"translate": "trollkin_v3.advancement.shaw"
+		},
+		"description": {
+			"translate": "trollkin_v3.advancement.shaw.desc"
+		},
+		"frame": "challenge"
+	},
+	"criteria": {
+		"hornet": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "trollkin_v3:hornet"
+			}
+		}
+	}
+}

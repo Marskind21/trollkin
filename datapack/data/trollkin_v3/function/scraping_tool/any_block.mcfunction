@@ -1,0 +1,9 @@
+execute if block ~ ~-1 ~ minecraft:netherrack run return run function trollkin_v3:scraping_tool/netherrack
+execute if block ~ ~-1 ~ minecraft:granite run return run function trollkin_v3:scraping_tool/granite
+execute if block ~ ~-1 ~ minecraft:diorite run return run function trollkin_v3:scraping_tool/diorite
+execute if block ~ ~-1 ~ minecraft:sticky_piston run return run function trollkin_v3:scraping_tool/sticky_piston
+execute if block ~ ~-1 ~ minecraft:piston run return run function trollkin_v3:scraping_tool/piston
+execute if block ~ ~-1 ~ #trollkin_v3:pumpkin run return run function trollkin_v3:scraping_tool/pumpkin
+execute if block ~ ~-1 ~ minecraft:melon run return run function trollkin_v3:scraping_tool/melon
+execute if block ~ ~-1 ~ minecraft:grass_block run return run function trollkin_v3:scraping_tool/grass_block
+execute if block ~ ~-1 ~ minecraft:obsidian run return run function trollkin_v3:scraping_tool/obsidian

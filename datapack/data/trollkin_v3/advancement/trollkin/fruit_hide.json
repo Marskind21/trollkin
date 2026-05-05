@@ -1,0 +1,23 @@
+{
+	"parent": "trollkin_v3:trollkin/tool",
+	"display": {
+		"icon": {
+			"id": "minecraft:test_block",
+			"components": {
+				"item_model": "trollkin_v3:pumpkin_hide"
+			}
+		},
+		"title": {
+			"translate": "trollkin_v3.advancement.fruit_hide"
+		},
+		"description": {
+			"translate": "trollkin_v3.advancement.fruit_hide.desc"
+		},
+		"frame": "challenge"
+	},
+	"criteria": {
+		"trollkin": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

@@ -1,0 +1,56 @@
+{
+	"type": "minecraft:multi_action",
+	"title": {
+		"translate": "trollkin_v3.dialog.change_pool"
+	},
+	"after_action": "close",
+	"exit_action": {
+		"label": {
+			"translate": "gui.back"
+		},
+		"action": {
+			"type": "minecraft:show_dialog",
+			"dialog": "trollkin_v3:options"
+		}
+	},
+	"columns": 1,
+	"actions": [
+		{
+			"label": {
+				"translate": "trollkin_v3.dialog.change_pool.fetchr_default"
+			},
+			"width": 200,
+			"action": {
+				"type": "minecraft:run_command",
+				"command": "trigger trollkin_v3.change_pool set 1"
+			},
+			"tooltip": {
+				"translate": "trollkin_v3.dialog.change_pool.fetchr_default.desc"
+			}
+		},
+		{
+			"label": {
+				"translate": "trollkin_v3.dialog.change_pool.trollkin_v3_default"
+			},
+			"width": 200,
+			"action": {
+				"type": "minecraft:run_command",
+				"command": "trigger trollkin_v3.change_pool set 2"
+			}
+		},
+		{
+			"label": {
+				"translate": "trollkin_v3.dialog.change_pool.both"
+			},
+			"width": 200,
+			"action": {
+				"type": "minecraft:run_command",
+				"command": "trigger trollkin_v3.change_pool set 3"
+			},
+			"tooltip": {
+				"translate": "trollkin_v3.dialog.change_pool.both.desc"
+			}
+		}
+	],
+	"pause": false
+}

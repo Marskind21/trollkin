@@ -1,0 +1,30 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"key": {
+		"1": "minecraft:ender_pearl",
+		"2": "minecraft:crying_obsidian",
+		"3": "minecraft:diamond"
+	},
+	"pattern": [
+		"232",
+		"313",
+		"232"
+	],
+	"result": {
+		"id": "minecraft:enderman_spawn_egg",
+		"components": {
+			"minecraft:item_model": "trollkin_v3:teleporter",
+            "minecraft:item_name": {
+                "translate": "trollkin_v3.item.teleporter"
+            },
+            "minecraft:custom_data": {
+                "item": "teleporter"
+            },
+			"minecraft:entity_data": {
+				"id": "minecraft:marker",
+				"Tags": ["trollkin_v3.teleporter"]
+			},
+			"minecraft:max_stack_size":1
+		}
+	}
+}

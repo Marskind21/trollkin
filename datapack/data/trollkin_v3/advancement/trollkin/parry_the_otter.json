@@ -1,0 +1,26 @@
+{
+	"parent": "trollkin_v3:trollkin/root",
+	"display": {
+		"icon": {
+			"id": "minecraft:test_block",
+			"components": {
+				"item_model": "trollkin_v3:parry_otter"
+			}
+		},
+		"title": {
+			"translate": "trollkin_v3.advancement.parry_the_otter"
+		},
+		"description": {
+			"translate": "trollkin_v3.advancement.parry_the_otter.desc"
+		},
+		"frame": "challenge"
+	},
+	"criteria": {
+		"parry_otter": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "trollkin_v3:parry_otter"
+			}
+		}
+	}
+}

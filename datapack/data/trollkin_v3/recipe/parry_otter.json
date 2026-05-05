@@ -1,0 +1,27 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		"minecraft:book",
+		"minecraft:book",
+		"minecraft:book",
+		"minecraft:book",
+		"minecraft:book",
+		"minecraft:book",
+		"minecraft:book",
+		"minecraft:book",
+		"minecraft:book"
+	],
+	"result": {
+		"id": "minecraft:book",
+		"count": 9,
+		"components": {
+			"minecraft:item_model": "trollkin_v3:parry_otter",
+            "minecraft:item_name": {
+                "translate": "trollkin_v3.item.parry_the_otter"
+            },
+            "minecraft:custom_data": {
+                "item": "parry_otter"
+            }
+		}
+	}
+}

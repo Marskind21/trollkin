@@ -1,0 +1,14 @@
+{
+	"layers": {
+		"humanoid": [
+			{
+				"texture": "trollkin_v3:armadillo_scute"
+			}
+		],
+		"humanoid_leggings": [
+			{
+				"texture": "trollkin_v3:armadillo_scute"
+			}
+		]
+	}
+}

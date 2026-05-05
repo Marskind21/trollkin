@@ -1,0 +1,26 @@
+{
+	"parent": "trollkin_v3:trollkin/root",
+	"display": {
+		"icon": {
+			"id": "minecraft:nether_star",
+			"components": {
+				"enchantment_glint_override": false
+			}
+		},
+		"title": {
+			"translate": "trollkin_v3.advancement.star"
+		},
+		"description": {
+			"translate": "trollkin_v3.advancement.star.desc"
+		},
+		"frame": "challenge"
+	},
+	"criteria": {
+		"netherstar": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "trollkin_v3:netherstar"
+			}
+		}
+	}
+}

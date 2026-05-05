@@ -1,0 +1,26 @@
+{
+	"parent": "trollkin_v3:trollkin/root",
+	"display": {
+		"icon": {
+			"id": "minecraft:test_block",
+			"components": {
+				"item_model": "trollkin_v3:knight"
+			}
+		},
+		"title": {
+			"translate": "trollkin_v3.advancement.knight"
+		},
+		"description": {
+			"translate": "trollkin_v3.advancement.knight.desc"
+		},
+		"frame": "challenge"
+	},
+	"criteria": {
+		"knight": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "trollkin_v3:knight"
+			}
+		}
+	}
+}

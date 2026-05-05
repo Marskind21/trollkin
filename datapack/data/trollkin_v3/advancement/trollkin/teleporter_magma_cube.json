@@ -1,0 +1,20 @@
+{
+	"parent": "trollkin_v3:trollkin/teleporter",
+	"display": {
+		"icon": {
+			"id": "minecraft:magma_cube_spawn_egg"
+		},
+		"title": {
+			"translate": "trollkin_v3.advancement.teleporter.magma_cube"
+		},
+		"description": {
+			"translate": "trollkin_v3.advancement.teleporter.magma_cube.desc"
+		},
+		"frame": "challenge"
+	},
+	"criteria": {
+		"trollkin": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

@@ -1,0 +1,23 @@
+{
+	"parent": "trollkin_v3:trollkin/tool",
+	"display": {
+		"icon": {
+			"id": "minecraft:test_block",
+			"components": {
+				"item_model": "trollkin_v3:piston_head"
+			}
+		},
+		"title": {
+			"translate": "trollkin_v3.advancement.piston_head"
+		},
+		"description": {
+			"translate": "trollkin_v3.advancement.piston_head.desc"
+		},
+		"frame": "challenge"
+	},
+	"criteria": {
+		"trollkin": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

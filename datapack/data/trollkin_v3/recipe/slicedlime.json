@@ -1,0 +1,34 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "group": "slicedlime",
+	"ingredients": [
+		"minecraft:shears",
+		"minecraft:lime_dye",
+		"minecraft:lime_wool",
+		"minecraft:lime_concrete_powder",
+		"minecraft:lime_concrete",
+		"minecraft:lime_stained_glass",
+		"minecraft:lime_stained_glass_pane",
+		"minecraft:lime_terracotta",
+		"minecraft:lime_glazed_terracotta"
+	],
+    "result": {
+        "count": 8,
+        "id": "minecraft:player_head",
+        "components": {
+            "minecraft:profile": {
+				"texture": "trollkin_v3:item/players/slicedlime"
+			},
+            "minecraft:item_name": {
+                "translate": "trollkin_v3.item.slicedlime"
+            },
+            "minecraft:custom_data": {
+                "item": "slicedlime"
+            },
+            "minecraft:equippable": {
+                "slot": "head",
+                "equip_sound": "minecraft:entity.evoker.prepare_wololo"
+            }
+        }
+    }
+}

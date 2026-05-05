@@ -1,0 +1,28 @@
+{
+	"parent": "trollkin_v3:trollkin/root",
+	"display": {
+		"icon": {
+			"id": "minecraft:player_head",
+			"components": {
+				"profile": {
+					"texture": "trollkin_v3:item/players/no_leaf_clover"
+				}
+			}
+		},
+		"title": {
+			"translate": "trollkin_v3.advancement.clover"
+		},
+		"description": {
+			"translate": "trollkin_v3.advancement.clover.desc"
+		},
+		"frame": "challenge"
+	},
+	"criteria": {
+		"clover": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "trollkin_v3:no_leaf_clover"
+			}
+		}
+	}
+}

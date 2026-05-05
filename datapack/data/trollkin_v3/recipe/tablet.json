@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "pixel",
+    "key": {
+        "#": "minecraft:glass_pane",
+        "+": "minecraft:iron_ingot",
+        "-": "minecraft:copper_ingot"
+    },
+    "pattern": [
+        "+++",
+        "+#+",
+        "+-+"
+    ],
+    "result": {
+        "count": 1,
+        "id": "minecraft:test_block",
+        "components": {
+            "minecraft:item_model": "trollkin_v3:tablet",
+            "minecraft:item_name": {
+                "translate": "trollkin_v3.item.tablet"
+            },
+            "minecraft:custom_data": {
+                "item": "tablet"
+            }
+        }
+    }
+}

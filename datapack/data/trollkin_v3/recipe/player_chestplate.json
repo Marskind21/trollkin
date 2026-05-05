@@ -1,0 +1,52 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"key": {
+		"1": "armadillo_scute"
+	},
+	"pattern": [
+		"1 1",
+		"111",
+		"111"
+	],
+	"result": {
+		"id": "minecraft:netherite_chestplate",
+		"components": {
+			"minecraft:item_model": "trollkin_v3:player_chestplate",
+            "minecraft:item_name": {
+                "translate": "trollkin_v3.item.player_chestplate"
+            },
+            "minecraft:custom_data": {
+                "item": "player_chestplate"
+            },
+			"minecraft:equippable": {
+				"slot": "chest",
+				"asset_id": "trollkin_v3:armadillo_scute"
+			},
+			"minecraft:attribute_modifiers": [
+				{
+					"id": "minecraft:armor.chestplate",
+					"type": "minecraft:armor",
+					"slot": "chest",
+					"amount": 7,
+					"operation": "add_value"
+				},
+				{
+					"id": "minecraft:armor.chestplate",
+					"type": "armor_toughness",
+					"slot": "chest",
+					"amount": 1,
+					"operation": "add_value"
+				},
+				{
+					"id": "minecraft:armor.chestplate",
+					"type": "knockback_resistance",
+					"slot": "chest",
+					"amount": 0.2,
+					"operation": "add_value"
+				}
+			],
+			"minecraft:max_damage": 384
+		}
+	},
+	"category": "equipment"
+}

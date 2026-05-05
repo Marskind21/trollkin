@@ -1,0 +1,28 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		"minecraft:oak_leaves",
+		"minecraft:birch_leaves",
+		"minecraft:spruce_leaves",
+		"minecraft:acacia_leaves",
+		"minecraft:dark_oak_leaves",
+		"minecraft:mangrove_leaves",
+		"minecraft:pale_oak_leaves",
+		"minecraft:jungle_leaves",
+		"minecraft:cherry_leaves"
+	],
+	"result": {
+		"id": "minecraft:test_block",
+		"count": 1,
+		"components": {
+			"minecraft:item_model": "trollkin_v3:leaf_collection",
+            "minecraft:item_name": {
+                "translate": "trollkin_v3.item.leaf_collection"
+            },
+            "minecraft:custom_data": {
+                "item": "leaf_collection"
+            }
+		}
+	},
+	"group": "collections"
+}

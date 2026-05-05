@@ -1,0 +1,89 @@
+{
+	"model": {
+		"type": "minecraft:select",
+		"cases": [
+			{
+				"model": {
+					"type": "minecraft:model",
+					"model": "trollkin_v3:item/player_helmet/quartz"
+				},
+				"when": "minecraft:quartz"
+			},
+			{
+				"model": {
+					"type": "minecraft:model",
+					"model": "trollkin_v3:item/player_helmet/iron"
+				},
+				"when": "minecraft:iron"
+			},
+			{
+				"model": {
+					"type": "minecraft:model",
+					"model": "trollkin_v3:item/player_helmet/netherite"
+				},
+				"when": "minecraft:netherite"
+			},
+			{
+				"model": {
+					"type": "minecraft:model",
+					"model": "trollkin_v3:item/player_helmet/redstone"
+				},
+				"when": "minecraft:redstone"
+			},
+			{
+				"model": {
+					"type": "minecraft:model",
+					"model": "trollkin_v3:item/player_helmet/copper"
+				},
+				"when": "minecraft:copper"
+			},
+			{
+				"model": {
+					"type": "minecraft:model",
+					"model": "trollkin_v3:item/player_helmet/gold"
+				},
+				"when": "minecraft:gold"
+			},
+			{
+				"model": {
+					"type": "minecraft:model",
+					"model": "trollkin_v3:item/player_helmet/emerald"
+				},
+				"when": "minecraft:emerald"
+			},
+			{
+				"model": {
+					"type": "minecraft:model",
+					"model": "trollkin_v3:item/player_helmet/diamond"
+				},
+				"when": "minecraft:diamond"
+			},
+			{
+				"model": {
+					"type": "minecraft:model",
+					"model": "trollkin_v3:item/player_helmet/lapis"
+				},
+				"when": "minecraft:lapis"
+			},
+			{
+				"model": {
+					"type": "minecraft:model",
+					"model": "trollkin_v3:item/player_helmet/amethyst"
+				},
+				"when": "minecraft:amethyst"
+			},
+			{
+				"model": {
+					"type": "minecraft:model",
+					"model": "trollkin_v3:item/player_helmet/resin"
+				},
+				"when": "minecraft:resin"
+			}
+		],
+		"fallback": {
+			"type": "minecraft:model",
+			"model": "trollkin_v3:item/player_helmet/none"
+		},
+		"property": "minecraft:trim_material"
+	}
+}

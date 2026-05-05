@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"key": {
+		"1": "minecraft:amethyst_shard",
+		"2": "minecraft:enchanting_table"
+	},
+	"pattern": [
+		" 1 ",
+		"121",
+		" 1 "
+	],
+	"result": {
+		"count": 1,
+		"id": "minecraft:nether_star",
+		"components": {
+			"minecraft:enchantment_glint_override": false
+		}
+	}
+}

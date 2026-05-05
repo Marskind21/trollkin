@@ -1,0 +1,30 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"key": {
+		"1": "minecraft:tnt",
+		"2": "minecraft:bone_block",
+		"3": "minecraft:lever",
+		"4": "minecraft:grindstone"
+	},
+	"pattern": [
+		" 1 ",
+		"323",
+		" 4 "
+	],
+	"result": {
+		"id": "minecraft:creeper_spawn_egg",
+		"count": 1,
+		"components": {
+			"minecraft:item_model": "trollkin_v3:yeeter",
+            "minecraft:item_name": {
+                "translate": "trollkin_v3.item.tnt_yeeter"
+            },
+            "minecraft:custom_data": {
+                "item": "tnt_yeeter"
+            },
+			"minecraft:entity_data": {
+				"id": "minecraft:tnt"
+			}
+		}
+	}
+}

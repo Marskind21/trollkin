@@ -1,0 +1,12 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "trollkin_v3:item/pixel"
+    },
+	"display": {
+		"fixed": {
+			"scale": [2.0, 2.0, 2.0],
+			"rotation": [0, 180, 0]
+		}
+	}
+}

@@ -1,0 +1,28 @@
+{
+	"parent": "trollkin_v3:trollkin/root",
+	"display": {
+		"icon": {
+			"id": "minecraft:player_head",
+			"components": {
+				"profile": {
+					"texture": "trollkin_v3:item/players/endermars21"
+				}
+			}
+		},
+		"title": {
+			"translate": "trollkin_v3.advancement.endermars21"
+		},
+		"description": {
+			"translate": "trollkin_v3.advancement.endermars21.desc"
+		},
+		"frame": "challenge"
+	},
+	"criteria": {
+		"endermars21": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "trollkin_v3:endermars21"
+			}
+		}
+	}
+}

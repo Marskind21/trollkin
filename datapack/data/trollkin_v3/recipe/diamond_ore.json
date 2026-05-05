@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"key": {
+		"1": "minecraft:stone",
+		"2": "minecraft:glow_lichen"
+	},
+	"pattern": [
+		" 22",
+		"212",
+		"22 "
+	],
+	"result": {
+		"id": "minecraft:diamond_ore"
+	},
+	"category": "building"
+}

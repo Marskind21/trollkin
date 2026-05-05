@@ -1,0 +1,27 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		"minecraft:copper_nugget",
+		"minecraft:iron_nugget",
+		"minecraft:gold_nugget",
+		"minecraft:gold_nugget",
+		"minecraft:copper_nugget",
+		"minecraft:iron_nugget",
+		"minecraft:iron_nugget",
+		"minecraft:gold_nugget",
+		"minecraft:copper_nugget"
+	],
+	"result": {
+		"id": "minecraft:test_block",
+		"count": 9,
+		"components": {
+			"minecraft:item_model": "trollkin_v3:coins",
+            "minecraft:item_name": {
+                "translate": "trollkin_v3.item.coins"
+            },
+            "minecraft:custom_data": {
+                "item": "coins"
+            }
+		}
+	}
+}

@@ -1,0 +1,44 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "pixel",
+    "key": {
+        "#": "minecraft:glass",
+        "+": "minecraft:red_dye",
+        "*": "minecraft:green_dye",
+        "-": "minecraft:blue_dye",
+        ".": "minecraft:black_wool",
+        "_": "minecraft:copper_ingot"
+    },
+    "pattern": [
+        "###",
+        "+*-",
+        "._."
+    ],
+    "result": {
+        "count": 64,
+        "id": "minecraft:glow_item_frame",
+        "components": {
+            "minecraft:item_model": "trollkin_v3:pixel",
+            "minecraft:item_name": {
+                "translate": "trollkin_v3.item.pixel"
+            },
+            "minecraft:custom_data": {
+                "item": "pixel"
+            },
+			"minecraft:entity_data": {
+				"id":"minecraft:glow_item_frame",
+				"Item": {
+					"id":"minecraft:test_block",
+					"count":1,
+					"components": {
+						"minecraft:item_name": {
+							"translate":"trollkin_v3.item.pixel"
+						},
+						"minecraft:item_model":"trollkin_v3:pixel"
+						}
+					},
+				"Invisible": true
+			}
+        }
+    }
+}

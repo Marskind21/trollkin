@@ -1,0 +1,23 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		"minecraft:beef",
+		"minecraft:chicken",
+		"minecraft:mutton",
+		"minecraft:porkchop",
+		"minecraft:rabbit"
+	],
+	"result": {
+		"id": "minecraft:poisonous_potato",
+		"count": 1,
+		"components": {
+			"minecraft:item_model": "trollkin_v3:raw_meat",
+            "minecraft:item_name": {
+                "translate": "trollkin_v3.item.raw_monstrosity"
+            },
+            "minecraft:custom_data": {
+                "item": "raw_meat"
+            }
+		}
+	}
+}

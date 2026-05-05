@@ -1,0 +1,23 @@
+{
+	"parent": "trollkin_v3:trollkin/root",
+	"display": {
+		"icon": {
+			"id": "minecraft:glowstone"
+		},
+		"title": {
+			"translate": "trollkin_v3.advancement.glowstone"
+		},
+		"description": {
+			"translate": "trollkin_v3.advancement.glowstone.desc"
+		},
+		"frame": "challenge"
+	},
+	"criteria": {
+		"glowstone": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "trollkin_v3:glowstone"
+			}
+		}
+	}
+}

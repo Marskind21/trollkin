@@ -1,0 +1,28 @@
+{
+	"parent": "trollkin_v3:trollkin/root",
+	"display": {
+		"icon": {
+			"id": "minecraft:player_head",
+			"components": {
+				"profile": {
+					"texture": "trollkin_v3:item/players/slicedlime"
+				}
+			}
+		},
+		"title": {
+			"translate": "trollkin_v3.advancement.lime"
+		},
+		"description": {
+			"translate": "trollkin_v3.advancement.lime.desc"
+		},
+		"frame": "challenge"
+	},
+	"criteria": {
+		"slicedlime": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "trollkin_v3:slicedlime"
+			}
+		}
+	}
+}

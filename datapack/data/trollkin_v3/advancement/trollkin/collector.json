@@ -1,0 +1,44 @@
+{
+	"parent": "trollkin_v3:trollkin/root",
+	"display": {
+		"icon": {
+			"id": "minecraft:test_block",
+			"components": {
+				"item_model": "trollkin_v3:log_collection"
+			}
+		},
+		"title": {
+			"translate": "trollkin_v3.advancement.collector"
+		},
+		"description": {
+			"translate": "trollkin_v3.advancement.collector.desc"
+		},
+		"frame": "challenge"
+	},
+	"criteria": {
+		"log": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "trollkin_v3:log_collection"
+			}
+		},
+		"plank": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "trollkin_v3:plank_collection"
+			}
+		},
+		"leaf": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "trollkin_v3:leaf_collection"
+			}
+		},
+		"sapling": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "trollkin_v3:sapling_collection"
+			}
+		}
+	}
+}

@@ -1,0 +1,24 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"key": {
+		"1": "minecraft:glow_berries",
+		"2": "minecraft:bush"
+	},
+	"pattern": [
+		"1",
+		"2"
+	],
+	"result": {
+		"id": "minecraft:bush",
+		"count": 1,
+		"components": {
+			"minecraft:item_model": "trollkin_v3:glow_berry_bush",
+            "minecraft:item_name": {
+                "translate": "trollkin_v3.item.glow_berry_bush"
+            },
+            "minecraft:custom_data": {
+                "item": "glow_berry_bush"
+            }
+		}
+	}
+}

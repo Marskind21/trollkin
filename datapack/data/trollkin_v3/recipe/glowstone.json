@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "glowstone",
+	"key": {
+		"1": "minecraft:cobblestone",
+		"2": "minecraft:glow_berries",
+		"3": "minecraft:glow_ink_sac"
+	},
+	"pattern": [
+		"121",
+		"232",
+		"121"
+	],
+	"result": {
+		"count": 4,
+		"id": "minecraft:glowstone"
+	},
+	"category": "building"
+}

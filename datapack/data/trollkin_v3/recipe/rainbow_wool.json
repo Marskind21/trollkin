@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "rainbow",
+    "key": {
+        "1": "minecraft:red_wool",
+        "2": "minecraft:orange_wool",
+        "3": "minecraft:yellow_wool",
+        "4": "minecraft:lime_wool",
+        "5": "minecraft:green_wool",
+        "6": "minecraft:cyan_wool",
+        "7": "minecraft:blue_wool",
+        "8": "minecraft:purple_wool"
+    },
+    "pattern": [
+        "812",
+        "7 3",
+        "654"
+    ],
+    "result": {
+        "count": 8,
+        "id": "minecraft:black_wool",
+        "components": {
+            "minecraft:item_model": "trollkin_v3:rainbow_wool",
+            "minecraft:item_name": {
+                "translate": "trollkin_v3.item.rainbow_wool"
+            },
+            "minecraft:custom_data": {
+                "item": "rainbow_wool"
+            }
+        }
+    }
+}

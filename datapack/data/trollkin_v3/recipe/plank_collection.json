@@ -1,0 +1,28 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		"minecraft:oak_planks",
+		"minecraft:birch_planks",
+		"minecraft:spruce_planks",
+		"minecraft:acacia_planks",
+		"minecraft:dark_oak_planks",
+		"minecraft:mangrove_planks",
+		"minecraft:pale_oak_planks",
+		"minecraft:jungle_planks",
+		"minecraft:cherry_planks"
+	],
+	"result": {
+		"id": "minecraft:test_block",
+		"count": 1,
+		"components": {
+			"minecraft:item_model": "trollkin_v3:plank_collection",
+            "minecraft:item_name": {
+                "translate": "trollkin_v3.item.plank_collection"
+            },
+            "minecraft:custom_data": {
+                "item": "plank_collection"
+            }
+		}
+	},
+	"group": "collections"
+}

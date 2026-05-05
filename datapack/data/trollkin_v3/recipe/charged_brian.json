@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "brian",
+    "key": {
+        "1": "minecraft:iron_block",
+        "2": "minecraft:carved_pumpkin",
+        "3": "minecraft:lightning_rod"
+    },
+    "pattern": [
+        " 23",
+        "111",
+        " 1 "
+    ],
+    "result": {
+        "count": 2,
+        "id": "minecraft:iron_golem_spawn_egg",
+        "components": {
+            "minecraft:item_model": "trollkin_v3:charged_brian",
+            "minecraft:item_name": {
+                "translate": "trollkin_v3.item.charged_brian"
+            },
+            "minecraft:lore": [
+                {"translate": "trollkin_v3.item.charged_brian.lore0"},
+                {"translate": "trollkin_v3.item.charged_brian.lore1"}
+            ],
+            "minecraft:custom_data": {
+                "item": "charged_brian"
+            },
+            "minecraft:entity_data": {
+                "id": "minecraft:iron_golem",
+                "Tags":["brian","charged_brian"],
+                "CustomName":{"translate":"trollkin_v3.item.charged_brian"}
+            }
+        }
+    }
+}

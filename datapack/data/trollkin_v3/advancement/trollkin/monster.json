@@ -1,0 +1,20 @@
+{
+	"parent": "trollkin_v3:trollkin/tool",
+	"display": {
+		"icon": {
+			"id": "minecraft:crying_obsidian"
+		},
+		"title": {
+			"translate": "trollkin_v3.advancement.monster"
+		},
+		"description": {
+			"translate": "trollkin_v3.advancement.monster.desc"
+		},
+		"frame": "challenge"
+	},
+	"criteria": {
+		"trollkin": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

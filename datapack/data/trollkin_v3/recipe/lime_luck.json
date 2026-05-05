@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "slicedlime",
+    "key": {
+        "#": "minecraft:short_grass",
+        "+": "minecraft:lime_dye"
+    },
+    "pattern": [
+        " + ",
+        "+#+",
+        " + "
+    ],
+    "result": {
+        "count": 4,
+        "id": "minecraft:player_head",
+        "components": {
+            "minecraft:profile": {
+				"texture": "trollkin_v3:item/players/limeluck"
+			},
+            "minecraft:item_name": {
+                "translate": "trollkin_v3.item.lime_luck"
+            },
+            "minecraft:custom_data": {
+                "item": "lime_luck"
+            },
+			"minecraft:equippable": {
+                "slot": "head",
+                "equip_sound": "minecraft:entity.evoker.prepare_wololo"
+            }
+        }
+    }
+}

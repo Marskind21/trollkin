@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "#": "minecraft:charcoal"
+    },
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "result": {
+        "count": 1,
+        "id": "minecraft:coal_block",
+        "components": {
+            "minecraft:item_model": "trollkin_v3:charcoal_block",
+            "minecraft:item_name": {
+                "translate": "trollkin_v3.item.charcoal_block"
+            },
+            "minecraft:custom_data": {
+                "item": "charcoal_block"
+            }
+        }
+    }
+}

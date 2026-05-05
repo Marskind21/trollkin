@@ -1,0 +1,26 @@
+{
+	"parent": "trollkin_v3:trollkin/root",
+	"display": {
+		"icon": {
+			"id": "minecraft:test_block",
+			"components": {
+				"item_model": "trollkin_v3:neuneinser"
+			}
+		},
+		"title": {
+			"translate": "trollkin_v3.advancement.neuneinser"
+		},
+		"description": {
+			"translate": "trollkin_v3.advancement.neuneinser.desc"
+		},
+		"frame": "challenge"
+	},
+	"criteria": {
+		"neuneinser": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "trollkin_v3:neuneinser"
+			}
+		}
+	}
+}

@@ -1,0 +1,29 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"key": {
+		"1": "minecraft:bone_block",
+		"2": "minecraft:red_wool",
+		"3": "minecraft:iron_sword",
+		"4": "minecraft:stick",
+		"5": "minecraft:string"
+	},
+	"pattern": [
+		" 1 ",
+		"523",
+		" 4 "
+	],
+	"result": {
+		"id": "minecraft:test_block",
+		"count": 1,
+		"components": {
+			"minecraft:item_model": "trollkin_v3:hornet",
+            "minecraft:item_name": {
+                "translate": "trollkin_v3.item.hornet"
+            },
+            "minecraft:custom_data": {
+                "item": "hornet"
+            }
+		}
+	},
+	"group": "hollow_knight"
+}

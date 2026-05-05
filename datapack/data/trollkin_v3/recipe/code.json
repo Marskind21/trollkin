@@ -1,0 +1,41 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "pixel",
+    "key": {
+        "#": "minecraft:black_dye",
+        "+": "minecraft:lime_dye",
+        "-": "minecraft:paper"
+    },
+    "pattern": [
+        "+#+",
+        "#-#",
+        "+#+"
+    ],
+    "result": {
+        "count": 1,
+        "id": "minecraft:item_frame",
+        "components": {
+            "minecraft:item_model": "trollkin_v3:code",
+            "minecraft:item_name": {
+                "translate": "trollkin_v3.item.code"
+            },
+            "minecraft:custom_data": {
+                "item": "code"
+            },
+			"minecraft:entity_data": {
+				"id":"minecraft:item_frame",
+				"Item": {
+					"id":"minecraft:test_block",
+					"count":1,
+					"components": {
+						"minecraft:item_name": {
+							"translate":"trollkin_v3.item.code"
+						},
+						"minecraft:item_model":"trollkin_v3:code"
+						}
+					},
+				"Invisible": true
+			}
+        }
+    }
+}

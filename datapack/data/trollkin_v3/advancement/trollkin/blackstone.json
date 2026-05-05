@@ -1,0 +1,23 @@
+{
+	"parent": "trollkin_v3:trollkin/root",
+	"display": {
+		"icon": {
+			"id": "minecraft:blackstone"
+		},
+		"title": {
+			"translate": "trollkin_v3.advancement.blackstone"
+		},
+		"description": {
+			"translate": "trollkin_v3.advancement.blackstone.desc"
+		},
+		"frame": "challenge"
+	},
+	"criteria": {
+		"blackstone": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "trollkin_v3:blackstone"
+			}
+		}
+	}
+}

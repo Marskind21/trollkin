@@ -1,0 +1,26 @@
+{
+	"parent": "trollkin_v3:trollkin/root",
+	"display": {
+		"icon": {
+			"id": "minecraft:test_block",
+			"components": {
+				"item_model": "trollkin_v3:teleporter"
+			}
+		},
+		"title": {
+			"translate": "trollkin_v3.advancement.teleporter"
+		},
+		"description": {
+			"translate": "trollkin_v3.advancement.teleporter.desc"
+		},
+		"frame": "challenge"
+	},
+	"criteria": {
+		"tool": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "trollkin_v3:teleporter"
+			}
+		}
+	}
+}

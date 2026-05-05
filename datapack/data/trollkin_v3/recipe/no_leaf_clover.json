@@ -1,0 +1,33 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "clover",
+    "key": {
+        "#": "#minecraft:leaves",
+        "+": "minecraft:short_grass",
+        "*": "minecraft:shears"
+    },
+    "pattern": [
+        " # ",
+        "#+#",
+        " * "
+    ],
+    "result": {
+        "count": 1,
+        "id": "minecraft:player_head",
+        "components": {
+            "minecraft:profile": {
+				"texture": "trollkin_v3:item/players/no_leaf_clover"
+			},
+            "minecraft:item_name": {
+                "translate": "trollkin_v3.item.no_leaf_clover"
+            },
+            "minecraft:custom_data": {
+                "item": "no_leaf_clover"
+            },
+            "minecraft:equippable": {
+                "slot": "head",
+                "equip_sound": "minecraft:entity.evoker.prepare_wololo"
+            }
+        }
+    }
+}

@@ -1,0 +1,41 @@
+{
+	"parent": "trollkin_v3:trollkin/root",
+	"display": {
+		"icon": {
+			"id": "minecraft:test_block",
+			"components": {
+				"item_model": "trollkin_v3:rainbow_wool"
+			}
+		},
+		"title": {
+			"translate": "trollkin_v3.advancement.rainbow"
+		},
+		"description": {
+			"translate": "trollkin_v3.advancement.rainbow.desc"
+		},
+		"frame": "challenge"
+	},
+	"criteria": {
+		"wool": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "trollkin_v3:rainbow_wool"
+			}
+		},
+		"dye": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "trollkin_v3:rainbow_dye"
+			}
+		},
+		"glass" : {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "trollkin_v3:rainbow_glass_pane"
+			}
+		}
+	},
+	"requirements": [
+		["wool","dye","glass"]
+	]
+}
