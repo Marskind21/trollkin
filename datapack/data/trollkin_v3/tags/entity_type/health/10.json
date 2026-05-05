@@ -3,6 +3,11 @@
 		"minecraft:cow",
 		"minecraft:pig",
 		"minecraft:mooshroom",
-		"minecraft:goat"
+		"minecraft:goat",
+		"minecraft:bee",
+		"minecraft:cat",
+		"minecraft:fox",
+		"minecraft:frog",
+		"minecraft:ocelot"
 	]
 }

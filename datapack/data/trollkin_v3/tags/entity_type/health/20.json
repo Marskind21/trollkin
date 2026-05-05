@@ -7,10 +7,12 @@
 		"minecraft:zombified_piglin",
 		"minecraft:skeleton",
 		"minecraft:stray",
-		"minecraft:creeper",
 		"minecraft:horse",
 		"minecraft:donkey",
 		"minecraft:mule",
-		"minecraft:llama"
+		"minecraft:llama",
+		"minecraft:allay",
+		"minecraft:panda",
+		"minecraft:villager"
 	]
 }

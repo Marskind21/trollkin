@@ -5,8 +5,6 @@ scoreboard players set track trollkin_v3.music 0
 scoreboard players set speed trollkin_v3.music 0
 scoreboard players reset prev_track trollkin_v3.music
 
-scoreboard objectives add trollkin_v3.change_pool trigger
-
 recipe give @a *
 
 scoreboard objectives add trollkin_v3.reload dummy
@@ -20,3 +18,5 @@ scoreboard objectives add torllkin_v3.real_scale trigger
 scoreboard objectives add trollkin_v3.const dummy
 scoreboard players set $1000000 trollkin_v3.const 1000000
 scoreboard players set $180 trollkin_v3.const 180
+
+scoreboard objectives add trollkin_v3.dev trigger

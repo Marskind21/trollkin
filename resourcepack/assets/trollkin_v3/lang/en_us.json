@@ -216,12 +216,13 @@
 	"trollkin_v3.advancement..desc": "",
 
 	"trollkin_v3.dialog.options": "Trollkin Options",
-	"trollkin_v3.dialog.change_pool": "Change Item Pool",
-	"trollkin_v3.dialog.change_pool.fetchr_default": "Default Fetchr Item Pool (boring)",
-	"trollkin_v3.dialog.change_pool.fetchr_default.desc": "Note: All Trollkin features will still be active as long as the Trollkin data pack is enabled!",
-	"trollkin_v3.dialog.change_pool.trollkin_v3_default": "Default Trollkin V3 Item Pool (fun)",
-	"trollkin_v3.dialog.change_pool.both": "Both of the above (chaos)",
-	"trollkin_v3.dialog.change_pool.both.desc": "Note: Some items can appear twice on the card.",
+
+	"trollkin_v3.item_pool.trollkin_v3_default": "Default Trollkin V3 Item Pool",
+	"trollkin_v3.item_pool.trollkin_v3_default.desc": "All the custom and cursed items!",
+	"trollkin_v3.item_pool.both": "Default Fetchr & Trollkin V3 Item Pool",
+	"trollkin_v3.item_pool.both.desc": "All the custom and cursed items together with normal items.",
+
+	"trollkin_v3.message.pool_switcher": "Please install the %s extension to be able to switch to the new item pools!",
 
     "trollkin_v3.rainbow_test": "§c|§6|§e|§a|§b|§9|§d|",
 

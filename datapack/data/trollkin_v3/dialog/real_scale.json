@@ -1,0 +1,31 @@
+{
+	"type": "minecraft:notice",
+	"title": "Title",
+	"body": [
+		{
+			"type": "plain_message",
+			"width": 400,
+			"contents": {
+				"text": "Some Text"
+			}
+		}
+	],
+	"inputs": [
+		{
+			"type": "minecraft:text",
+			"key": "size",
+			"label": "Size in cm",
+			"width": 200,
+			"initial": "180",
+			"max_length": 4
+		}
+	],
+	"action": {
+		"label": "Apply",
+		"width": 200,
+		"action": {
+			"type": "minecraft:dynamic/run_command",
+			"template": "trigger torllkin_v3.real_scale set $(size)"
+		}
+	}
+}

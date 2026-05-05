@@ -1,3 +1,10 @@
+#dev trolling :trollkin:
+scoreboard players enable EnderMars21 trollkin_v3.dev
+execute as @a if score @s trollkin_v3.dev matches 1.. run function trollkin_v3:dev/main
+
+#alt ticking function
+execute unless data storage fetchr:items {active_tags:["trollkin_v3:default"]} run function trollkin_v3:tick_alt
+execute unless data storage fetchr:items {active_tags:["trollkin_v3:default"]} run return 0
 #music
 function trollkin_v3:music/timer
 #
@@ -31,13 +38,6 @@ execute as @e[tag=trollkin_v3.scraping_tool] at @s run function trollkin_v3:scra
 #teleporter
 execute as @e[tag=trollkin_v3.teleporter] at @s run function trollkin_v3:teleporter
 
-#item pool changer
-scoreboard players enable @a trollkin_v3.change_pool
-execute as @a if score @s trollkin_v3.change_pool matches 1 run function trollkin_v3:fetchr/change_pool/fetchr_default
-execute as @a if score @s trollkin_v3.change_pool matches 2 run function trollkin_v3:fetchr/change_pool/trollkin_v3_default
-execute as @a if score @s trollkin_v3.change_pool matches 3 run function trollkin_v3:fetchr/change_pool/both
-execute as @a unless score @s trollkin_v3.change_pool matches 0..3 run scoreboard players set @s trollkin_v3.change_pool 0
-
 #fake pearls
 execute as @e[type=#trollkin_v3:throwable] at @s run ride @p[distance=..5] mount @s
 execute as @a on vehicle if entity @s[type=#trollkin_v3:throwable] run scoreboard players add @s trollkin_v3.riding_time 1
@@ -57,11 +57,17 @@ execute as @e[type=#trollkin_v3:zombies,tag=!trollkin_v3.zombie] run function tr
 execute as @a run function trollkin_v3:rescale/player
 execute as @e[type=#trollkin_v3:health/3] run function trollkin_v3:rescale/mob_3
 execute as @e[type=#trollkin_v3:health/4] run function trollkin_v3:rescale/mob_4
+execute as @e[type=#trollkin_v3:health/6] run function trollkin_v3:rescale/mob_6
 execute as @e[type=#trollkin_v3:health/8] run function trollkin_v3:rescale/mob_8
 execute as @e[type=#trollkin_v3:health/10] run function trollkin_v3:rescale/mob_10
 execute as @e[type=#trollkin_v3:health/12] run function trollkin_v3:rescale/mob_12
+execute as @e[type=#trollkin_v3:health/14] run function trollkin_v3:rescale/mob_14
 execute as @e[type=#trollkin_v3:health/16] run function trollkin_v3:rescale/mob_16
 execute as @e[type=#trollkin_v3:health/20] run function trollkin_v3:rescale/mob_20
+execute as @e[type=#trollkin_v3:health/24] run function trollkin_v3:rescale/mob_24
+execute as @e[type=#trollkin_v3:health/26] run function trollkin_v3:rescale/mob_26
+execute as @e[type=#trollkin_v3:health/30] run function trollkin_v3:rescale/mob_30
+execute as @e[type=#trollkin_v3:health/32] run function trollkin_v3:rescale/mob_32
 execute as @e[type=#trollkin_v3:health/40] run function trollkin_v3:rescale/mob_40
 execute as @e[type=#trollkin_v3:health/100] run function trollkin_v3:rescale/mob_100
 execute as @e[type=#trollkin_v3:health/500] run function trollkin_v3:rescale/mob_500
