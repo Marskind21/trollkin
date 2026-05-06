@@ -46,6 +46,7 @@ data modify storage fetchr:registries categories append value {id:"trollkin_v3:d
 data modify storage fetchr:registries categories append value {id:"trollkin_v3:ghast",name:{translate:"trollkin_v3.category.ghast"},tags:["trollkin_v3:default"]}
 data modify storage fetchr:registries categories append value {id:"trollkin_v3:mob_discs",name:{translate:"trollkin_v3.category.mob_discs"},tags:["trollkin_v3:default"]}
 data modify storage fetchr:registries categories append value {id:"trollkin_v3:player_armor",name:{translate:"trollkin_v3.category.player_armor"},tags:["trollkin_v3:default"]}
+data modify storage fetchr:registries categories append value {id:"trollkin_v3:trollkin",name:{translate:"trollkin_v3.category.trollkin"},tags:["trollkin_v3:default"]}
 
 #2d-items
 #0001
@@ -230,6 +231,10 @@ data modify storage fetchr:registries items append value {id:"trollkin_v3:player
 data modify storage fetchr:registries items append value {id:"trollkin_v3:player_leggings",item:{id:"minecraft:netherite_leggings",components:{"minecraft:item_model":"trollkin_v3:player_leggings","minecraft:trim":{pattern:"minecraft:shaper",material:"minecraft:resin"},"minecraft:lore":[{translate:"item.minecraft.smithing_template.upgrade",color:"gray",italic:false},{translate:"fetchr.item.description.any_trim",color:"#f97712",italic:false},{translate:"trim_material.minecraft.resin",color:"#f97712",italic:false}],"minecraft:tooltip_display":{hidden_components:["minecraft:trim"]}}},item_tests:[{type:"fetchr:predicate",id:"minecraft:custom_data",predicate:{item:"player_leggings"}},{type:"fetchr:predicate",id:"minecraft:trim",predicate:{material:"minecraft:resin"}}],translation:"trollkin_v3.item.trimmed_player_leggings",icon:"005a",categories:["trollkin_v3:player_armor"],weight:1,icon_font:{actionbar:["trollkin_v3:line1","trollkin_v3:line2","trollkin_v3:line3","trollkin_v3:line4","trollkin_v3:line5"]}}
 #005b
 data modify storage fetchr:registries items append value {id:"trollkin_v3:player_boots",item:{id:"minecraft:netherite_boots",components:{"minecraft:item_model":"trollkin_v3:player_boots","minecraft:trim":{pattern:"minecraft:shaper",material:"minecraft:amethyst"},"minecraft:lore":[{translate:"item.minecraft.smithing_template.upgrade",color:"gray",italic:false},{translate:"fetchr.item.description.any_trim",color:"#985bc4",italic:false},{translate:"trim_material.minecraft.amethyst",color:"#985bc4",italic:false}],"minecraft:tooltip_display":{hidden_components:["minecraft:trim"]}}},item_tests:[{type:"fetchr:predicate",id:"minecraft:custom_data",predicate:{item:"player_boots"}},{type:"fetchr:predicate",id:"minecraft:trim",predicate:{material:"minecraft:amethyst"}}],translation:"trollkin_v3.item.trimmed_player_boots",icon:"005b",categories:["trollkin_v3:player_armor"],weight:1,icon_font:{actionbar:["trollkin_v3:line1","trollkin_v3:line2","trollkin_v3:line3","trollkin_v3:line4","trollkin_v3:line5"]}}
+#005c
+data modify storage fetchr:registries items append value {id:"trollkin_v3:beetroot_soup",item:{id:"minecraft:beetroot_soup"},translation:"item.minecraft.beetroot_soup",icon:"005c",categories:["trollkin_v3:annoying"],weight:3,icon_font:{actionbar:["trollkin_v3:line1","trollkin_v3:line2","trollkin_v3:line3","trollkin_v3:line4","trollkin_v3:line5"]}}
+#005d
+data modify storage fetchr:registries items append value {id:"trollkin_v3:fire_charge",item:{id:"minecraft:fire_charge"},translation:"item.minecraft.fire_charge",icon:"005d",categories:["trollkin_v3:blaze"],weight:2,icon_font:{actionbar:["trollkin_v3:line1","trollkin_v3:line2","trollkin_v3:line3","trollkin_v3:line4","trollkin_v3:line5"]}}
 
 #3d-items
 #0100
@@ -346,3 +351,9 @@ data modify storage fetchr:registries items append value {id:"trollkin_v3:soul_s
 data modify storage fetchr:registries items append value {id:"trollkin_v3:diamond_ore",item:{id:"minecraft:diamond_ore"},translation:"block.minecraft.diamond_ore",icon:"0137",categories:["trollkin_v3:diamond_ore"],weight:7,icon_font:{actionbar:["trollkin_v3:line1","trollkin_v3:line2","trollkin_v3:line3","trollkin_v3:line4","trollkin_v3:line5"]}}
 #0138
 data modify storage fetchr:registries items append value {id:"trollkin_v3:deepslate_diamond_ore",item:{id:"minecraft:deepslate_diamond_ore"},translation:"block.minecraft.deepslate_diamond_ore",icon:"0138",categories:["trollkin_v3:diamond_ore"],weight:7,icon_font:{actionbar:["trollkin_v3:line1","trollkin_v3:line2","trollkin_v3:line3","trollkin_v3:line4","trollkin_v3:line5"]}}
+#0139
+data modify storage fetchr:registries items append value {id:"trollkin_v3:dried_ghast",item:{id:"minecraft:dried_ghast"},translation:"block.minecraft.dried_ghast",icon:"0139",categories:["trollkin_v3:ghast"],weight:8,icon_font:{actionbar:["trollkin_v3:line1","trollkin_v3:line2","trollkin_v3:line3","trollkin_v3:line4","trollkin_v3:line5"]}}
+#013a
+data modify storage fetchr:registries items append value {id:"trollkin_v3:carved_pumpkin",item:{id:"minecraft:carved_pumpkin"},translation:"block.minecraft.carved_pumpkin",icon:"013a",categories:["trollkin_v3:trollkin"],weight:2,icon_font:{actionbar:["trollkin_v3:line1","trollkin_v3:line2","trollkin_v3:line3","trollkin_v3:line4","trollkin_v3:line5"]}}
+#013b
+#data modify storage fetchr:registries items append value {id:"trollkin_v3:jack_o_lantern",item:{id:"minecraft:jack_o_lantern"},translation:"block.minecraft.deepslate_diamond_ore",icon:"013b",categories:["trollkin_v3:trollkin"],weight:1,icon_font:{actionbar:["trollkin_v3:line1","trollkin_v3:line2","trollkin_v3:line3","trollkin_v3:line4","trollkin_v3:line5"]}}

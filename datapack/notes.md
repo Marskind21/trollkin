@@ -73,6 +73,7 @@
   - Rabbit Stew (3)
   - Crafter (2) *
   - Light Gray Stained Glass Pane (1)
+  - Beetroot Soup (3)
 
 ### Rainbow:
   - Rainbow Dye (1)
@@ -203,33 +204,6 @@
 
 ### [disc] Music Disc:
   - Music Disc (Trollkin V3 Soundtrack)
-
-
-
-## Changes:
-  - Coppergolems turn into statues really fast
-
-## Advancements:
-  - no_leaf_clover's Tool | Craft a Scraping Tool™.
-    - Give me that Slime! | Use the Scraping Tool™ on a sticky piston.
-    - Why? Just why? | Use a Scraping Tool™ on a pumpkin or melon.
-    - Decapitation | Decapitate a piston.
-    - Below the Flesh | Use a Scraping Tool™ on netherrack.
-      - Harder than Steel | Obtain a netherite scrap from scraping netherrack.
-    - Mineral Extraction | Use a Scraping Tool™ on diorite or ganite.
-  - End Update! | Craft an item that is usually only obtainable in the End.
-  - Glow and Behold! Stone Age! | Obtain Glowstone.
-  - The Creator of Fetchr | Obtain NeunEinser.
-  - The Creator of this madness | Obtain EnderMars21.
-  - I could read that forever. | Obtain the "Parry the otter" novel. (Sorry, but you can't actually read it.)
-
----
-
-# New Stuff
-
-## Categories:
-
-### *[disc] Music Disc:
   - [music_disc_slow] Music Disc (Trollkin V3 Soundtrack (Slow))
   - [music_disc_fast] Music Disc (Trollkin V3 Soundtrack (Fast))
 
@@ -243,6 +217,7 @@
   - Blaze Rod
   - Brewing Stand (2)
   - Copper Bulb (3)
+  - Fire Charge (2)
 
 ### Shulker:
   - Shulker Shell
@@ -280,6 +255,10 @@
   - Player Leggings (Resin Trim)
   - Player Boots (Amthyst Trim)
 
+### Trollkin:
+  - Trollkin (Carved Pumpkin) (2)
+  - Lit Trollkin (Jack o Lantern)
+
 ## New Items (not in the Pool):
   - Interdimensional Teleporter (2 crying obsidian + 4 glowstone + ender pearl + 2 diamonds)
 	- Placed on Chiseled Tuff: Spawns Breezes
@@ -291,10 +270,24 @@
 	- Placed on Purpur Block: Spawns Shulkers
 
 ## Changes:
+  - Coppergolems turn into statues really fast.
   - Each Zombie/Husk/Drowned has an 50% chance to become a baby and 50% of babies are chicken jockeys.
   - Randomly choose between slow/normal/fast playing speed when starting the music.
+  - Players and most mobs rescale according to their health.
 
 ## Advancements:
+  - no_leaf_clover's Tool | Craft a Scraping Tool™.
+    - Give me that Slime! | Use the Scraping Tool™ on a sticky piston.
+    - Why? Just why? | Use a Scraping Tool™ on a pumpkin or melon.
+    - Decapitation | Decapitate a piston.
+    - Below the Flesh | Use a Scraping Tool™ on netherrack.
+      - Harder than Steel | Obtain a netherite scrap from scraping netherrack.
+    - Mineral Extraction | Use a Scraping Tool™ on diorite or ganite.
+  - End Update! | Craft an item that is usually only obtainable in the End.
+  - Glow and Behold! Stone Age! | Obtain Glowstone.
+  - The Creator of Fetchr | Obtain NeunEinser.
+  - The Creator of this madness | Obtain EnderMars21.
+  - I could read that forever. | Obtain the "Parry the otter" novel. (Sorry, but you can't actually read it.)
   - Big Pearl | Craft an Interdimensional Teleporter
     - Very Windy | Use an Interdimensional Teleporter on chiseled tuff.
 	- Jumping Magma?! | Use an Interdimensional Teleporter on a magma block.
