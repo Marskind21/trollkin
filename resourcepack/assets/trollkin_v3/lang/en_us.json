@@ -217,6 +217,8 @@
 	"trollkin_v3.advancement..desc": "",
 
 	"trollkin_v3.dialog.options": "Trollkin Options",
+	"trollkin_v3.dialog.real_scale": "Body Size Check",
+	"trollkin_v3.dialog.real_scale.desc": "Please enter your real body size in cm below.\nIf you don't want to use your real body size then just press \"%s\" without changing the text field.",
 
 	"trollkin_v3.item_pool.trollkin_v3_default": "Default Trollkin V3 Item Pool",
 	"trollkin_v3.item_pool.trollkin_v3_default.desc": "All the custom and cursed items!",

@@ -1,12 +1,19 @@
 {
 	"type": "minecraft:notice",
-	"title": "Title",
+	"title": {
+		"translate": "trollkin_v3.dialog.real_scale"
+	},
 	"body": [
 		{
 			"type": "plain_message",
 			"width": 400,
 			"contents": {
-				"text": "Some Text"
+				"translate": "trollkin_v3.dialog.real_scale.desc",
+				"with": [
+					{
+						"translate": "gui.continue"
+					}
+				]
 			}
 		}
 	],
@@ -21,7 +28,9 @@
 		}
 	],
 	"action": {
-		"label": "Apply",
+		"label": {
+			"translate": "gui.continue"
+		},
 		"width": 200,
 		"action": {
 			"type": "minecraft:dynamic/run_command",
