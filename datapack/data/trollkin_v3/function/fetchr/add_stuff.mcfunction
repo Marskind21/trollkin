@@ -235,6 +235,8 @@ data modify storage fetchr:registries items append value {id:"trollkin_v3:player
 data modify storage fetchr:registries items append value {id:"trollkin_v3:beetroot_soup",item:{id:"minecraft:beetroot_soup"},translation:"item.minecraft.beetroot_soup",icon:"005c",categories:["trollkin_v3:annoying"],weight:3,icon_font:{actionbar:["trollkin_v3:line1","trollkin_v3:line2","trollkin_v3:line3","trollkin_v3:line4","trollkin_v3:line5"]}}
 #005d
 data modify storage fetchr:registries items append value {id:"trollkin_v3:fire_charge",item:{id:"minecraft:fire_charge"},translation:"item.minecraft.fire_charge",icon:"005d",categories:["trollkin_v3:blaze"],weight:2,icon_font:{actionbar:["trollkin_v3:line1","trollkin_v3:line2","trollkin_v3:line3","trollkin_v3:line4","trollkin_v3:line5"]}}
+#005e
+data modify storage fetchr:registries items append value {id:"trollkin_v3:music_disc_all",item:{id:"minecraft:recovery_compass",components:{"minecraft:item_model":"trollkin_v3:music_disc_all","minecraft:jukebox_playable":"trollkin_v3:trollkin_soundtrack_all"}},item_tests:[{type:"fetchr:predicate",id:"minecraft:custom_data",predicate:{item:"music_disc_all"}}],translation:"trollkin_v3.item.music_discs",icon:"005e",categories:["trollkin_v3:disc"],weight:3,icon_font:{actionbar:["trollkin_v3:line1","trollkin_v3:line2","trollkin_v3:line3","trollkin_v3:line4","trollkin_v3:line5"]}}
 
 #3d-items
 #0100

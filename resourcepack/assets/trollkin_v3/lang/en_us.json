@@ -70,9 +70,11 @@
 	"trollkin_v3.item.hornet": "Hornet",
 
 	"trollkin_v3.item.music_disc": "Trollkin Music Disc",
+	"trollkin_v3.item.music_discs": "Trollkin Music Discs",
 	"trollkin_v3.item.music_disc.desc": "EnderMars21 - Trollkin V3 Soundtrack",
 	"trollkin_v3.item.music_disc_slow.desc": "EnderMars21 - Trollkin V3 Soundtrack (Slow)",
 	"trollkin_v3.item.music_disc_fast.desc": "EnderMars21 - Trollkin V3 Soundtrack (Fast)",
+	"trollkin_v3.item.music_disc_all.desc": "EnderMars21 - Trollkin V3 Soundtrack (Slow + Normal + Fast)",
 
 	"trollkin_v3.item.loading_bar": "Loading Bar",
 

@@ -1,0 +1,10 @@
+{
+	"sound_event": {
+		"sound_id": "trollkin_v3:music_disc_all"
+	},
+	"description": {
+		"translate": "trollkin_v3.item.music_disc_all.desc"
+	},
+	"length_in_seconds": 736,
+	"comparator_output": 15
+}
