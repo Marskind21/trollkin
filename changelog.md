@@ -1,3 +1,8 @@
+# Trollkin V3.2.1
+
+## Changelog:
+  - Fixed missing text in one dialog.
+
 # Trollkin V3.2
 
 ## Changelog:
