@@ -1,5 +1,11 @@
 # Trollkin V3.2.2
 
+# Changelog:
+
+- Mobs spawed from an Interdimensional Teleporter can no longer despawn.
+
+# Trollkin V3.2.2
+
 ## Changelog:
   - Add Trollkin Music Discs (it's a single item) to the Trollkin Music Discs category.
 
