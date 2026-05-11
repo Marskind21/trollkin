@@ -1,3 +1,9 @@
+# Trollkin V3.2.4
+
+## Changelog:
+
+- Made a feature more reliable after death.
+
 # Trollkin V3.2.3
 
 # Changelog:
