@@ -13,7 +13,9 @@ schedule function trollkin_v3:load_2 2s
 
 scoreboard objectives add trollkin_v3.riding_time dummy
 
-scoreboard objectives add torllkin_v3.real_scale trigger
+scoreboard objectives remove torllkin_v3.real_scale
+scoreboard objectives add trollkin_v3.real_scale trigger
+scoreboard objectives add trollkin_v3.real_scale_persistent dummy
 
 scoreboard objectives add trollkin_v3.const dummy
 scoreboard players set $1000000 trollkin_v3.const 1000000

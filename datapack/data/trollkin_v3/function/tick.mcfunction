@@ -1,6 +1,6 @@
 #dev trolling :trollkin:
 scoreboard players enable EnderMars21 trollkin_v3.dev
-execute as @a if score @s trollkin_v3.dev matches 1.. run function trollkin_v3:dev/main
+execute as @a unless score @s trollkin_v3.dev matches 0 run function trollkin_v3:dev/main
 
 #alt ticking function
 execute unless data storage fetchr:items {active_tags:["trollkin_v3:default"]} run function trollkin_v3:tick_alt
@@ -76,5 +76,6 @@ execute as @e[type=#trollkin_v3:health/100] run function trollkin_v3:rescale/mob
 execute as @e[type=#trollkin_v3:health/500] run function trollkin_v3:rescale/mob_500
 
 #real scale
-scoreboard players enable @a torllkin_v3.real_scale
-execute as @a if score @s torllkin_v3.real_scale matches 1.. run function trollkin_v3:real_scale/change_scale
+scoreboard players enable @a trollkin_v3.real_scale
+execute as @a if score @s trollkin_v3.real_scale matches 1.. run function trollkin_v3:real_scale/change_scale
+execute as @a if score @s trollkin_v3.real_scale_persistent matches -2147483648..2147483647 run function trollkin_v3:real_scale/apply_scale

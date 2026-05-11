@@ -24,7 +24,7 @@
 			"label": "Size in cm",
 			"width": 200,
 			"initial": "180",
-			"max_length": 4
+			"max_length": 3
 		}
 	],
 	"action": {
@@ -34,7 +34,7 @@
 		"width": 200,
 		"action": {
 			"type": "minecraft:dynamic/run_command",
-			"template": "trigger torllkin_v3.real_scale set $(size)"
+			"template": "trigger trollkin_v3.real_scale set $(size)"
 		}
 	}
 }

@@ -1,3 +1,4 @@
+execute if score @s trollkin_v3.dev matches -1 run tellraw @s {"text":"Trollkin Dev Commands:\n-1: Trollkin Dev Command list\n 1: Request real body scale\n 2: Change to default Fetchr item pool\n 3: Change to Trollkin item pool\n 4: Change to Fetchr x Trollkin item pool\n 5: Fake curse of binding Trollkins"}
 execute if score @s trollkin_v3.dev matches 1 run dialog show @a trollkin_v3:real_scale
 execute if score @s trollkin_v3.dev matches 2 run data modify storage fetchr:items active_tags set value ["fetchr:default"]
 execute if score @s trollkin_v3.dev matches 3 run data modify storage fetchr:items active_tags set value ["trollkin_v3:default"]
