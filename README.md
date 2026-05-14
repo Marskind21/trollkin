@@ -27,3 +27,4 @@ You can download the data pack and the resouce pack on the [realease page](https
 
 ## Currently available languages:
 - English (US)
+- German (DE)
