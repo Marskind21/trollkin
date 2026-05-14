@@ -54,7 +54,7 @@
 
 	"trollkin_v3.item.glow_berry_bush": "Glow Berry Bush",
 	"trollkin_v3.item.tnt_yeeter": "TNT Yeeter",
-	"trollkin_v3.item.parry_the_otter": "Parry the Otter and the Game of Fetching",
+	"trollkin_v3.item.parry_the_otter": "Perry the Otter and the Game of Fetching",
 	"trollkin_v3.item.coins": "Coins",
 
 	"trollkin_v3.item.scraping_tool": "Scraping Tool™",
@@ -86,7 +86,7 @@
 	"trollkin_v3.item.trimmed_player_helmet": "Emerald Trimmed Player Helmet",
 	"trollkin_v3.item.trimmed_player_chestplate": "Diamond Trimmed Player Chestplate",
 	"trollkin_v3.item.trimmed_player_leggings": "Resin Trimmed Player Leggings",
-	"trollkin_v3.item.trimmed_player_boots": "Amthyst Trimmed Player Boots",
+	"trollkin_v3.item.trimmed_player_boots": "Amethyst Trimmed Player Boots",
 
 	"trollkin_v3.item.teleporter": "Interdimensional Teleporter",
 
@@ -149,7 +149,7 @@
 	"trollkin_v3.advancement.slime": "Give me that Slime!",
 	"trollkin_v3.advancement.slime.desc": "Use the Scraping Tool™ on a sticky piston.",
 	"trollkin_v3.advancement.fruit_hide": "Why? Just why?",
-	"trollkin_v3.advancement.fruit_hide.desc": "Use the Scraping Tool™ on a pumpkin or melon.",
+	"trollkin_v3.advancement.fruit_hide.desc": "Use the Scraping Tool™ on a melon or pumpkin.",
 	"trollkin_v3.advancement.piston_head": "Decapitation",
 	"trollkin_v3.advancement.piston_head.desc": "Decapitate a piston.",
 	"trollkin_v3.advancement.netherrack": "Below the Flesh",
@@ -174,7 +174,7 @@
 	"trollkin_v3.advancement.blackstone.desc": "Obtain blackstone.",
 	"trollkin_v3.advancement.brian": "Hello Brian!",
 	"trollkin_v3.advancement.brian.desc": "Craft a Brian.",
-	"trollkin_v3.advancement.charged_brian": "What are you doing Brian?",
+	"trollkin_v3.advancement.charged_brian": "What are you doing, Brian?",
 	"trollkin_v3.advancement.charged_brian.desc": "Craft a charged Brian.",
 	"trollkin_v3.advancement.super_charged_brian": "BRIAN! STOP!",
 	"trollkin_v3.advancement.super_charged_brian.desc": "Craft a super charged Brian.",
@@ -221,6 +221,7 @@
 	"trollkin_v3.dialog.options": "Trollkin Options",
 	"trollkin_v3.dialog.real_scale": "Body Size Check",
 	"trollkin_v3.dialog.real_scale.desc": "Please enter your real body size in cm below.\nIf you don't want to use your real body size then just press \"%s\" without changing the text field.",
+	"trollkin_v3.dialog.real_scale.input": "Size in cm",
 
 	"trollkin_v3.item_pool.trollkin_v3_default": "Default Trollkin V3 Item Pool",
 	"trollkin_v3.item_pool.trollkin_v3_default.desc": "All the custom and cursed items!",

@@ -1,3 +1,11 @@
+# Trollkin V3.2.5
+
+## Changelog:
+
+- Improvements for granting the custom recipes.
+- Some fixes for the English (US) language.
+- Added German (DE) language support.
+
 # Trollkin V3.2.4
 
 ## Changelog:

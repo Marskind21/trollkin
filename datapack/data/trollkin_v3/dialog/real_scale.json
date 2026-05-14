@@ -21,7 +21,9 @@
 		{
 			"type": "minecraft:text",
 			"key": "size",
-			"label": "Size in cm",
+			"label": {
+				"translate": "trollkin_v3.dialog.real_scale.input"
+			},
 			"width": 200,
 			"initial": "180",
 			"max_length": 3
