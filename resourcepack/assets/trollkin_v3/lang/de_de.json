@@ -223,9 +223,9 @@
 	"trollkin_v3.dialog.real_scale.desc": "Bitte gib deine echte Körpergröße in cm unten ein.\nFalls du nicht deine echte Körpergröße nutzen möchtest, dann drücke einfach \"%s\" ohne das Eingabefeld zu verändern.",
 	"trollkin_v3.dialog.real_scale.input": "Größe in cm",
 
-	"trollkin_v3.item_pool.trollkin_v3_default": "Standard-Trollkin-V3-Gegenstandspool",
+	"trollkin_v3.item_pool.trollkin_v3_default": "Standard-Trollkin V3-Gegenstandspool",
 	"trollkin_v3.item_pool.trollkin_v3_default.desc": "All die neuen und verrückten Gegenstände!",
-	"trollkin_v3.item_pool.both": "Standard-Fetchr- und Standard-Trollkin-V3-Gegenstandspool",
+	"trollkin_v3.item_pool.both": "Standard-Fetchr- und Standard-Trollkin V3-Gegenstandspool",
 	"trollkin_v3.item_pool.both.desc": "All die neuen und verrückten Gegenstände zusammen mit normalen Gegenständen.",
 
 	"trollkin_v3.message.pool_switcher": "Bitte installiere die %s Erweiterung, um in der Lage zu sein, zu den neuen Gegenstandspools zu wechseln!",
