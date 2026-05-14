@@ -17,9 +17,6 @@ execute if score $seconds 91.timer.io matches 1 if score $minutes 91.timer.io ma
 execute if score active trollkin_v3.music matches 1 in fetchr:default unless entity @a[distance=0..] run function trollkin_v3:music/reset
 execute if score active trollkin_v3.music matches 1 unless score $game_state fetchr.state matches 4 run function trollkin_v3:music/reset
 
-#give recipes again (in case the pack is running on a server)
-execute if score $seconds 91.timer.io matches 1 if score $minutes 91.timer.io matches 0 if score $hours 91.timer.io matches 0 if score active trollkin_v3.music matches 0 if score $game_state fetchr.state matches 4 run recipe give @a *
-
 #bouncy ball
 execute as @e[type=item,nbt={Item:{components:{"minecraft:custom_data":{item:"bouncy_ball"}}},OnGround:1b}] store result entity @s Motion[0] double 0.05 run random value -10..10
 execute as @e[type=item,nbt={Item:{components:{"minecraft:custom_data":{item:"bouncy_ball"}}},OnGround:1b}] store result entity @s Motion[1] double 0.05 run random value 1..10
