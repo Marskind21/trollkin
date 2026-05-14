@@ -5,11 +5,9 @@ scoreboard players set track trollkin_v3.music 0
 scoreboard players set speed trollkin_v3.music 0
 scoreboard players reset prev_track trollkin_v3.music
 
-recipe give @a *
-
-scoreboard objectives add trollkin_v3.reload dummy
-scoreboard players set tries trollkin_v3.reload 10
-schedule function trollkin_v3:load_2 2s
+scoreboard objectives add trollkin_v3.warning dummy
+scoreboard players set NO_PACK?_timer trollkin_v3.warning 0
+scoreboard players set NO_PACK? trollkin_v3.warning 0
 
 scoreboard objectives add trollkin_v3.riding_time dummy
 
