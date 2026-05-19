@@ -11,7 +11,6 @@ scoreboard players set NO_PACK? trollkin_v3.warning 0
 
 scoreboard objectives add trollkin_v3.riding_time dummy
 
-scoreboard objectives remove torllkin_v3.real_scale
 scoreboard objectives add trollkin_v3.real_scale trigger
 scoreboard objectives add trollkin_v3.real_scale_persistent dummy
 
@@ -20,3 +19,6 @@ scoreboard players set $1000000 trollkin_v3.const 1000000
 scoreboard players set $180 trollkin_v3.const 180
 
 scoreboard objectives add trollkin_v3.dev trigger
+
+scoreboard objectives add trollkin_v3.state dummy
+scoreboard players set pack_enabled trollkin_v3.state 0

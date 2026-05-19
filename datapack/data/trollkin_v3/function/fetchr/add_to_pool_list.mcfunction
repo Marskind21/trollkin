@@ -1,4 +1,5 @@
 data modify storage endermars21.pool_switcher:item_pools pools append value { \
+	id: "trollkin_v3:default", \
 	tags: [ "trollkin_v3:default" ], \
 	name: { \
 		translate: "trollkin_v3.item_pool.trollkin_v3_default", \
@@ -10,6 +11,7 @@ data modify storage endermars21.pool_switcher:item_pools pools append value { \
 	} \
 }
 data modify storage endermars21.pool_switcher:item_pools pools append value { \
+	id: "trollkin_v3:combined", \
 	tags: [ "fetchr:default", "trollkin_v3:default" ], \
 	name: { \
 		translate: "trollkin_v3.item_pool.both", \
