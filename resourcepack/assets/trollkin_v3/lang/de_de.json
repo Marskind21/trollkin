@@ -1,48 +1,48 @@
 {
-    "trollkin_v3.item.endermars21": "§4EnderMars21",
+	"trollkin_v3.item.endermars21": "§4EnderMars21",
 
-    "trollkin_v3.item.neuneinser": "§cNeun§9Einser",
-    "trollkin_v3.item.evil_neuneinser": "§0Evil §bNeun§eEinser",
+	"trollkin_v3.item.neuneinser": "§cNeun§9Einser",
+	"trollkin_v3.item.evil_neuneinser": "§0Evil §bNeun§eEinser",
 
-    "trollkin_v3.item.lingo": "§fLingo Smily",
-    "trollkin_v3.item.upsidedown_lingo": "§fKopfüber Lingo Smily",
+	"trollkin_v3.item.lingo": "§fLingo Smily",
+	"trollkin_v3.item.upsidedown_lingo": "§fKopfüber Lingo Smily",
 
-    "trollkin_v3.item.no_leaf_clover": "§2no_leaf_clover",
-    "trollkin_v3.item.no_lingo_clover": "§fno_lingo_clover",
-    
+	"trollkin_v3.item.no_leaf_clover": "§2no_leaf_clover",
+	"trollkin_v3.item.no_lingo_clover": "§fno_lingo_clover",
+
 	"trollkin_v3.item.mego": "§cMego-Steine",
-    "trollkin_v3.item.drawing": "§dMeisterwerk",
-    "trollkin_v3.item.bouncy_ball": "§cFlummy",
-    
+	"trollkin_v3.item.drawing": "§dMeisterwerk",
+	"trollkin_v3.item.bouncy_ball": "§cFlummy",
+
 	"trollkin_v3.item.pixel": "§cPi§ax§9el",
-    "trollkin_v3.item.tablet": "§bTablet",
-    "trollkin_v3.item.code": "§aCode",
-    
+	"trollkin_v3.item.tablet": "§bTablet",
+	"trollkin_v3.item.code": "§aCode",
+
 	"trollkin_v3.item.slicedlime": "§aslicedlime",
-    "trollkin_v3.item.lime_luck": "§alimeluck",
-	
-    "trollkin_v3.item.charcoal_block": "§fHolzkohleblock",
+	"trollkin_v3.item.lime_luck": "§alimeluck",
 
-    "trollkin_v3.item.rainbow_dye": "§cR§6e§eg§ae§bn§9b§do§cg§6e§en§af§ba§9r§db§ce§6n§ee§ar §bF§9a§dr§cb§6s§et§ao§bf§9f",
-    "trollkin_v3.item.rainbow_glass_pane": "§cR§6e§eg§ae§bn§9b§do§cg§6e§en§af§ba§9r§db§ce§6n§ee §aG§bl§9a§ds§cs§6c§eh§ae§bi§9b§de",
-    "trollkin_v3.item.rainbow_wool": "§cR§6e§eg§ae§bn§9b§do§cg§6e§en§af§ba§9r§db§ce§6n§ee §aW§bo§9l§dl§ce",
+	"trollkin_v3.item.charcoal_block": "§fHolzkohleblock",
 
-    "trollkin_v3.item.puffy": "§ePuffy",
+	"trollkin_v3.item.rainbow_dye": "§cR§6e§eg§ae§bn§9b§do§cg§6e§en§af§ba§9r§db§ce§6n§ee§ar §bF§9a§dr§cb§6s§et§ao§bf§9f",
+	"trollkin_v3.item.rainbow_glass_pane": "§cR§6e§eg§ae§bn§9b§do§cg§6e§en§af§ba§9r§db§ce§6n§ee §aG§bl§9a§ds§cs§6c§eh§ae§bi§9b§de",
+	"trollkin_v3.item.rainbow_wool": "§cR§6e§eg§ae§bn§9b§do§cg§6e§en§af§ba§9r§db§ce§6n§ee §aW§bo§9l§dl§ce",
 
-    "trollkin_v3.item.brian": "§7Brian",
-    "trollkin_v3.item.brian.lore0": "§7Bitte hilf mir aus",
-    "trollkin_v3.item.brian.lore1": "§7slicedlimes Keller zu entkommen!",
+	"trollkin_v3.item.puffy": "§ePuffy",
 
-    "trollkin_v3.item.charged_brian": "§bGeladener Brian",
-    "trollkin_v3.item.charged_brian.lore0": "§7Ich brauche immer noch etwas",
-    "trollkin_v3.item.charged_brian.lore1": "§7Hilfe um hier raus zu kommen!",
+	"trollkin_v3.item.brian": "§7Brian",
+	"trollkin_v3.item.brian.lore0": "§7Bitte hilf mir aus",
+	"trollkin_v3.item.brian.lore1": "§7slicedlimes Keller zu entkommen!",
 
-    "trollkin_v3.item.super_charged_brian": "§dSuper Geladener Brian",
-    "trollkin_v3.item.super_charged_brian.lore0": "§4Ich fühle mich so mächtig!",
-    "trollkin_v3.item.super_charged_brian.lore1": "§4Vielleicht kann ich jetzt aus dem Keller ausbrechen?",
+	"trollkin_v3.item.charged_brian": "§bGeladener Brian",
+	"trollkin_v3.item.charged_brian.lore0": "§7Ich brauche immer noch etwas",
+	"trollkin_v3.item.charged_brian.lore1": "§7Hilfe um hier raus zu kommen!",
 
-    "trollkin_v3.item.spielmitstil": "§6SpielmitStil",
-	
+	"trollkin_v3.item.super_charged_brian": "§dSuper Geladener Brian",
+	"trollkin_v3.item.super_charged_brian.lore0": "§4Ich fühle mich so mächtig!",
+	"trollkin_v3.item.super_charged_brian.lore1": "§4Vielleicht kann ich jetzt aus dem Keller ausbrechen?",
+
+	"trollkin_v3.item.spielmitstil": "§6SpielmitStil",
+
 	"trollkin_v3.item.flower_bundle": "Blumenbündel",
 
 	"trollkin_v3.item.log_collection": "Stammsammlung",
@@ -65,7 +65,7 @@
 	"trollkin_v3.item.chip": "Chip",
 	"trollkin_v3.item.slot_machine": "Spielautomat",
 	"trollkin_v3.item.lucky_wheel": "Glücksrad",
-	
+
 	"trollkin_v3.item.knight": "Knight",
 	"trollkin_v3.item.hornet": "Hornet",
 
@@ -82,7 +82,7 @@
 	"trollkin_v3.item.player_chestplate": "Spielerharnisch",
 	"trollkin_v3.item.player_leggings": "Spielerbeinschutz",
 	"trollkin_v3.item.player_boots": "Spielerstiefel",
-	
+
 	"trollkin_v3.item.trimmed_player_helmet": "Smaragd besetzter Spielerhelm",
 	"trollkin_v3.item.trimmed_player_chestplate": "Diamant besetzter Spielerharnisch",
 	"trollkin_v3.item.trimmed_player_leggings": "Harz besetzter Spielerbeinschutz",
@@ -90,27 +90,29 @@
 
 	"trollkin_v3.item.teleporter": "Interdimensionaler Teleporter",
 
+	"trollkin_v3.item.ding": "Ding!",
+
 	"trollkin_v3.item.": "",
 
-    "trollkin_v3.category.endermars21": "§4EnderMars21",
-    "trollkin_v3.category.neuneinser": "§cNeun§9Einser",
-    "trollkin_v3.category.lingo": "§fLingo",
-    "trollkin_v3.category.mego": "§cSpielzeuge",
-    "trollkin_v3.category.no_leaf_clover": "§2no_leaf_clover",
-    "trollkin_v3.category.pixel": "Computerzeugs",
-    "trollkin_v3.category.slicedlime": "§aslicedlime",
-    "trollkin_v3.category.charcoal": "Holzkohle",
-    "trollkin_v3.category.anvil": "Amboss",
-    "trollkin_v3.category.netherrack": "Netherrack",
-    "trollkin_v3.category.sus": "Seltsame Blöcke",
-    "trollkin_v3.category.common": "Gewöhnliche Gegenstände",
-    "trollkin_v3.category.slow_copper": "Langsames Kupfer",
-    "trollkin_v3.category.sad_obsidian": "Trauriges Obsidian",
-    "trollkin_v3.category.annoying": "Einfach nur nervig",
-    "trollkin_v3.category.rainbow": "§cR§6e§eg§ae§bn§9b§do§cg§6e§en",
+	"trollkin_v3.category.endermars21": "§4EnderMars21",
+	"trollkin_v3.category.neuneinser": "§cNeun§9Einser",
+	"trollkin_v3.category.lingo": "§fLingo",
+	"trollkin_v3.category.mego": "§cSpielzeuge",
+	"trollkin_v3.category.no_leaf_clover": "§2no_leaf_clover",
+	"trollkin_v3.category.pixel": "Computerzeugs",
+	"trollkin_v3.category.slicedlime": "§aslicedlime",
+	"trollkin_v3.category.charcoal": "Holzkohle",
+	"trollkin_v3.category.anvil": "Amboss",
+	"trollkin_v3.category.netherrack": "Netherrack",
+	"trollkin_v3.category.sus": "Seltsame Blöcke",
+	"trollkin_v3.category.common": "Gewöhnliche Gegenstände",
+	"trollkin_v3.category.slow_copper": "Langsames Kupfer",
+	"trollkin_v3.category.sad_obsidian": "Trauriges Obsidian",
+	"trollkin_v3.category.annoying": "Einfach nur nervig",
+	"trollkin_v3.category.rainbow": "§cR§6e§eg§ae§bn§9b§do§cg§6e§en",
 	"trollkin_v3.category.pufferfish": "§eKugelfisch",
-    "trollkin_v3.category.brian": "§7Brian",
-    "trollkin_v3.category.spielmitstil": "§6SpielmitStil",
+	"trollkin_v3.category.brian": "§7Brian",
+	"trollkin_v3.category.spielmitstil": "§6SpielmitStil",
 	"trollkin_v3.category.flowers": "Blümchen",
 	"trollkin_v3.category.chop_chop": "Hack Hack",
 	"trollkin_v3.category.butcher": "Metzger",
@@ -214,7 +216,11 @@
 	"trollkin_v3.advancement.teleporter.shulker.desc": "Nutze einen interdimensionalen Teleporter auf einen Purpurblock.",
 	"trollkin_v3.advancement.soul_crafter": "Seelenhandwerker",
 	"trollkin_v3.advancement.soul_crafter.desc": "Stelle Seelensand oder Seelenerde her.",
-	
+	"trollkin_v3.advancement.dragon_birth": "Drachengeburt",
+	"trollkin_v3.advancement.dragon_birth.desc": "Stelle ein Drachenei her.",
+	"trollkin_v3.advancement.ding_a_ding": "Ding! ein Ding!",
+	"trollkin_v3.advancement.ding_a_ding.desc": "Stelle ein Ding! her. :noleaf1LetsGo:",
+
 	"trollkin_v3.advancement.": "",
 	"trollkin_v3.advancement..desc": "",
 
@@ -230,7 +236,7 @@
 
 	"trollkin_v3.message.pool_switcher": "Bitte installiere die %s Erweiterung, um in der Lage zu sein, zu den neuen Gegenstandspools zu wechseln!",
 
-    "trollkin_v3.rainbow_test": "§c|§6|§e|§a|§b|§9|§d|",
+	"trollkin_v3.rainbow_test": "§c|§6|§e|§a|§b|§9|§d|",
 
-    "trollkin_v3.item.any.lore": "§8Gegenstand von der Trollkin V3 Erweiterung."
+	"trollkin_v3.item.any.lore": "§8Gegenstand von der Trollkin V3 Erweiterung."
 }
