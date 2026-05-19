@@ -1,3 +1,18 @@
+# Trollkin V3.3.0
+
+## Changelog:
+
+- Updated to Fetchr 5.3 Pre-Release 1.
+- Music should now only play when being in the game dimension and not continue playing for players inside the lobby while other players are in the game dimension.
+- Rebalanced Nether Star recipe to make killing an actual Wither a more viable option.
+- Added two new recipes: 
+	- Ding
+	- Dragon Egg
+- Added two new items to the pool:
+	- Ding in the Funny Random Stuff category
+	- Dragon Egg in the End category
+- The custom recipes are now only available when a Trollkin item pool is selected.
+
 # Trollkin V3.2.5
 
 ## Changelog:

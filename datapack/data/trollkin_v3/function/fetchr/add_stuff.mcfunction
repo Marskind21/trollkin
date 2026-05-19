@@ -237,6 +237,12 @@ data modify storage fetchr:registries items append value {id:"trollkin_v3:beetro
 data modify storage fetchr:registries items append value {id:"trollkin_v3:fire_charge",item:{id:"minecraft:fire_charge"},translation:"item.minecraft.fire_charge",icon:"005d",categories:["trollkin_v3:blaze"],weight:2,icon_font:{actionbar:["trollkin_v3:line1","trollkin_v3:line2","trollkin_v3:line3","trollkin_v3:line4","trollkin_v3:line5"]}}
 #005e
 data modify storage fetchr:registries items append value {id:"trollkin_v3:music_disc_all",item:{id:"minecraft:recovery_compass",components:{"minecraft:item_model":"trollkin_v3:music_disc_all","minecraft:jukebox_playable":"trollkin_v3:trollkin_soundtrack_all"}},item_tests:[{type:"fetchr:predicate",id:"minecraft:custom_data",predicate:{item:"music_disc_all"}}],translation:"trollkin_v3.item.music_discs",icon:"005e",categories:["trollkin_v3:disc"],weight:3,icon_font:{actionbar:["trollkin_v3:line1","trollkin_v3:line2","trollkin_v3:line3","trollkin_v3:line4","trollkin_v3:line5"]}}
+#005f
+data modify storage fetchr:registries items append value { \
+	id:"trollkin_v3:ding", \
+	item:{id:"minecraft:ender_eye",components:{"minecraft:item_model":"trollkin_v3:ding"}}, \
+	item_tests:[{type:"fetchr:predicate",id:"minecraft:custom_data",predicate:{item:"ding"}}],translation:"trollkin_v3.item.ding",icon:"005f",categories:["trollkin_v3:random"],weight:1,icon_font:{actionbar:["trollkin_v3:line1","trollkin_v3:line2","trollkin_v3:line3","trollkin_v3:line4","trollkin_v3:line5"]} \
+}
 
 #3d-items
 #0100
@@ -359,3 +365,5 @@ data modify storage fetchr:registries items append value {id:"trollkin_v3:dried_
 data modify storage fetchr:registries items append value {id:"trollkin_v3:carved_pumpkin",item:{id:"minecraft:carved_pumpkin"},translation:"block.minecraft.carved_pumpkin",icon:"013a",categories:["trollkin_v3:trollkin"],weight:2,icon_font:{actionbar:["trollkin_v3:line1","trollkin_v3:line2","trollkin_v3:line3","trollkin_v3:line4","trollkin_v3:line5"]}}
 #013b
 #data modify storage fetchr:registries items append value {id:"trollkin_v3:jack_o_lantern",item:{id:"minecraft:jack_o_lantern"},translation:"block.minecraft.deepslate_diamond_ore",icon:"013b",categories:["trollkin_v3:trollkin"],weight:1,icon_font:{actionbar:["trollkin_v3:line1","trollkin_v3:line2","trollkin_v3:line3","trollkin_v3:line4","trollkin_v3:line5"]}}
+#013c
+data modify storage fetchr:registries items append value {id:"trollkin_v3:dragon_egg",item:{id:"minecraft:dragon_egg"},translation:"block.minecraft.dragon_egg",icon:"013c",categories:["trollkin_v3:end"],weight:2,icon_font:{actionbar:["trollkin_v3:line1","trollkin_v3:line2","trollkin_v3:line3","trollkin_v3:line4","trollkin_v3:line5"]}}

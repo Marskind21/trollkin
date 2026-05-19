@@ -1,6 +1,6 @@
 {
 	"replace": false,
 	"values": [
-		"trollkin_v3:give_recipes"
+		"trollkin_v3:player_update"
 	]
 }
