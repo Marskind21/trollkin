@@ -1,0 +1,26 @@
+{
+	"parent": "trollkin_v3:trollkin/root",
+	"display": {
+		"icon": {
+			"id": "minecraft:ender_eye",
+			"components": {
+				"minecraft:item_model": "trollkin_v3:ding"
+			}
+		},
+		"title": {
+			"translate": "trollkin_v3.advancement.ding_a_ding"
+		},
+		"description": {
+			"translate": "trollkin_v3.advancement.ding_a_ding.desc"
+		},
+		"frame": "challenge"
+	},
+	"criteria": {
+		"ding": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "trollkin_v3:ding"
+			}
+		}
+	}
+}

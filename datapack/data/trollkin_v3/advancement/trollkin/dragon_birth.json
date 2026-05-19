@@ -1,0 +1,23 @@
+{
+	"parent": "trollkin_v3:trollkin/root",
+	"display": {
+		"icon": {
+			"id": "minecraft:dragon_egg"
+		},
+		"title": {
+			"translate": "trollkin_v3.advancement.dragon_birth"
+		},
+		"description": {
+			"translate": "trollkin_v3.advancement.dragon_birth.desc"
+		},
+		"frame": "challenge"
+	},
+	"criteria": {
+		"dragon_egg": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "trollkin_v3:dragon_egg"
+			}
+		}
+	}
+}
