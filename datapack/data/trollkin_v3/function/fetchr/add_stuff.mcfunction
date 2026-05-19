@@ -238,11 +238,7 @@ data modify storage fetchr:registries items append value {id:"trollkin_v3:fire_c
 #005e
 data modify storage fetchr:registries items append value {id:"trollkin_v3:music_disc_all",item:{id:"minecraft:recovery_compass",components:{"minecraft:item_model":"trollkin_v3:music_disc_all","minecraft:jukebox_playable":"trollkin_v3:trollkin_soundtrack_all"}},item_tests:[{type:"fetchr:predicate",id:"minecraft:custom_data",predicate:{item:"music_disc_all"}}],translation:"trollkin_v3.item.music_discs",icon:"005e",categories:["trollkin_v3:disc"],weight:3,icon_font:{actionbar:["trollkin_v3:line1","trollkin_v3:line2","trollkin_v3:line3","trollkin_v3:line4","trollkin_v3:line5"]}}
 #005f
-data modify storage fetchr:registries items append value { \
-	id:"trollkin_v3:ding", \
-	item:{id:"minecraft:ender_eye",components:{"minecraft:item_model":"trollkin_v3:ding"}}, \
-	item_tests:[{type:"fetchr:predicate",id:"minecraft:custom_data",predicate:{item:"ding"}}],translation:"trollkin_v3.item.ding",icon:"005f",categories:["trollkin_v3:random"],weight:1,icon_font:{actionbar:["trollkin_v3:line1","trollkin_v3:line2","trollkin_v3:line3","trollkin_v3:line4","trollkin_v3:line5"]} \
-}
+data modify storage fetchr:registries items append value {id:"trollkin_v3:ding",item:{id:"minecraft:ender_eye",components:{"minecraft:item_model":"trollkin_v3:ding"}},item_tests:[{type:"fetchr:predicate",id:"minecraft:custom_data",predicate:{item:"ding"}}],translation:"trollkin_v3.item.ding",icon:"005f",categories:["trollkin_v3:random"],weight:1,icon_font:{actionbar:["trollkin_v3:line1","trollkin_v3:line2","trollkin_v3:line3","trollkin_v3:line4","trollkin_v3:line5"]}}
 
 #3d-items
 #0100
