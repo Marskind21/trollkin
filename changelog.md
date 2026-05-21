@@ -1,3 +1,9 @@
+# Trollkin V3.3.1
+
+## Changelog:
+
+- Fixed the wrong icons showing for Glow Lichen and Trollkin-Lantern (Jack o Lantern) on the card in the hud.
+
 # Trollkin V3.3.0
 
 ## Changelog:
