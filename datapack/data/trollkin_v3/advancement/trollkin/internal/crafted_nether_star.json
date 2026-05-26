@@ -1,0 +1,19 @@
+{
+	"parent": "trollkin_v3:trollkin/root",
+	"criteria": {
+		"crafted_nether_star": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "trollkin_v3:netherstar"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"crafted_nether_star"
+		]
+	],
+	"rewards": {
+		"function": "trollkin_v3:angry_gods/trigger"
+	}
+}

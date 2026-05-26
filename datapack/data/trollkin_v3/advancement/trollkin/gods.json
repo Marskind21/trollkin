@@ -1,0 +1,21 @@
+{
+	"parent": "trollkin_v3:trollkin/star",
+	"display": {
+		"icon": {
+			"id": "minecraft:carved_pumpkin"
+		},
+		"title": {
+			"translate": "trollkin_v3.advancement.gods"
+		},
+		"description": {
+			"translate": "trollkin_v3.advancement.gods.desc"
+		},
+		"frame": "challenge",
+		"hidden": true
+	},
+	"criteria": {
+		"gods": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}
