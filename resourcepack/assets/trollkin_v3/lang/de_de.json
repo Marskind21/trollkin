@@ -243,6 +243,8 @@
 	"trollkin_v3.message.gods.angered.broadcast": "%s hat die drei Trollkin-Götter erzürnt! Die Götter werden diesen Spieler jetzt bestrafen!",
 	"trollkin_v3.message.gods.punishment1.star.1": "Der erste Trollkin-Gott hat dir deinen Netherstern gestohlen.",
 	"trollkin_v3.message.gods.punishment1.star.2": "Du sollst einen Wither bekämpfen, um diesen einzigartigen Gegenstand zu erhalten!",
+	"trollkin_v3.message.gods.punishment1.scrape.1": "Der erste Trollkin-Gott hat dir dein Abkratz-Werkzeug™ gestohlen.",
+	"trollkin_v3.message.gods.punishment1.scrape.2": "Du sollst nichts mehr abkratzen!",
 	"trollkin_v3.message.gods.punishment2.1": "Der zweite Trollkin-Gott hat dein Sehvermögen für 20 Minuten reduziert.",
 	"trollkin_v3.message.gods.punishment2.2": "Du sollst nicht das Licht des Tages sehen!",
 	"trollkin_v3.message.gods.punishment3.1": "Der dritte Trollkin-Gott hat alle deine Gegenstände in Trollkins konvertiert.",
