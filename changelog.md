@@ -6,6 +6,7 @@
 - Slightly nerved the Nether Star recipe.
 - Added new item Martian Enderleaf Clover to the EnderMars21 category.
 - The Scraping Tool™ and the Interdimensional Teleporter can no longer "disappear" in the lobby.
+- Don't mess with the trollkin gods!
 
 # Trollkin V3.3.1
 
