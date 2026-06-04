@@ -1,0 +1,26 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"key": {
+		"1": "minecraft:ender_pearl",
+		"2": "minecraft:pale_oak_leaves",
+		"3": "minecraft:red_sand"
+	},
+	"pattern": [
+		" 2 ",
+		"212",
+		" 3 "
+	],
+	"result": {
+		"count": 1,
+		"id": "minecraft:test_block",
+		"components": {
+			"minecraft:item_model": "trollkin_v3:enderleaf_clover",
+			"minecraft:item_name": {
+				"translate": "trollkin_v3.item.enderleaf_clover"
+			},
+			"minecraft:custom_data": {
+                "item": "enderleaf_clover"
+            }
+		}
+	}
+}

@@ -1,8 +1,10 @@
-# Trollkin V3.3.2
+# Trollkin V3.4.0
 
 ## Changelog:
 
-- Slightly nerved the Nether Star recipe, *but at what cost?*
+- Intended Fetchr version is now Fetchr 5.3!
+- Slightly nerved the Nether Star recipe.
+- Added new item Martian Enderleaf Clover to the EnderMars21 category.
 
 # Trollkin V3.3.1
 

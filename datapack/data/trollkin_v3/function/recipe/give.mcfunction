@@ -13,6 +13,7 @@ recipe give @s trollkin_v3:ding
 recipe give @s trollkin_v3:dragon_egg
 recipe give @s trollkin_v3:drawing
 recipe give @s trollkin_v3:end_stone
+recipe give @s trollkin_v3:enderleaf_clover
 recipe give @s trollkin_v3:endermars21
 recipe give @s trollkin_v3:evil_neuneinser
 recipe give @s trollkin_v3:flower_bundle
