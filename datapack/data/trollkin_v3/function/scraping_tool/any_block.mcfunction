@@ -1,3 +1,4 @@
+execute if predicate fetchr:is_in_lobby run return 0
 execute if block ~ ~-1 ~ minecraft:netherrack run return run function trollkin_v3:scraping_tool/netherrack
 execute if block ~ ~-1 ~ minecraft:granite run return run function trollkin_v3:scraping_tool/granite
 execute if block ~ ~-1 ~ minecraft:diorite run return run function trollkin_v3:scraping_tool/diorite

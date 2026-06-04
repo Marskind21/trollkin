@@ -24,12 +24,6 @@ execute as @e[type=copper_golem,tag=!trollkin_v3.copper_3,nbt={weather_state:"we
 execute as @e[type=copper_golem,tag=!trollkin_v3.copper_4,nbt={weather_state:"oxidized"}] run data modify entity @s next_weather_age set value 0L
 execute as @e[type=copper_golem,tag=!trollkin_v3.copper_4,nbt={weather_state:"oxidized"}] run tag @s add trollkin_v3.copper_4
 
-#scraping tool
-execute as @e[tag=trollkin_v3.scraping_tool] at @s run function trollkin_v3:scraping_tool
-
-#teleporter
-execute as @e[tag=trollkin_v3.teleporter] at @s run function trollkin_v3:teleporter
-
 #fake pearls
 execute as @e[type=#trollkin_v3:throwable] at @s run ride @p[distance=..5] mount @s
 execute as @e[type=#trollkin_v3:throwable,scores={trollkin_v3.riding_time=100..}] run kill @s
