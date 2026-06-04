@@ -14,6 +14,6 @@
 		]
 	],
 	"rewards": {
-		"function": "trollkin_v3:angry_gods/trigger"
+		"function": "trollkin_v3:angry_gods/trigger_star"
 	}
 }
