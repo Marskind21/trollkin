@@ -5,6 +5,7 @@
 - Intended Fetchr version is now Fetchr 5.3!
 - Slightly nerved the Nether Star recipe.
 - Added new item Martian Enderleaf Clover to the EnderMars21 category.
+- The Scraping Tool™ and the Interdimensional Teleporter can no longer "disappear" in the lobby.
 
 # Trollkin V3.3.1
 
