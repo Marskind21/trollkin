@@ -2,7 +2,7 @@
 
 # Trollkin V3
 
-This is a troll extension for [Fetchr 5.3 by NeunEinser](https://github.com/NeunEinser/bingo/releases/tag/5.3) (also compatible with [Fetchr 5.3.1](https://github.com/NeunEinser/bingo/releases/tag/5.3.1)) that adds some *interesting* items **and mechanics**.
+This is a troll extension for [Fetchr 5.3 by NeunEinser](https://github.com/NeunEinser/bingo/releases/tag/5.3) (also compatible until [Fetchr 5.3.2](https://github.com/NeunEinser/bingo/releases/tag/5.3.2) inclusive) that adds some *interesting* items **and mechanics**.
 
 For this pack to work properly, you'll also have to install my [Item Pool Switcher extension](https://github.com/Marskind21/pool_switcher/releases).
 
