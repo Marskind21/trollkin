@@ -1,3 +1,10 @@
+# Trollkin V3.5.0
+
+## Changelog:
+
+- Intended Fetchr version is now Fetchr 5.3.3
+- Re-designed lobby
+
 # Trollkin V3.4.0
 
 ## Changelog:

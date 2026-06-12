@@ -1,6 +1,7 @@
 {
 	"replace": false,
 	"values": [
-		"trollkin_v3:fetchr/other/item_pool_changed"
+		"trollkin_v3:fetchr/other/item_pool_changed",
+		"trollkin_v3:fetchr/place_indestructible_blocks"
 	]
 }
