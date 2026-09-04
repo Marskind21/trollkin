@@ -19,7 +19,7 @@
 		"ding": {
 			"trigger": "minecraft:recipe_crafted",
 			"conditions": {
-				"recipe_id": "trollkin_v3:ding"
+				"recipes": "trollkin_v3:ding"
 			}
 		}
 	}

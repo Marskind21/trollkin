@@ -16,7 +16,7 @@
 		"dragon_egg": {
 			"trigger": "minecraft:recipe_crafted",
 			"conditions": {
-				"recipe_id": "trollkin_v3:dragon_egg"
+				"recipes": "trollkin_v3:dragon_egg"
 			}
 		}
 	}

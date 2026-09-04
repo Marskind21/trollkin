@@ -16,26 +16,15 @@
 		"frame": "challenge"
 	},
 	"criteria": {
-		"wool": {
+		"rainbow": {
 			"trigger": "minecraft:recipe_crafted",
 			"conditions": {
-				"recipe_id": "trollkin_v3:rainbow_wool"
-			}
-		},
-		"dye": {
-			"trigger": "minecraft:recipe_crafted",
-			"conditions": {
-				"recipe_id": "trollkin_v3:rainbow_dye"
-			}
-		},
-		"glass" : {
-			"trigger": "minecraft:recipe_crafted",
-			"conditions": {
-				"recipe_id": "trollkin_v3:rainbow_glass_pane"
+				"recipes": [
+					"trollkin_v3:rainbow_wool",
+					"trollkin_v3:rainbow_dye",
+					"trollkin_v3:rainbow_glass_pane"
+				]
 			}
 		}
-	},
-	"requirements": [
-		["wool","dye","glass"]
-	]
+	}
 }

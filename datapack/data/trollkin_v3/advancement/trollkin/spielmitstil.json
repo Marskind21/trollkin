@@ -21,7 +21,7 @@
 		"spielmitstil": {
 			"trigger": "minecraft:recipe_crafted",
 			"conditions": {
-				"recipe_id": "trollkin_v3:spielmitstil"
+				"recipes": "trollkin_v3:spielmitstil"
 			}
 		}
 	}

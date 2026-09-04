@@ -19,23 +19,12 @@
 		"brian": {
 			"trigger": "minecraft:recipe_crafted",
 			"conditions": {
-				"recipe_id": "trollkin_v3:brian"
-			}
-		},
-		"brian2": {
-			"trigger": "minecraft:recipe_crafted",
-			"conditions": {
-				"recipe_id": "trollkin_v3:charged_brian"
-			}
-		},
-		"brian3": {
-			"trigger": "minecraft:recipe_crafted",
-			"conditions": {
-				"recipe_id": "trollkin_v3:super_charged_brian"
+				"recipes": [
+					"trollkin_v3:brian",
+					"trollkin_v3:charged_brian",
+					"trollkin_v3:super_charged_brian"
+				]
 			}
 		}
-	},
-	"requirements": [
-		["brian","brian2","brian3"]
-	]
+	}
 }

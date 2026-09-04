@@ -16,7 +16,7 @@
 		"blackstone": {
 			"trigger": "minecraft:recipe_crafted",
 			"conditions": {
-				"recipe_id": "trollkin_v3:blackstone"
+				"recipes": "trollkin_v3:blackstone"
 			}
 		}
 	}

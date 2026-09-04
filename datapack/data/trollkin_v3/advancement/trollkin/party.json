@@ -19,23 +19,13 @@
 		"disc": {
 			"trigger": "minecraft:recipe_crafted",
 			"conditions": {
-				"recipe_id": "trollkin_v3:music_disc"
-			}
-		},
-		"disc_slow": {
-			"trigger": "minecraft:recipe_crafted",
-			"conditions": {
-				"recipe_id": "trollkin_v3:music_disc_slow"
-			}
-		},
-		"disc_fast": {
-			"trigger": "minecraft:recipe_crafted",
-			"conditions": {
-				"recipe_id": "trollkin_v3:music_disc_fast"
+				"recipes": [
+					"trollkin_v3:music_disc",
+					"trollkin_v3:music_disc_slow",
+					"trollkin_v3:music_disc_fast",
+					"trollkin_v3:music_disc_all"
+				]
 			}
 		}
-	},
-	"requirements": [
-		["disc", "disc_slow", "disc_fast"]
-	]
+	}
 }

@@ -19,7 +19,7 @@
 		"hornet": {
 			"trigger": "minecraft:recipe_crafted",
 			"conditions": {
-				"recipe_id": "trollkin_v3:hornet"
+				"recipes": "trollkin_v3:hornet"
 			}
 		}
 	}

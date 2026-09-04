@@ -19,7 +19,7 @@
 		"brian": {
 			"trigger": "minecraft:recipe_crafted",
 			"conditions": {
-				"recipe_id": "trollkin_v3:super_charged_brian"
+				"recipes": "trollkin_v3:super_charged_brian"
 			}
 		}
 	}

@@ -16,17 +16,11 @@
 		"endstone": {
 			"trigger": "minecraft:recipe_crafted",
 			"conditions": {
-				"recipe_id": "trollkin_v3:end_stone"
-			}
-		},
-		"chorus_fruit": {
-			"trigger": "minecraft:recipe_crafted",
-			"conditions": {
-				"recipe_id": "trollkin_v3:chorus_fruit"
+				"recipes": [
+					"trollkin_v3:end_stone",
+					"trollkin_v3:chorus_fruit"
+				]
 			}
 		}
-	},
-	"requirements": [
-		["endstone","chorus_fruit"]
-	]
+	}
 }

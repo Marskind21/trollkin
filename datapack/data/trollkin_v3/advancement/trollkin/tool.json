@@ -19,7 +19,7 @@
 		"tool": {
 			"trigger": "minecraft:recipe_crafted",
 			"conditions": {
-				"recipe_id": "trollkin_v3:tool"
+				"recipes": "trollkin_v3:tool"
 			}
 		}
 	}

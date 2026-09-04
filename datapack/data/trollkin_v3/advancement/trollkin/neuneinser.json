@@ -19,7 +19,7 @@
 		"neuneinser": {
 			"trigger": "minecraft:recipe_crafted",
 			"conditions": {
-				"recipe_id": "trollkin_v3:neuneinser"
+				"recipes": "trollkin_v3:neuneinser"
 			}
 		}
 	}

@@ -4,7 +4,7 @@
 		"crafted_nether_star": {
 			"trigger": "minecraft:recipe_crafted",
 			"conditions": {
-				"recipe_id": "trollkin_v3:netherstar"
+				"recipes": "trollkin_v3:netherstar"
 			}
 		}
 	},

@@ -19,25 +19,25 @@
 		"log": {
 			"trigger": "minecraft:recipe_crafted",
 			"conditions": {
-				"recipe_id": "trollkin_v3:log_collection"
+				"recipes": "trollkin_v3:log_collection"
 			}
 		},
 		"plank": {
 			"trigger": "minecraft:recipe_crafted",
 			"conditions": {
-				"recipe_id": "trollkin_v3:plank_collection"
+				"recipes": "trollkin_v3:plank_collection"
 			}
 		},
 		"leaf": {
 			"trigger": "minecraft:recipe_crafted",
 			"conditions": {
-				"recipe_id": "trollkin_v3:leaf_collection"
+				"recipes": "trollkin_v3:leaf_collection"
 			}
 		},
 		"sapling": {
 			"trigger": "minecraft:recipe_crafted",
 			"conditions": {
-				"recipe_id": "trollkin_v3:sapling_collection"
+				"recipes": "trollkin_v3:sapling_collection"
 			}
 		}
 	}

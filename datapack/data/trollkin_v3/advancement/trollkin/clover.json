@@ -21,7 +21,7 @@
 		"clover": {
 			"trigger": "minecraft:recipe_crafted",
 			"conditions": {
-				"recipe_id": "trollkin_v3:no_leaf_clover"
+				"recipes": "trollkin_v3:no_leaf_clover"
 			}
 		}
 	}

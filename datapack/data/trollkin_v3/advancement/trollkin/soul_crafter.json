@@ -16,17 +16,11 @@
 		"sand": {
 			"trigger": "minecraft:recipe_crafted",
 			"conditions": {
-				"recipe_id": "trollkin_v3:soul_sand"
-			}
-		},
-		"soil": {
-			"trigger": "minecraft:recipe_crafted",
-			"conditions": {
-				"recipe_id": "trollkin_v3:soul_soil"
+				"recipes": [
+					"trollkin_v3:soul_sand",
+					"trollkin_v3:soul_soil"
+				]
 			}
 		}
-	},
-	"requirements": [
-		["sand", "soil"]
-	]
+	}
 }
