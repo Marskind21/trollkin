@@ -1,7 +1,6 @@
 {
 	"replace": false,
 	"values": [
-		"trollkin_v3:player_update",
-		"trollkin_v3:fetchr/place_indestructible_blocks"
+		"trollkin_v3:player_update"
 	]
 }
