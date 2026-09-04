@@ -23,4 +23,5 @@ scoreboard objectives add trollkin_v3.dev trigger
 scoreboard objectives add trollkin_v3.state dummy
 scoreboard players set pack_enabled trollkin_v3.state 0
 
-schedule function trollkin_v3:fetchr/place_indestructible_blocks 5s
+#disable structure override
+#schedule function trollkin_v3:fetchr/place_indestructible_blocks 5s

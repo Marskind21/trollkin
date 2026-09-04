@@ -1,12 +1,5 @@
 {
 	"replace": false,
 	"values": [
-		"minecraft:orange_stained_glass",
-		"minecraft:shroomlight",
-		"minecraft:stripped_acacia_log",
-		"minecraft:resin_bricks",
-		"minecraft:resin_brick_stairs",
-		"minecraft:resin_brick_slab",
-		"minecraft:pumpkin"
 	]
 }

@@ -1,3 +1,6 @@
+#disable structure override
+return fail
+
 $execute \
 	if score $chest_generation.height fetchr.tmp matches 5.. \
 	positioned ~-3 ~-3 ~-3 \

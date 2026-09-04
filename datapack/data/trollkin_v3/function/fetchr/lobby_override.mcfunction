@@ -1,3 +1,6 @@
+#disable structure override
+return fail
+
 data modify storage fetchr:registries structures[{id:"fetchr:credits"}].override_id set value "trollkin_v3:credits"
 data modify storage fetchr:registries structures[{id:"fetchr:credits"}].version set value 7
 

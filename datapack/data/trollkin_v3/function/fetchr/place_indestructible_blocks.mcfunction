@@ -1,3 +1,6 @@
+#disable structure override
+return fail
+
 execute \
 	if score $is_multiplayer fetchr.state matches 1 \
 	as @e[type=minecraft:marker, tag=trollkin_v3.multiplayer_door] \
