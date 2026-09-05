@@ -1,0 +1,27 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:quartz"
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:netherite_scrap",
+					"condition": {
+						"type": "minecraft:random_chance",
+						"chance": 0.2
+					}
+				}
+			]
+		}
+	],
+	"random_sequence": "trollkin_v3:scraping_tool/netherrack"
+}

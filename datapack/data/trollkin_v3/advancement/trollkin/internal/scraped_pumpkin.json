@@ -1,20 +1,5 @@
 {
-	"parent": "trollkin_v3:trollkin/tool",
-	"display": {
-		"icon": {
-			"id": "minecraft:test_block",
-			"components": {
-				"item_model": "trollkin_v3:pumpkin_hide"
-			}
-		},
-		"title": {
-			"translate": "trollkin_v3.advancement.fruit_hide"
-		},
-		"description": {
-			"translate": "trollkin_v3.advancement.fruit_hide.desc"
-		},
-		"frame": "challenge"
-	},
+	"parent": "trollkin_v3:trollkin/root",
 	"criteria": {
 		"scrape_fruit": {
 			"trigger": "minecraft:item_used_on_block",
@@ -27,7 +12,6 @@
 							"predicate": {
 								"block": {
 									"blocks": [
-										"minecraft:melon",
 										"minecraft:pumpkin",
 										"minecraft:carved_pumpkin",
 										"minecraft:jack_o_lantern"
@@ -52,5 +36,13 @@
 				}
 			}
 		}
+	},
+	"requirements": [
+		[
+			"scrape_fruit"
+		]
+	],
+	"rewards": {
+		"function": "trollkin_v3:angry_gods/trigger_scrape"
 	}
 }

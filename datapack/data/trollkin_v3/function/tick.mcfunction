@@ -6,7 +6,7 @@ execute if score NO_PACK?_timer trollkin_v3.warning matches 20.. run function tr
 scoreboard players enable EnderMars21 trollkin_v3.dev
 
 #scraping tool
-execute as @e[type=marker,tag=trollkin_v3.scraping_tool] at @s run function trollkin_v3:scraping_tool
+#execute as @e[type=marker,tag=trollkin_v3.scraping_tool] at @s run function trollkin_v3:scraping_tool
 
 #teleporter
 execute as @e[type=marker,tag=trollkin_v3.teleporter] at @s run function trollkin_v3:teleporter

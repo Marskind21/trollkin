@@ -1,0 +1,216 @@
+[
+	{
+		"block_state_provider": {
+			"type": "minecraft:rule_based",
+			"rules": [
+				{
+					"if_true": {
+						"type": "minecraft:matching_blocks",
+						"blocks": "minecraft:netherrack"
+					},
+					"then": {
+						"type": "minecraft:simple",
+						"state": {
+							"id": "minecraft:granite"
+						}
+					}
+				}
+			]
+		},
+		"sound": "minecraft:item.axe.scrape",
+		"particle": "wax_off",
+		"loot": "trollkin_v3:scraping_tool/netherrack",
+		"drop_strategy": "clicked_face",
+		"transform_type": "single_block",
+		"update_from_neighbors": true,
+		"item_damage_per_use": 2
+	},
+	{
+		"block_state_provider": {
+			"type": "minecraft:rule_based",
+			"rules": [
+				{
+					"if_true": {
+						"type": "minecraft:matching_blocks",
+						"blocks": "minecraft:granite"
+					},
+					"then": {
+						"type": "minecraft:simple",
+						"state": {
+							"id": "minecraft:diorite"
+						}
+					}
+				}
+			]
+		},
+		"sound": "minecraft:item.axe.scrape",
+		"particle": "wax_off",
+		"loot": "trollkin_v3:scraping_tool/granite",
+		"drop_strategy": "clicked_face",
+		"transform_type": "single_block",
+		"update_from_neighbors": true,
+		"item_damage_per_use": 4
+	},
+	{
+		"block_state_provider": {
+			"type": "minecraft:rule_based",
+			"rules": [
+				{
+					"if_true": {
+						"type": "minecraft:matching_blocks",
+						"blocks": "minecraft:diorite"
+					},
+					"then": {
+						"type": "minecraft:simple",
+						"state": {
+							"id": "minecraft:cobblestone"
+						}
+					}
+				}
+			]
+		},
+		"sound": "minecraft:item.axe.scrape",
+		"particle": "wax_off",
+		"loot": "trollkin_v3:scraping_tool/diorite",
+		"drop_strategy": "clicked_face",
+		"transform_type": "single_block",
+		"update_from_neighbors": true,
+		"item_damage_per_use": 4
+	},
+	{
+		"block_state_provider": {
+			"type": "minecraft:rule_based",
+			"rules": [
+				{
+					"if_true": {
+						"type": "minecraft:matching_blocks",
+						"blocks": "minecraft:sticky_piston"
+					},
+					"then": {
+						"type": "minecraft:copy_properties",
+						"source": {
+							"type": "minecraft:simple",
+							"state": "minecraft:piston"
+						}
+					}
+				}
+			]
+		},
+		"sound": "minecraft:item.axe.scrape",
+		"particle": "wax_off",
+		"loot": "trollkin_v3:scraping_tool/sticky_piston",
+		"drop_strategy": "clicked_face",
+		"transform_type": "single_block",
+		"update_from_neighbors": true,
+		"item_damage_per_use": 1
+	},
+	{
+		"block_state_provider": {
+			"type": "minecraft:rule_based",
+			"rules": [
+				{
+					"if_true": {
+						"type": "minecraft:matching_blocks",
+						"blocks": "#trollkin_v3:pumpkin"
+					},
+					"then": {
+						"type": "minecraft:simple",
+						"state": {
+							"id": "minecraft:air"
+						}
+					}
+				}
+			]
+		},
+		"sound": "minecraft:item.axe.scrape",
+		"particle": "wax_off",
+		"loot": "trollkin_v3:scraping_tool/pumpkin",
+		"drop_strategy": "from_middle",
+		"transform_type": "single_block",
+		"update_from_neighbors": true,
+		"item_damage_per_use": 1
+	},
+	{
+		"block_state_provider": {
+			"type": "minecraft:rule_based",
+			"rules": [
+				{
+					"if_true": {
+						"type": "minecraft:matching_blocks",
+						"blocks": "minecraft:melon"
+					},
+					"then": {
+						"type": "minecraft:simple",
+						"state": {
+							"id": "minecraft:air"
+						}
+					}
+				}
+			]
+		},
+		"sound": "minecraft:item.axe.scrape",
+		"particle": "wax_off",
+		"loot": "trollkin_v3:scraping_tool/melon",
+		"drop_strategy": "from_middle",
+		"transform_type": "single_block",
+		"update_from_neighbors": true,
+		"item_damage_per_use": 1
+	},
+	{
+		"block_state_provider": {
+			"type": "minecraft:rule_based",
+			"rules": [
+				{
+					"if_true": {
+						"type": "minecraft:matching_blocks",
+						"blocks": "minecraft:grass_block"
+					},
+					"then": {
+						"type": "minecraft:simple",
+						"state": {
+							"id": "minecraft:dirt"
+						}
+					}
+				}
+			]
+		},
+		"sound": "minecraft:item.axe.scrape",
+		"particle": "wax_off",
+		"loot": "trollkin_v3:scraping_tool/grass_block",
+		"drop_strategy": "clicked_face",
+		"transform_type": "single_block",
+		"disallowed_faces": [
+			"down",
+			"east",
+			"north",
+			"south",
+			"west"
+		],
+		"update_from_neighbors": true,
+		"item_damage_per_use": 1
+	},
+	{
+		"block_state_provider": {
+			"type": "minecraft:rule_based",
+			"rules": [
+				{
+					"if_true": {
+						"type": "minecraft:matching_blocks",
+						"blocks": "minecraft:obsidian"
+					},
+					"then": {
+						"type": "minecraft:simple",
+						"state": {
+							"id": "minecraft:crying_obsidian"
+						}
+					}
+				}
+			]
+		},
+		"sound": "minecraft:item.axe.scrape",
+		"particle": "wax_off",
+		"transform_type": "single_block",
+		"update_from_neighbors": true,
+		"item_damage_per_use": 16
+	}
+]

@@ -13,8 +13,38 @@
 		"frame": "challenge"
 	},
 	"criteria": {
-		"trollkin": {
-			"trigger": "minecraft:impossible"
+		"scrape_netherrack": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": {
+					"type": "minecraft:all_of",
+					"terms": [
+						{
+							"type": "minecraft:location_check",
+							"predicate": {
+								"block": {
+									"blocks": [
+										"minecraft:netherrack"
+									]
+								}
+							}
+						},
+						{
+							"type": "minecraft:match_tool",
+							"predicate": {
+								"items": [
+									"minecraft:netherite_axe"
+								],
+								"components": {
+									"custom_data": {
+										"item": "tool"
+									}
+								}
+							}
+						}
+					]
+				}
+			}
 		}
 	}
 }

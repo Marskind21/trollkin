@@ -1,5 +1,5 @@
 {
-	"parent": "trollkin_v3:trollkin/star",
+	"parent": "trollkin_v3:trollkin/root",
 	"display": {
 		"icon": {
 			"id": "minecraft:carved_pumpkin"

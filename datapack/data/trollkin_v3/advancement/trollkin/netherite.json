@@ -13,8 +13,17 @@
 		"frame": "challenge"
 	},
 	"criteria": {
-		"trollkin": {
-			"trigger": "minecraft:impossible"
+		"collect_netherite_scrap": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:netherite_scrap"
+						]
+					}
+				]
+			}
 		}
 	}
 }

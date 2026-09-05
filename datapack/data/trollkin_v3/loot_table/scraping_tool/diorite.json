@@ -1,0 +1,14 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:quartz"
+				}
+			]
+		}
+	],
+	"random_sequence": "trollkin_v3:scraping_tool/diorite"
+}
