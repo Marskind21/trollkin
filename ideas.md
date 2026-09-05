@@ -15,3 +15,5 @@
   - Potent Sulfur
   - Chiseled Sulfur
   - Sulfur Cube Bucket
+- New advancement "Party⁴"
+  - Obtain all Trollkin Music Discs.
