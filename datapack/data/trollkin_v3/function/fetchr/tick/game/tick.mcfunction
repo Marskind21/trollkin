@@ -48,6 +48,7 @@ execute as @e[type=#trollkin_v3:health/14] run function trollkin_v3:rescale/mob_
 execute as @e[type=#trollkin_v3:health/16] run function trollkin_v3:rescale/mob_16
 execute as @e[type=#trollkin_v3:health/20] run function trollkin_v3:rescale/mob_20
 execute as @e[type=#trollkin_v3:health/24] run function trollkin_v3:rescale/mob_24
+execute as @e[type=#trollkin_v3:health/25] run function trollkin_v3:rescale/mob_25
 execute as @e[type=#trollkin_v3:health/26] run function trollkin_v3:rescale/mob_26
 execute as @e[type=#trollkin_v3:health/30] run function trollkin_v3:rescale/mob_30
 execute as @e[type=#trollkin_v3:health/32] run function trollkin_v3:rescale/mob_32

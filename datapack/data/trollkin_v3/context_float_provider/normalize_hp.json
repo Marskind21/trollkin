@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:div",
+	"left": {
+		"type": "minecraft:storage",
+		"path": "health",
+		"storage": "trollkin_v3:rescale"
+	},
+	"right": {
+		"type": "minecraft:storage",
+		"path": "max_health",
+		"storage": "trollkin_v3:rescale"
+	}
+}
