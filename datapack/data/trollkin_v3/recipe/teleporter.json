@@ -11,7 +11,7 @@
 		"232"
 	],
 	"result": {
-		"id": "minecraft:recovery_compass",
+		"id": "minecraft:totem_of_undying",
 		"components": {
 			"minecraft:item_model": "trollkin_v3:teleporter",
             "minecraft:item_name": {
@@ -25,7 +25,8 @@
 			"minecraft:damage": 0,
 			"minecraft:max_stack_size": 1,
 			"minecraft:rarity": "epic",
-			"minecraft:break_sound": "minecraft:entity.ender_eye.death"
+			"minecraft:break_sound": "minecraft:entity.ender_eye.death",
+			"!minecraft:death_protection": {}
 		}
 	}
 }

@@ -21,7 +21,7 @@
 							"type": "minecraft:match_tool",
 							"predicate": {
 								"items": [
-									"minecraft:recovery_compass"
+									"minecraft:totem_of_undying"
 								],
 								"components": {
 									"custom_data": {
