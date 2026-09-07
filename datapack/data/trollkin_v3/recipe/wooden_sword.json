@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"key": {
+		"1": "#minecraft:planks",
+		"2": "minecraft:stick"
+	},
+	"pattern": [
+		"11",
+		"12",
+		" 2"
+	],
+	"result": "minecraft:wooden_sword",
+	"category": "equipment"
+}

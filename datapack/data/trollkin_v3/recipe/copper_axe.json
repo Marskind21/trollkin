@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"key": {
+		"1": "minecraft:copper_ingot",
+		"2": "minecraft:stick"
+	},
+	"pattern": [
+		"1",
+		"1",
+		"2"
+	],
+	"result": "minecraft:copper_axe",
+	"category": "equipment"
+}
