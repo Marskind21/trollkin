@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:sub",
+	"left": {
+		"type": "minecraft:div",
+		"left": {
+			"type": "minecraft:storage",
+			"path": "input",
+			"storage": "trollkin_v3:real_scale"
+		},
+		"right": {
+			"type": "minecraft:constant",
+			"value": 180.0
+		}
+	},
+	"right": {
+		"type": "minecraft:constant",
+		"value": 1.0
+	}
+}

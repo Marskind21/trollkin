@@ -229,7 +229,7 @@
 
 	"trollkin_v3.dialog.options": "Trollkin Options",
 	"trollkin_v3.dialog.real_scale": "Body Size Check",
-	"trollkin_v3.dialog.real_scale.desc": "Please enter your real body size in cm below.\nIf you don't want to use your real body size then just press \"%s\" without changing the text field.",
+	"trollkin_v3.dialog.real_scale.desc": "Please enter your real body size in cm below.\nIf you don't want to use your real body size then just press \"%s\" without changing the text field.\n\nYou can also adjust your size later by entering \"/trigger trollkin_v3.real_size set <size in cm>\" in the chat.",
 	"trollkin_v3.dialog.real_scale.input": "Size in cm",
 
 	"trollkin_v3.item_pool.trollkin_v3_default": "Default Trollkin V3 Item Pool",

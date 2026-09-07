@@ -14,6 +14,6 @@ execute on vehicle if entity @s[type=#trollkin_v3:throwable] run scoreboard play
 execute on vehicle if entity @s[type=breeze_wind_charge,tag=trollkin_v3.breeze_charger] run scoreboard players add @s trollkin_v3.riding_time 1
 
 #real scale
-scoreboard players enable @s trollkin_v3.real_scale
-execute if score @s trollkin_v3.real_scale matches 1.. run function trollkin_v3:real_scale/change_scale
-execute if score @s trollkin_v3.real_scale_persistent matches -2147483648..2147483647 run function trollkin_v3:real_scale/apply_scale
+scoreboard players enable @s trollkin_v3.real_size
+execute if score @s trollkin_v3.real_size matches 1.. run function trollkin_v3:real_scale/change_scale
+execute unless data entity @s attributes[{modifiers:[{id:"trollkin_v3:real_scale"}]}] run function trollkin_v3:real_scale/apply_scale

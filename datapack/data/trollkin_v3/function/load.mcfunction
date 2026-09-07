@@ -11,8 +11,8 @@ scoreboard players set NO_PACK? trollkin_v3.warning 0
 
 scoreboard objectives add trollkin_v3.riding_time dummy
 
-scoreboard objectives add trollkin_v3.real_scale trigger
-scoreboard objectives add trollkin_v3.real_scale_persistent dummy
+scoreboard objectives add trollkin_v3.real_size trigger
+execute unless data storage trollkin_v3:real_scale scalefactor_list run data modify storage trollkin_v3:real_scale scalefactor_list set value []
 
 scoreboard objectives add trollkin_v3.const dummy
 scoreboard players set $1000000 trollkin_v3.const 1000000
@@ -22,6 +22,7 @@ scoreboard objectives add trollkin_v3.dev trigger
 
 scoreboard objectives add trollkin_v3.state dummy
 scoreboard players set pack_enabled trollkin_v3.state 0
+function trollkin_v3:fetchr/other/item_pool_changed
 
 #disable structure override
 #schedule function trollkin_v3:fetchr/place_indestructible_blocks 5s
