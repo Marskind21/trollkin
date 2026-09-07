@@ -1,0 +1,33 @@
+[
+	{
+		"block_state_provider": {
+			"type": "minecraft:rule_based",
+			"rules": [
+				{
+					"if_true": {
+						"type": "minecraft:matching_blocks",
+						"blocks": [
+							"minecraft:soul_sand",
+							"minecraft:end_stone",
+							"minecraft:netherrack",
+							"minecraft:magma_block",
+							"minecraft:nether_bricks",
+							"minecraft:chiseled_tuff",
+							"minecraft:purpur_block"
+						]
+					},
+					"then": {
+						"type": "minecraft:simple",
+						"state": {
+							"id": "minecraft:crying_obsidian"
+						}
+					}
+				}
+			]
+		},
+		"sound": "minecraft:entity.enderman.teleport",
+		"transform_type": "single_block",
+		"update_from_neighbors": true,
+		"item_damage_per_use": 1
+	}
+]

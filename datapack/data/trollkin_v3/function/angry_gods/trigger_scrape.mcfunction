@@ -1,5 +1,5 @@
 advancement revoke @s only trollkin_v3:trollkin/internal/scraped_pumpkin
-clear @s minecraft:netherite_axe[minecraft:custom_data={"item":"tool"}]
+clear @s minecraft:recovery_compass[minecraft:custom_data={"item":"tool"}]
 tellraw @s {translate:"trollkin_v3.message.gods.angered",color:"red"}
 tellraw @a[distance=0.001..] {translate:"trollkin_v3.message.gods.angered.broadcast",color:"red",with:[{selector:"@s"}]}
 tellraw @s {translate:"trollkin_v3.message.gods.punishment1.scrape.1",color:"red"}

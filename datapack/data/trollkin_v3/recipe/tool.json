@@ -10,7 +10,7 @@
 		" 12"
 	],
 	"result": {
-		"id": "minecraft:netherite_axe",
+		"id": "minecraft:recovery_compass",
 		"count": 1,
 		"components": {
 			"minecraft:item_model": "trollkin_v3:tool",
@@ -24,14 +24,7 @@
 			"minecraft:max_damage": 128,
 			"minecraft:damage": 0,
 			"minecraft:max_stack_size": 1,
-			"!minecraft:attribute_modifiers": {},
-			"!minecraft:damage_resistant": {},
-			"!minecraft:damage_type": {},
-			"!minecraft:enchantable": {},
-			"!minecraft:repair_cost": {},
-			"!minecraft:repairable": {},
-			"!minecraft:tool": {},
-			"!minecraft:weapon": {}
+			"minecraft:rarity": "common"
 		}	
 	},
 	"category": "equipment"

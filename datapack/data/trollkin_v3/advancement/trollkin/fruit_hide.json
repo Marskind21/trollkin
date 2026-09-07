@@ -39,7 +39,7 @@
 							"type": "minecraft:match_tool",
 							"predicate": {
 								"items": [
-									"minecraft:netherite_axe"
+									"minecraft:recovery_compass"
 								],
 								"components": {
 									"custom_data": {
