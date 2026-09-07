@@ -68,3 +68,7 @@ recipe take @s trollkin_v3:tool
 recipe take @s trollkin_v3:wheel
 recipe take @s trollkin_v3:wither_skeleton_skull
 recipe take @s trollkin_v3:yeeter
+
+#vanilla "override"
+recipe take @s trollkin_v3:recovery_compass
+recipe give @s minecraft:recovery_compass
