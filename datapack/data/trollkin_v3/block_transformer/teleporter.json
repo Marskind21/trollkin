@@ -7,7 +7,7 @@
 					"if_true": {
 						"type": "minecraft:matching_blocks",
 						"blocks": [
-							"minecraft:soul_sand",
+							"minecraft:soul_soil",
 							"minecraft:end_stone",
 							"minecraft:netherrack",
 							"minecraft:magma_block",
