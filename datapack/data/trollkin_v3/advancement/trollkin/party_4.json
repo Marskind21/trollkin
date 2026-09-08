@@ -1,0 +1,52 @@
+{
+	"parent": "trollkin_v3:trollkin/party",
+	"display": {
+		"icon": {
+			"id": "minecraft:test_block",
+			"components": {
+				"item_model": "trollkin_v3:music_disc_all"
+			}
+		},
+		"title": {
+			"translate": "trollkin_v3.advancement.party_4"
+		},
+		"description": {
+			"translate": "trollkin_v3.advancement.party_4.desc"
+		},
+		"frame": "challenge"
+	},
+	"criteria": {
+		"disc": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipes": [
+					"trollkin_v3:music_disc"
+				]
+			}
+		},
+		"disc_fast": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipes": [
+					"trollkin_v3:music_disc_fast"
+				]
+			}
+		},
+		"disc_slow": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipes": [
+					"trollkin_v3:music_disc_slow"
+				]
+			}
+		},
+		"disc_all": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipes": [
+					"trollkin_v3:music_disc_all"
+				]
+			}
+		}
+	}
+}
