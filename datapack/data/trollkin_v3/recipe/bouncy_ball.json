@@ -1,6 +1,5 @@
 {
     "type": "minecraft:crafting_shapeless",
-    "group": "mego",
     "ingredients": [
         "minecraft:slime_ball",
         "minecraft:red_dye"

@@ -1,6 +1,5 @@
 {
     "type": "minecraft:crafting_shaped",
-    "group": "mego",
     "key": {
         "#": "minecraft:field_masoned_banner_pattern",
         "1": "minecraft:stone_bricks",

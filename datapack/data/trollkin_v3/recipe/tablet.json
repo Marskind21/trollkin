@@ -1,6 +1,5 @@
 {
     "type": "minecraft:crafting_shaped",
-    "group": "pixel",
     "key": {
         "#": "minecraft:glass_pane",
         "+": "minecraft:iron_ingot",

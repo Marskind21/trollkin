@@ -1,6 +1,5 @@
 {
     "type": "minecraft:crafting_shaped",
-    "group": "mego",
     "key": {
         "#": "minecraft:paper",
         "+": "minecraft:yellow_dye",
