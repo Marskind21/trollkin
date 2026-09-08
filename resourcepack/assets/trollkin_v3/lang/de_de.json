@@ -146,6 +146,7 @@
 	"trollkin_v3.category.player_armor": "Spielerrüstung",
 	"trollkin_v3.category.trollkin": "Trollkin",
 	"trollkin_v3.category.sulfur": "Schwefel",
+	"trollkin_v3.category.ancient_seeds": "Antike Samen",
 	"trollkin_v3.category.": "",
 
 	"trollkin_v3.advancement.root": "Trollkin V3",
@@ -228,6 +229,8 @@
 	"trollkin_v3.advancement.ding_a_ding.desc": "Stelle ein Ding! her. :noleaf1LetsGo:",
 	"trollkin_v3.advancement.gods": "Spiel nicht mit den Göttern!",
 	"trollkin_v3.advancement.gods.desc": "Fühle den Zorn der drei Trollkin-Götter.",
+	"trollkin_v3.advancement.sniffer": "Ich bin ein Schnüffler!",
+	"trollkin_v3.advancement.sniffer.desc": "Nutze ein Abkratz-Werkzeug™ auf etwas Gras, um nach antiken Samen zu suchen.",
 
 	"trollkin_v3.advancement.": "",
 	"trollkin_v3.advancement..desc": "",

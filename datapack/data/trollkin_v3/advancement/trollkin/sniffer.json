@@ -1,0 +1,50 @@
+{
+	"parent": "trollkin_v3:trollkin/tool",
+	"display": {
+		"icon": {
+			"id": "minecraft:sniffer_spawn_egg"
+		},
+		"title": {
+			"translate": "trollkin_v3.advancement.sniffer"
+		},
+		"description": {
+			"translate": "trollkin_v3.advancement.sniffer.desc"
+		},
+		"frame": "challenge"
+	},
+	"criteria": {
+		"scrape_netherrack": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": {
+					"type": "minecraft:all_of",
+					"terms": [
+						{
+							"type": "minecraft:location_check",
+							"predicate": {
+								"block": {
+									"blocks": [
+										"minecraft:grass_block"
+									]
+								}
+							}
+						},
+						{
+							"type": "minecraft:match_tool",
+							"predicate": {
+								"items": [
+									"minecraft:recovery_compass"
+								],
+								"components": {
+									"custom_data": {
+										"item": "tool"
+									}
+								}
+							}
+						}
+					]
+				}
+			}
+		}
+	}
+}

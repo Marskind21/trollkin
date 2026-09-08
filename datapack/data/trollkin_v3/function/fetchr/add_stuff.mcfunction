@@ -48,6 +48,7 @@ data modify storage fetchr:registries categories append value {id:"trollkin_v3:m
 data modify storage fetchr:registries categories append value {id:"trollkin_v3:player_armor",name:{translate:"trollkin_v3.category.player_armor"},tags:["trollkin_v3:default"]}
 data modify storage fetchr:registries categories append value {id:"trollkin_v3:trollkin",name:{translate:"trollkin_v3.category.trollkin"},tags:["trollkin_v3:default"]}
 data modify storage fetchr:registries categories append value {id:"trollkin_v3:sulfur",name:{translate:"trollkin_v3.category.sulfur"},tags:["trollkin_v3:default"]}
+data modify storage fetchr:registries categories append value {id:"trollkin_v3:ancient_seeds",name:{translate:"trollkin_v3.category.ancient_seeds"},tags:["trollkin_v3:default"]}
 
 #2d-items
 #0001
@@ -247,6 +248,14 @@ data modify storage fetchr:registries items append value {id:"trollkin_v3:enderl
 data modify storage fetchr:registries items append value {id:"trollkin_v3:sulfur_spike",item:{id:"minecraft:sulfur_spike"},translation:"block.minecraft.sulfur_spike",icon:"0062",categories:["trollkin_v3:sulfur"],weight:2,icon_font:{actionbar:["trollkin_v3:line1","trollkin_v3:line2","trollkin_v3:line3","trollkin_v3:line4","trollkin_v3:line5"]}}
 #0063
 data modify storage fetchr:registries items append value {id:"trollkin_v3:sulfur_cube_bucket",item:{id:"minecraft:sulfur_cube_bucket"},translation:"item.minecraft.sulfur_cube_bucket",icon:"0063",categories:["trollkin_v3:sulfur"],weight:10,icon_font:{actionbar:["trollkin_v3:line1","trollkin_v3:line2","trollkin_v3:line3","trollkin_v3:line4","trollkin_v3:line5"]}}
+#0064
+data modify storage fetchr:registries items append value {id:"trollkin_v3:torchflower_seeds",item:{id:"minecraft:torchflower_seeds"},translation:"item.minecraft.torchflower_seeds",icon:"0064",categories:["trollkin_v3:ancient_seeds"],weight:1,icon_font:{actionbar:["trollkin_v3:line1","trollkin_v3:line2","trollkin_v3:line3","trollkin_v3:line4","trollkin_v3:line5"]}}
+#0065
+data modify storage fetchr:registries items append value {id:"trollkin_v3:torchflower",item:{id:"minecraft:torchflower"},translation:"block.minecraft.torchflower",icon:"0065",categories:["trollkin_v3:ancient_seeds"],weight:4,icon_font:{actionbar:["trollkin_v3:line1","trollkin_v3:line2","trollkin_v3:line3","trollkin_v3:line4","trollkin_v3:line5"]}}
+#0066
+data modify storage fetchr:registries items append value {id:"trollkin_v3:pitcher_pod",item:{id:"minecraft:pitcher_pod"},translation:"item.minecraft.pitcher_pod",icon:"0066",categories:["trollkin_v3:ancient_seeds"],weight:1,icon_font:{actionbar:["trollkin_v3:line1","trollkin_v3:line2","trollkin_v3:line3","trollkin_v3:line4","trollkin_v3:line5"]}}
+#0067
+data modify storage fetchr:registries items append value {id:"trollkin_v3:pitcher_plant",item:{id:"minecraft:pitcher_plant"},translation:"item.minecraft.pitcher_plant",icon:"0067",categories:["trollkin_v3:ancient_seeds"],weight:4,icon_font:{actionbar:["trollkin_v3:line1","trollkin_v3:line2","trollkin_v3:line3","trollkin_v3:line4","trollkin_v3:line5"]}}
 
 #3d-items
 #0100

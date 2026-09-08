@@ -146,6 +146,7 @@
 	"trollkin_v3.category.player_armor": "Player Armor",
 	"trollkin_v3.category.trollkin": "Trollkin",
 	"trollkin_v3.category.sulfur": "Sulfur",
+	"trollkin_v3.category.ancient_seeds": "Ancient Seeds",
 	"trollkin_v3.category.": "",
 
 	"trollkin_v3.advancement.root": "Trollkin V3",
@@ -228,6 +229,8 @@
 	"trollkin_v3.advancement.ding_a_ding.desc": "Craft a Ding!. :noleaf1LetsGo:",
 	"trollkin_v3.advancement.gods": "Don't mess with the gods!",
 	"trollkin_v3.advancement.gods.desc": "Feel the anger of the three Trollkin gods.",
+	"trollkin_v3.advancement.sniffer": "I am a Sniffer!",
+	"trollkin_v3.advancement.sniffer.desc": "Use the Scraping Tool™ on some grass to look for ancient seeds.",
 
 	"trollkin_v3.advancement.": "",
 	"trollkin_v3.advancement..desc": "",
