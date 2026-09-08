@@ -72,32 +72,3 @@ recipe give @s trollkin_v3:pride_flag
 recipe give @s trollkin_v3:sulfur
 recipe give @s trollkin_v3:sulfur_spike
 recipe give @s trollkin_v3:sulfur_cube_bucket
-
-#vanilla "override"
-recipe give @s trollkin_v3:recovery_compass
-recipe give @s trollkin_v3:wooden_axe
-recipe give @s trollkin_v3:wooden_sword
-recipe give @s trollkin_v3:stone_axe
-recipe give @s trollkin_v3:stone_sword
-recipe give @s trollkin_v3:copper_axe
-recipe give @s trollkin_v3:copper_sword
-recipe give @s trollkin_v3:iron_axe
-recipe give @s trollkin_v3:iron_sword
-recipe give @s trollkin_v3:golden_axe
-recipe give @s trollkin_v3:golden_sword
-recipe give @s trollkin_v3:diamond_axe
-recipe give @s trollkin_v3:diamond_sword
-
-recipe take @s minecraft:recovery_compass
-recipe take @s minecraft:wooden_axe
-recipe take @s minecraft:wooden_sword
-recipe take @s minecraft:stone_axe
-recipe take @s minecraft:stone_sword
-recipe take @s minecraft:copper_axe
-recipe take @s minecraft:copper_sword
-recipe take @s minecraft:iron_axe
-recipe take @s minecraft:iron_sword
-recipe take @s minecraft:golden_axe
-recipe take @s minecraft:golden_sword
-recipe take @s minecraft:diamond_axe
-recipe take @s minecraft:diamond_sword
