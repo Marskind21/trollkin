@@ -69,6 +69,9 @@ recipe give @s trollkin_v3:wheel
 recipe give @s trollkin_v3:wither_skeleton_skull
 recipe give @s trollkin_v3:yeeter
 recipe give @s trollkin_v3:pride_flag
+recipe give @s trollkin_v3:sulfur
+recipe give @s trollkin_v3:sulfur_spike
+recipe give @s trollkin_v3:sulfur_cube_bucket
 
 #vanilla "override"
 recipe give @s trollkin_v3:recovery_compass

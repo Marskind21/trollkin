@@ -1,0 +1,15 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"key": {
+		"1": "minecraft:potent_sulfur",
+		"2": "minecraft:slime_block",
+		"3": "minecraft:bucket"
+	},
+	"pattern": [
+		"1",
+		"2",
+		"3"
+	],
+	"result": "minecraft:sulfur_cube_bucket",
+	"category": "misc"
+}
