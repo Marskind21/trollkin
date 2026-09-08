@@ -1,3 +1,44 @@
+# Trollkin V3.6.0
+
+## Changelog:
+
+### Compatibility
+- Fetchr 5.4 Beta 3
+- Minecraft Java 26.3 Pre-Release 2
+
+### Features
+- Tools and armor can no longer be combinded inside the crafting grid, because the recipe responsible for that causes issues with some of the custom items. *This is also effective when no Trollkin item pool is selected and this datapack is enabled.*
+  - You can still combine tools and armor inside a grindstone with no issues. :D
+- The Scraping Tool™ now has 128 durability and is easier to use.
+- The Interdimensional Teleport now has 16 durability and is easier to use.
+  - The mobs now spawn relative to the player instead of relative to the top of the block.
+- Some features that were locked behind developer input will now trigger themselfes.
+- The recipes for axes and swords have been swapped. *This is also effective when no Trollkin item pool is selected and this datapack is enabled.* (Thanks NeunEinser for that great feature suggestion! ❤️)
+- Disabled the "Trollkin Lobby". (May return once it is easier to modify the Fetchr lobby structures.)
+- Everything else I forgot to write down, lol.
+
+### Advancements
+- The advancement "Harder than Steel" is now triggered by collecting Netherrite Scrap instead of the prozess of scraping dropping it.
+- The advancement "Tastes like Rainbow" has been replaced by a new advancement "Happy Pride!".
+- The advancement "Decapitation" has been removed, because it is no longer possible to scrape of a piston head from a piston.
+- Added new "I am a Sniffer" advancement for using the Scraping Tool™ on a grass block.
+
+### Categories
+- Additions to the "Rainbow" category:
+  - Pride Flag (+ recipe) (Suggested by NeunEinser. 🏳️‍🌈)
+- Added new "Sulfur" category:
+  - Sulfur Powder (Gunpowder is now called Sulfur Powder)
+  - Sulfur Spike (+ recipe)
+  - Sulfur (+ alternative recipe)
+  - Potent Sulfur
+  - Chiseled Sulfur
+  - Sulfur Cube Bucket (+ recipe)
+- Added new "Ancient Seeds" category:
+  - Torchflower Seeds
+  - Torchflower
+  - Pitcher Pod
+  - Pitcher Plant
+
 # Trollkin V3.5.0
 
 ## Changelog:
