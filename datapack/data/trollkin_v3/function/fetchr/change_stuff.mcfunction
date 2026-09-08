@@ -23,3 +23,4 @@ data modify storage fetchr:registries items[{id:"fetchr:nether_brick"}].categori
 #gunpowder -> sulfur powder
 data modify storage fetchr:registries items[{id:"fetchr:gunpowder"}].icon set value "0061"
 data modify storage fetchr:registries items[{id:"fetchr:gunpowder"}].icon_font set value {actionbar:["trollkin_v3:line1","trollkin_v3:line2","trollkin_v3:line3","trollkin_v3:line4","trollkin_v3:line5"]}
+data modify storage fetchr:registries items[{id:"fetchr:gunpowder"}].categories append value {id:"trollkin_v3:sulfur",weight:1}

@@ -47,6 +47,7 @@ data modify storage fetchr:registries categories append value {id:"trollkin_v3:g
 data modify storage fetchr:registries categories append value {id:"trollkin_v3:mob_discs",name:{translate:"trollkin_v3.category.mob_discs"},tags:["trollkin_v3:default"]}
 data modify storage fetchr:registries categories append value {id:"trollkin_v3:player_armor",name:{translate:"trollkin_v3.category.player_armor"},tags:["trollkin_v3:default"]}
 data modify storage fetchr:registries categories append value {id:"trollkin_v3:trollkin",name:{translate:"trollkin_v3.category.trollkin"},tags:["trollkin_v3:default"]}
+data modify storage fetchr:registries categories append value {id:"trollkin_v3:sulfur",name:{translate:"trollkin_v3.category.sulfur"},tags:["trollkin_v3:default"]}
 
 #2d-items
 #0001
@@ -241,7 +242,11 @@ data modify storage fetchr:registries items append value {id:"trollkin_v3:music_
 data modify storage fetchr:registries items append value {id:"trollkin_v3:ding",item:{id:"minecraft:ender_eye",components:{"minecraft:item_model":"trollkin_v3:ding"}},item_tests:[{type:"fetchr:predicate",id:"minecraft:custom_data",predicate:{item:"ding"}}],translation:"trollkin_v3.item.ding",icon:"005f",categories:["trollkin_v3:random"],weight:1,icon_font:{actionbar:["trollkin_v3:line1","trollkin_v3:line2","trollkin_v3:line3","trollkin_v3:line4","trollkin_v3:line5"]}}
 #0060
 data modify storage fetchr:registries items append value {id:"trollkin_v3:enderleaf_clover",item:{id:"minecraft:ender_eye",components:{"minecraft:item_model":"trollkin_v3:enderleaf_clover"}},item_tests:[{type:"fetchr:predicate",id:"minecraft:custom_data",predicate:{item:"enderleaf_clover"}}],translation:"trollkin_v3.item.enderleaf_clover",icon:"0060",categories:["trollkin_v3:endermars21"],weight:1,icon_font:{actionbar:["trollkin_v3:line1","trollkin_v3:line2","trollkin_v3:line3","trollkin_v3:line4","trollkin_v3:line5"]}}
-# 0061 !
+#0061 !
+#0062
+data modify storage fetchr:registries items append value {id:"trollkin_v3:sulfur_spike",item:{id:"minecraft:sulfur_spike"},translation:"block.minecraft.sulfur_spike",icon:"0062",categories:["trollkin_v3:sulfur"],weight:2,icon_font:{actionbar:["trollkin_v3:line1","trollkin_v3:line2","trollkin_v3:line3","trollkin_v3:line4","trollkin_v3:line5"]}}
+#0063
+data modify storage fetchr:registries items append value {id:"trollkin_v3:sulfur_cube_bucket",item:{id:"minecraft:sulfur_cube_bucket"},translation:"item.minecraft.sulfur_cube_bucket",icon:"0063",categories:["trollkin_v3:sulfur"],weight:10,icon_font:{actionbar:["trollkin_v3:line1","trollkin_v3:line2","trollkin_v3:line3","trollkin_v3:line4","trollkin_v3:line5"]}}
 
 #3d-items
 #0100
@@ -366,3 +371,11 @@ data modify storage fetchr:registries items append value {id:"trollkin_v3:carved
 #data modify storage fetchr:registries items append value {id:"trollkin_v3:jack_o_lantern",item:{id:"minecraft:jack_o_lantern"},translation:"block.minecraft.deepslate_diamond_ore",icon:"013b",categories:["trollkin_v3:trollkin"],weight:1,icon_font:{actionbar:["trollkin_v3:line1","trollkin_v3:line2","trollkin_v3:line3","trollkin_v3:line4","trollkin_v3:line5"]}}
 #013c
 data modify storage fetchr:registries items append value {id:"trollkin_v3:dragon_egg",item:{id:"minecraft:dragon_egg"},translation:"block.minecraft.dragon_egg",icon:"013c",categories:["trollkin_v3:end"],weight:2,icon_font:{actionbar:["trollkin_v3:line1","trollkin_v3:line2","trollkin_v3:line3","trollkin_v3:line4","trollkin_v3:line5"]}}
+#013d
+data modify storage fetchr:registries items append value {id:"trollkin_v3:pride_flag",item:{id:"minecraft:netherite_spear",components:{"minecraft:item_model":"trollkin_v3:pride_flag"}},item_tests:[{type:"fetchr:predicate",id:"minecraft:custom_data",predicate:{item:"pride_flag"}}],translation:"trollkin_v3.item.pride_flag",icon:"013d",categories:["trollkin_v3:rainbow"],weight:6,icon_font:{actionbar:["trollkin_v3:line1","trollkin_v3:line2","trollkin_v3:line3","trollkin_v3:line4","trollkin_v3:line5"]}}
+#013e
+data modify storage fetchr:registries items append value {id:"trollkin_v3:sulfur",item:{id:"minecraft:sulfur"},translation:"block.minecraft.sulfur",icon:"013e",categories:["trollkin_v3:sulfur"],weight:4,icon_font:{actionbar:["trollkin_v3:line1","trollkin_v3:line2","trollkin_v3:line3","trollkin_v3:line4","trollkin_v3:line5"]}}
+#013f
+data modify storage fetchr:registries items append value {id:"trollkin_v3:potent_sulfur",item:{id:"minecraft:potent_sulfur"},translation:"block.minecraft.potent_sulfur",icon:"013f",categories:["trollkin_v3:sulfur"],weight:9,icon_font:{actionbar:["trollkin_v3:line1","trollkin_v3:line2","trollkin_v3:line3","trollkin_v3:line4","trollkin_v3:line5"]}}
+#0140
+data modify storage fetchr:registries items append value {id:"trollkin_v3:chiseled_sulfur",item:{id:"minecraft:chiseled_sulfur"},translation:"block.minecraft.chiseled_sulfur",icon:"0140",categories:["trollkin_v3:sulfur"],weight:4,icon_font:{actionbar:["trollkin_v3:line1","trollkin_v3:line2","trollkin_v3:line3","trollkin_v3:line4","trollkin_v3:line5"]}}
