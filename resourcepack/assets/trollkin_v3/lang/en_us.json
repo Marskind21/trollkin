@@ -93,6 +93,8 @@
 
 	"trollkin_v3.item.ding": "Ding!",
 
+	"trollkin_v3.item.pride_flag": "§cP§6r§ei§ad§9e §dF§cl§6a§eg",
+
 	"trollkin_v3.item.": "",
 
 	"trollkin_v3.category.endermars21": "§4EnderMars21",
@@ -183,8 +185,8 @@
 	"trollkin_v3.advancement.super_charged_brian.desc": "Craft a super charged Brian.",
 	"trollkin_v3.advancement.clover": "A Clover without Leaves",
 	"trollkin_v3.advancement.clover.desc": "Obtain no_leaf_clover.",
-	"trollkin_v3.advancement.rainbow": "Tastes like Rainbow",
-	"trollkin_v3.advancement.rainbow.desc": "Obtain a rainbow item.",
+	"trollkin_v3.advancement.pride": "Happy Pride!",
+	"trollkin_v3.advancement.pride.desc": "Craft a Pride Flag.",
 	"trollkin_v3.advancement.star": "Not quite a Wither",
 	"trollkin_v3.advancement.star.desc": "Craft a Nether Star.",
 	"trollkin_v3.advancement.spielmitstil": "Big Map + Small Puzzles = Awesome Map.",

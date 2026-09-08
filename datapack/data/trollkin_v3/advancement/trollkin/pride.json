@@ -2,16 +2,16 @@
 	"parent": "trollkin_v3:trollkin/root",
 	"display": {
 		"icon": {
-			"id": "minecraft:test_block",
+			"id": "minecraft:netherite_spear",
 			"components": {
-				"item_model": "trollkin_v3:rainbow_wool"
+				"item_model": "trollkin_v3:pride_flag"
 			}
 		},
 		"title": {
-			"translate": "trollkin_v3.advancement.rainbow"
+			"translate": "trollkin_v3.advancement.pride"
 		},
 		"description": {
-			"translate": "trollkin_v3.advancement.rainbow.desc"
+			"translate": "trollkin_v3.advancement.pride.desc"
 		},
 		"frame": "challenge"
 	},
@@ -20,9 +20,7 @@
 			"trigger": "minecraft:recipe_crafted",
 			"conditions": {
 				"recipes": [
-					"trollkin_v3:rainbow_wool",
-					"trollkin_v3:rainbow_dye",
-					"trollkin_v3:rainbow_glass_pane"
+					"trollkin_v3:pride_flag"
 				]
 			}
 		}

@@ -1,0 +1,89 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"key": {
+		"1": "minecraft:red_wool_slab",
+		"2": "minecraft:orange_wool_slab",
+		"3": "minecraft:yellow_wool_slab",
+		"4": "minecraft:green_wool_slab",
+		"5": "minecraft:blue_wool_slab",
+		"6": "minecraft:purple_wool_slab",
+		"7": "minecraft:copper_spear"
+	},
+	"pattern": [
+		"123",
+		"456",
+		"7  "
+	],
+	"result": {
+		"id": "minecraft:netherite_spear",
+		"components": {
+			"minecraft:item_name": {
+				"translate": "trollkin_v3.item.pride_flag"
+			},
+			"minecraft:item_model": "trollkin_v3:pride_flag",
+			"minecraft:attribute_modifiers": [
+				{
+					"id": "minecraft:base_attack_damage",
+					"type": "minecraft:attack_damage",
+					"slot": "mainhand",
+					"amount": 9.0,
+					"operation": "add_value"
+				},
+				{
+					"id": "minecraft:base_attack_speed",
+					"type": "minecraft:attack_speed",
+					"slot": "mainhand",
+					"amount": -2.0,
+					"operation": "add_value"
+				}
+			],
+			"minecraft:weapon": {},
+			"minecraft:damage_type": "minecraft:spear",
+			"minecraft:minimum_attack_charge": 1.0,
+			"minecraft:kinetic_weapon": {
+				"damage_conditions": {
+					"max_duration_ticks": 450,
+					"min_speed": 4.0
+				},
+				"knockback_conditions": {
+					"max_duration_ticks": 300,
+					"min_speed": 5.0
+				},
+				"dismount_conditions": {
+					"max_duration_ticks": 150,
+					"min_speed": 7.0
+				},
+				"damage_multiplier": 1.0,
+				"delay_ticks": 13,
+				"forward_movement": 0,
+				"sound": "minecraft:item.spear.use",
+				"hit_sound": "minecraft:item.spear.hit"
+			},
+			"minecraft:piercing_weapon": {
+				"hit_sound": "minecraft:item.spear.hit",
+				"sound": "minecraft:item.spear.attack"
+			},
+			"minecraft:attack_range": {
+				"hitbox_margin": 0.2,
+				"max_creative_reach": 7,
+				"max_reach": 7,
+				"min_creative_reach": 0.0,
+				"min_reach": 0.0,
+				"mob_factor": 0.5
+			},
+			"minecraft:use_effects": {
+				"can_sprint": true,
+				"interact_vibrations": false,
+				"speed_multiplier": 1.0
+			},
+			"minecraft:attack_animation": {
+				"type": "stab",
+				"duration": 10
+			},
+			"minecraft:custom_data": {
+				"item": "pride_flag"
+			}
+		}
+	},
+	"category": "equipment"
+}

@@ -1,0 +1,7 @@
+{
+	"model": {
+		"type": "minecraft:model",
+		"model": "trollkin_v3:item/pride_flag"
+	},
+	"oversized_in_gui": true
+}
