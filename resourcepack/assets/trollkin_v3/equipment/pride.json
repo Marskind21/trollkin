@@ -1,0 +1,19 @@
+{
+	"layers": {
+		"humanoid": [
+			{
+				"texture": "trollkin_v3:pride"
+			}
+		],
+		"humanoid_baby": [
+			{
+				"texture": "trollkin_v3:pride"
+			}
+		],
+		"humanoid_leggings": [
+			{
+				"texture": "trollkin_v3:pride"
+			}
+		]
+	}
+}

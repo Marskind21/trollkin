@@ -1,0 +1,47 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"key": {
+		"1": "minecraft:green_wool",
+		"2": "minecraft:blue_wool"
+	},
+	"pattern": [
+		"111",
+		"1 2",
+		"2 2"
+	],
+	"result": {
+		"id": "minecraft:netherite_leggings",
+		"components": {
+			"minecraft:item_model": "trollkin_v3:pride_leggings",
+            "minecraft:item_name": {
+                "translate": "trollkin_v3.item.pride_leggings"
+            },
+            "minecraft:custom_data": {
+                "item": "pride_leggings"
+            },
+			"minecraft:equippable": {
+				"slot": "legs",
+				"asset_id": "trollkin_v3:pride"
+			},
+			"minecraft:attribute_modifiers": [
+				{
+					"id": "minecraft:armor.leggings",
+					"type": "minecraft:armor",
+					"slot": "legs",
+					"amount": 2,
+					"operation": "add_value"
+				},
+				{
+					"id": "minecraft:armor.leggings",
+					"type": "minecraft:max_health",
+					"slot": "legs",
+					"amount": 5,
+					"operation": "add_value"
+				}
+			],
+			"!minecraft:max_damage": {},
+			"!minecraft:damage": {}
+		}
+	},
+	"category": "equipment"
+}

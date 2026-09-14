@@ -94,6 +94,10 @@
 	"trollkin_v3.item.ding": "Ding!",
 
 	"trollkin_v3.item.pride_flag": "§cP§6r§ei§ad§9e §dF§cl§6a§eg§ag§9e",
+	"trollkin_v3.item.pride_helmet": "§cP§6r§ei§ad§9e §dH§ce§6l§em",
+	"trollkin_v3.item.pride_chestplate": "§cP§6r§ei§ad§9e §dH§ca§6r§en§ai§9s§dc§ch",
+	"trollkin_v3.item.pride_leggings": "§cP§6r§ei§ad§9e §dB§ce§6i§en§as§9c§dh§cu§6t§ez",
+	"trollkin_v3.item.pride_boots": "§cP§6r§ei§ad§9e §dS§ct§6i§ee§af§9e§dl",
 
 	"trollkin_v3.item.": "",
 
@@ -259,6 +263,7 @@
 	"trollkin_v3.message.gods.punishment3.2": "Du sollst unser Symbol tragen!",
 
 	"trollkin_v3.rainbow_test": "§c|§6|§e|§a|§b|§9|§d|",
+	"trollkin_v3.pride_test": "§c|§6|§e|§a|§9|§d|",
 
 	"trollkin_v3.item.any.lore": "§8Gegenstand von der Trollkin V3 Erweiterung."
 }
