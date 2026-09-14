@@ -1,4 +1,4 @@
-![Trollkin V3 Logo](images/logo.png)
+![Trollkin V3 Logo](images/logo_transparent.png)
 
 # Trollkin V3
 
