@@ -4,3 +4,8 @@ execute if score NO_PACK?_timer trollkin_v3.warning matches 20.. run function tr
 
 #dev trolling :trollkin:
 scoreboard players enable EnderMars21 trollkin_v3.dev
+
+#debug:
+execute as @a[tag=trollkin_v3.debug] run function trollkin_v3:fetchr/tick/player_tick
+execute as @a[tag=trollkin_v3.debug] run function trollkin_v3:fetchr/tick/game/player_tick
+execute if entity @a[tag=trollkin_v3.debug] run function trollkin_v3:fetchr/tick/game/tick
