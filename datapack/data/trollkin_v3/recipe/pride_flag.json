@@ -82,7 +82,9 @@
 			},
 			"minecraft:custom_data": {
 				"item": "pride_flag"
-			}
+			},
+			"!minecraft:max_damage": {},
+			"!minecraft:damage": {}
 		}
 	},
 	"category": "equipment"
