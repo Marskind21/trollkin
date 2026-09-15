@@ -1,3 +1,28 @@
+# Trollkin V3.6.1
+
+## Compatibility
+- Fetchr 5.4 Beta 3
+- Minecraft Java 26.3 Pre-Release 2
+
+## Changelog
+
+### Feature and Fixes
+- Player Armor now shows up on baby zombies.
+- The Pride Flag no longer has durability and is therefore unbreakable.
+- Added Pride Armor set and Pride Shield.
+- Added Pride Token, obtained by having all Pride items equipped at the same time.
+- Removed rainbow items (Rainbow Dye, Rainbow Wool, Rainbow Stained Glass Pane).
+
+### Categories
+- Replaced the "Rainbow" category with the new "Pride!" category:
+  - Pride Flag
+  - Pride Helmet
+  - Pride Chestplate
+  - Pride Leggings
+  - Pride Boots
+  - Pride Shield
+  - Pride Token
+
 # Trollkin V3.6.0
 
 ## Changelog:
