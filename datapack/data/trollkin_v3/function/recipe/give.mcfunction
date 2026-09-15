@@ -50,9 +50,6 @@ recipe give @s trollkin_v3:player_helmet
 recipe give @s trollkin_v3:player_leggings
 recipe give @s trollkin_v3:powder_snow_bucket
 recipe give @s trollkin_v3:puffy
-recipe give @s trollkin_v3:rainbow_dye
-recipe give @s trollkin_v3:rainbow_glass_pane
-recipe give @s trollkin_v3:rainbow_wool
 recipe give @s trollkin_v3:raw_meat
 recipe give @s trollkin_v3:sapling_collection
 recipe give @s trollkin_v3:skeleton_skull

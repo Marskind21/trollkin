@@ -24,10 +24,6 @@
 
 	"trollkin_v3.item.charcoal_block": "§fHolzkohleblock",
 
-	"trollkin_v3.item.rainbow_dye": "§cR§6e§eg§ae§bn§9b§do§cg§6e§en§af§ba§9r§db§ce§6n§ee§ar §bF§9a§dr§cb§6s§et§ao§bf§9f",
-	"trollkin_v3.item.rainbow_glass_pane": "§cR§6e§eg§ae§bn§9b§do§cg§6e§en§af§ba§9r§db§ce§6n§ee §aG§bl§9a§ds§cs§6c§eh§ae§bi§9b§de",
-	"trollkin_v3.item.rainbow_wool": "§cR§6e§eg§ae§bn§9b§do§cg§6e§en§af§ba§9r§db§ce§6n§ee §aW§bo§9l§dl§ce",
-
 	"trollkin_v3.item.puffy": "§ePuffy",
 
 	"trollkin_v3.item.brian": "§7Brian",
@@ -118,7 +114,6 @@
 	"trollkin_v3.category.slow_copper": "Langsames Kupfer",
 	"trollkin_v3.category.sad_obsidian": "Trauriges Obsidian",
 	"trollkin_v3.category.annoying": "Einfach nur nervig",
-	"trollkin_v3.category.rainbow": "§cR§6e§eg§ae§bn§9b§do§cg§6e§en",
 	"trollkin_v3.category.pufferfish": "§eKugelfisch",
 	"trollkin_v3.category.brian": "§7Brian",
 	"trollkin_v3.category.spielmitstil": "§6SpielmitStil",
@@ -153,6 +148,7 @@
 	"trollkin_v3.category.trollkin": "Trollkin",
 	"trollkin_v3.category.sulfur": "Schwefel",
 	"trollkin_v3.category.ancient_seeds": "Antike Samen",
+	"trollkin_v3.category.pride": "§cP§6r§ei§ad§9e§d!",
 	"trollkin_v3.category.": "",
 
 	"trollkin_v3.advancement.root": "Trollkin V3",

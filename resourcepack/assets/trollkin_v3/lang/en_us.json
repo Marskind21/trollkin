@@ -24,10 +24,6 @@
 
 	"trollkin_v3.item.charcoal_block": "§fBlock of Charcoal",
 
-	"trollkin_v3.item.rainbow_dye": "§cR§6a§ei§an§bb§9o§dw §cD§6y§ee",
-	"trollkin_v3.item.rainbow_glass_pane": "§cR§6a§ei§an§bb§9o§dw §cS§6t§ea§ai§bn§9e§dd §cG§6l§ea§as§bs §9P§da§cn§6e",
-	"trollkin_v3.item.rainbow_wool": "§cR§6a§ei§an§bb§9o§dw §cW§6o§eo§al",
-
 	"trollkin_v3.item.puffy": "§ePuffy",
 
 	"trollkin_v3.item.brian": "§7Brian",
@@ -118,7 +114,6 @@
 	"trollkin_v3.category.slow_copper": "Slow Copper",
 	"trollkin_v3.category.sad_obsidian": "Sad Obsidian",
 	"trollkin_v3.category.annoying": "Just Annoying",
-	"trollkin_v3.category.rainbow": "§cR§6a§ei§an§bb§9o§dw",
 	"trollkin_v3.category.pufferfish": "§ePufferfish",
 	"trollkin_v3.category.brian": "§7Brian",
 	"trollkin_v3.category.spielmitstil": "§6SpielmitStil",
@@ -153,6 +148,7 @@
 	"trollkin_v3.category.trollkin": "Trollkin",
 	"trollkin_v3.category.sulfur": "Sulfur",
 	"trollkin_v3.category.ancient_seeds": "Ancient Seeds",
+	"trollkin_v3.category.pride": "§cP§6r§ei§ad§9e§d!",
 	"trollkin_v3.category.": "",
 
 	"trollkin_v3.advancement.root": "Trollkin V3",

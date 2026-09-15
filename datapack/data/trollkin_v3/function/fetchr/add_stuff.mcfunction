@@ -14,7 +14,7 @@ data modify storage fetchr:registries categories append value {id:"trollkin_v3:c
 data modify storage fetchr:registries categories append value {id:"trollkin_v3:slow_copper",name:{translate:"trollkin_v3.category.slow_copper"},tags:["trollkin_v3:default"]}
 data modify storage fetchr:registries categories append value {id:"trollkin_v3:sad_obsidian",name:{translate:"trollkin_v3.category.sad_obsidian"},tags:["trollkin_v3:default"]}
 data modify storage fetchr:registries categories append value {id:"trollkin_v3:annoying",name:{translate:"trollkin_v3.category.annoying"},tags:["trollkin_v3:default"]}
-data modify storage fetchr:registries categories append value {id:"trollkin_v3:rainbow",name:{translate:"trollkin_v3.category.rainbow"},tags:["trollkin_v3:default"]}
+data modify storage fetchr:registries categories append value {id:"trollkin_v3:pride",name:{translate:"trollkin_v3.category.pride"},tags:["trollkin_v3:default"]}
 data modify storage fetchr:registries categories append value {id:"trollkin_v3:pufferfish",name:{translate:"trollkin_v3.category.pufferfish"},tags:["trollkin_v3:default"]}
 data modify storage fetchr:registries categories append value {id:"trollkin_v3:brian",name:{translate:"trollkin_v3.category.brian"},tags:["trollkin_v3:default"]}
 data modify storage fetchr:registries categories append value {id:"trollkin_v3:spielmitstil",name:{translate:"trollkin_v3.category.spielmitstil"},tags:["trollkin_v3:default"]}
@@ -73,8 +73,8 @@ data modify storage fetchr:registries items append value {id:"trollkin_v3:tablet
 data modify storage fetchr:registries items append value {id:"trollkin_v3:code",item:{id:"minecraft:item_frame",components:{"minecraft:item_model":"trollkin_v3:code"}},item_tests:[{type:"fetchr:predicate",id:"minecraft:custom_data",predicate:{item:"code"}}],translation:"trollkin_v3.item.code",icon:"000a",categories:["trollkin_v3:pixel"],weight:1,icon_font:{actionbar:["trollkin_v3:line1","trollkin_v3:line2","trollkin_v3:line3","trollkin_v3:line4","trollkin_v3:line5"]}}
 #000b
 data modify storage fetchr:registries items append value {id:"trollkin_v3:charcoal",item:{id:"minecraft:charcoal"},translation:"item.minecraft.charcoal",icon:"000b",categories:["trollkin_v3:charcoal"],weight:1,icon_font:{actionbar:["trollkin_v3:line1","trollkin_v3:line2","trollkin_v3:line3","trollkin_v3:line4","trollkin_v3:line5"]}}
-#000c !
-#data modify storage fetchr:registries items append value {id:"trollkin_v3:nether_brick",item:{id:"minecraft:nether_brick"},translation:"item.minecraft.nether_brick",icon:"000c",categories:["trollkin_v3:netherrack"],weight:2,icon_font:{actionbar:["trollkin_v3:line1","trollkin_v3:line2","trollkin_v3:line3","trollkin_v3:line4","trollkin_v3:line5"]}}
+#000c
+#
 #000d
 data modify storage fetchr:registries items append value {id:"trollkin_v3:wooden_pickaxe",item:{id:"minecraft:wooden_pickaxe"},translation:"item.minecraft.wooden_pickaxe",icon:"000d",categories:["trollkin_v3:common"],weight:3,icon_font:{actionbar:["trollkin_v3:line1","trollkin_v3:line2","trollkin_v3:line3","trollkin_v3:line4","trollkin_v3:line5"]}}
 #000e
@@ -92,9 +92,9 @@ data modify storage fetchr:registries items append value {id:"trollkin_v3:rabbit
 #0014
 data modify storage fetchr:registries items append value {id:"trollkin_v3:light_gray_stained_glass_pane",item:{id:"minecraft:light_gray_stained_glass_pane"},translation:"block.minecraft.light_gray_stained_glass_pane",icon:"0014",categories:["trollkin_v3:annoying"],weight:1,icon_font:{actionbar:["trollkin_v3:line1","trollkin_v3:line2","trollkin_v3:line3","trollkin_v3:line4","trollkin_v3:line5"]}}
 #0015
-data modify storage fetchr:registries items append value {id:"trollkin_v3:rainbow_dye",item:{id:"minecraft:black_dye",components:{"minecraft:item_model":"trollkin_v3:rainbow_dye"}},item_tests:[{type:"fetchr:predicate",id:"minecraft:custom_data",predicate:{item:"rainbow_dye"}}],translation:"trollkin_v3.item.rainbow_dye",icon:"0015",categories:["trollkin_v3:rainbow"],weight:1,icon_font:{actionbar:["trollkin_v3:line1","trollkin_v3:line2","trollkin_v3:line3","trollkin_v3:line4","trollkin_v3:line5"]}}
+#
 #0016
-data modify storage fetchr:registries items append value {id:"trollkin_v3:rainbow_glass",item:{id:"minecraft:black_stained_glass_pane",components:{"minecraft:item_model":"trollkin_v3:rainbow_glass_pane"}},item_tests:[{type:"fetchr:predicate",id:"minecraft:custom_data",predicate:{item:"rainbow_glass_pane"}}],translation:"trollkin_v3.item.rainbow_glass_pane",icon:"0016",categories:["trollkin_v3:rainbow"],weight:3,icon_font:{actionbar:["trollkin_v3:line1","trollkin_v3:line2","trollkin_v3:line3","trollkin_v3:line4","trollkin_v3:line5"]}}
+#
 #0017
 data modify storage fetchr:registries items append value {id:"trollkin_v3:pufferfish",item:{id:"minecraft:pufferfish"},translation:"item.minecraft.pufferfish",icon:"0017",categories:["trollkin_v3:pufferfish"],weight:1,icon_font:{actionbar:["trollkin_v3:line1","trollkin_v3:line2","trollkin_v3:line3","trollkin_v3:line4","trollkin_v3:line5"]}}
 #0018
@@ -111,16 +111,16 @@ data modify storage fetchr:registries items append value {id:"trollkin_v3:flower
 data modify storage fetchr:registries items append value {id:"trollkin_v3:cornflower",item:{id:"minecraft:cornflower"},translation:"block.minecraft.cornflower",icon:"001d",categories:["trollkin_v3:flowers"],weight:1,icon_font:{actionbar:["trollkin_v3:line1","trollkin_v3:line2","trollkin_v3:line3","trollkin_v3:line4","trollkin_v3:line5"]}}
 #001e
 data modify storage fetchr:registries items append value {id:"trollkin_v3:dandelion",item:{id:"minecraft:dandelion"},translation:"block.minecraft.dandelion",icon:"001e",categories:["trollkin_v3:flowers"],weight:1,icon_font:{actionbar:["trollkin_v3:line1","trollkin_v3:line2","trollkin_v3:line3","trollkin_v3:line4","trollkin_v3:line5"]}}
-#001f !
-#data modify storage fetchr:registries items append value {id:"trollkin_v3:open_eyeblossom",item:{id:"minecraft:open_eyeblossom"},translation:"block.minecraft.open_eyeblossom",icon:"001f",categories:["trollkin_v3:flowers"],weight:2,icon_font:{actionbar:["trollkin_v3:line1","trollkin_v3:line2","trollkin_v3:line3","trollkin_v3:line4","trollkin_v3:line5"]}}
+#001f
+#
 #0020
 data modify storage fetchr:registries items append value {id:"trollkin_v3:oxeye_daisy",item:{id:"minecraft:oxeye_daisy"},translation:"block.minecraft.oxeye_daisy",icon:"0020",categories:["trollkin_v3:flowers"],weight:1,icon_font:{actionbar:["trollkin_v3:line1","trollkin_v3:line2","trollkin_v3:line3","trollkin_v3:line4","trollkin_v3:line5"]}}
 #0021
 data modify storage fetchr:registries items append value {id:"trollkin_v3:poppy",item:{id:"minecraft:poppy"},translation:"block.minecraft.poppy",icon:"0021",categories:["trollkin_v3:flowers"],weight:1,icon_font:{actionbar:["trollkin_v3:line1","trollkin_v3:line2","trollkin_v3:line3","trollkin_v3:line4","trollkin_v3:line5"]}}
 #0022
 data modify storage fetchr:registries items append value {id:"trollkin_v3:blue_orchid",item:{id:"minecraft:blue_orchid"},translation:"block.minecraft.blue_orchid",icon:"0022",categories:["trollkin_v3:flowers"],weight:2,icon_font:{actionbar:["trollkin_v3:line1","trollkin_v3:line2","trollkin_v3:line3","trollkin_v3:line4","trollkin_v3:line5"]}}
-#0023 !
-#data modify storage fetchr:registries items append value {id:"trollkin_v3:pink_petals",item:{id:"minecraft:pink_petals"},translation:"block.minecraft.pink_petals",icon:"0023",categories:["trollkin_v3:flowers"],weight:1,icon_font:{actionbar:["trollkin_v3:line1","trollkin_v3:line2","trollkin_v3:line3","trollkin_v3:line4","trollkin_v3:line5"]}}
+#0023
+#
 #0024
 data modify storage fetchr:registries items append value {id:"trollkin_v3:wildflowers",item:{id:"minecraft:wildflowers"},translation:"block.minecraft.wildflowers",icon:"0024",categories:["trollkin_v3:flowers"],weight:1,icon_font:{actionbar:["trollkin_v3:line1","trollkin_v3:line2","trollkin_v3:line3","trollkin_v3:line4","trollkin_v3:line5"]}}
 #0025
@@ -155,16 +155,16 @@ data modify storage fetchr:registries items append value {id:"trollkin_v3:tool",
 data modify storage fetchr:registries items append value {id:"trollkin_v3:pumpkin_hide",item:{id:"minecraft:test_block",components:{"minecraft:item_model":"trollkin_v3:pumpkin_hide"}},item_tests:[{type:"fetchr:predicate",id:"minecraft:custom_data",predicate:{item:"pumpkin_hide"}}],translation:"trollkin_v3.item.pumpkin_hide",icon:"0033",categories:["trollkin_v3:scraping_tool"],weight:1,icon_font:{actionbar:["trollkin_v3:line1","trollkin_v3:line2","trollkin_v3:line3","trollkin_v3:line4","trollkin_v3:line5"]}}
 #0034
 data modify storage fetchr:registries items append value {id:"trollkin_v3:melon_hide",item:{id:"minecraft:test_block",components:{"minecraft:item_model":"trollkin_v3:melon_hide"}},item_tests:[{type:"fetchr:predicate",id:"minecraft:custom_data",predicate:{item:"melon_hide"}}],translation:"trollkin_v3.item.melon_hide",icon:"0034",categories:["trollkin_v3:scraping_tool"],weight:1,icon_font:{actionbar:["trollkin_v3:line1","trollkin_v3:line2","trollkin_v3:line3","trollkin_v3:line4","trollkin_v3:line5"]}}
-#0035 (unobtainable)
-#data modify storage fetchr:registries items append value {id:"trollkin_v3:piston_head",item:{id:"minecraft:test_block",components:{"minecraft:item_model":"trollkin_v3:piston_head"}},item_tests:[{type:"fetchr:predicate",id:"minecraft:custom_data",predicate:{item:"piston_head"}}],translation:"trollkin_v3.item.piston_head",icon:"0035",categories:["trollkin_v3:scraping_tool"],weight:1,icon_font:{actionbar:["trollkin_v3:line1","trollkin_v3:line2","trollkin_v3:line3","trollkin_v3:line4","trollkin_v3:line5"]}}
+#0035
+#
 #0036
 data modify storage fetchr:registries items append value {id:"trollkin_v3:copper_chestplate",item:{id:"minecraft:copper_chestplate"},translation:"item.minecraft.copper_chestplate",icon:"0036",categories:["trollkin_v3:fast_copper"],weight:1,icon_font:{actionbar:["trollkin_v3:line1","trollkin_v3:line2","trollkin_v3:line3","trollkin_v3:line4","trollkin_v3:line5"]}}
 #0037
 data modify storage fetchr:registries items append value {id:"trollkin_v3:copper_axe",item:{id:"minecraft:copper_axe"},translation:"item.minecraft.copper_axe",icon:"0037",categories:["trollkin_v3:fast_copper"],weight:1,icon_font:{actionbar:["trollkin_v3:line1","trollkin_v3:line2","trollkin_v3:line3","trollkin_v3:line4","trollkin_v3:line5"]}}
 #0038
 data modify storage fetchr:registries items append value {id:"trollkin_v3:copper_hoe",item:{id:"minecraft:copper_hoe"},translation:"item.minecraft.copper_hoe",icon:"0038",categories:["trollkin_v3:fast_copper"],weight:1,icon_font:{actionbar:["trollkin_v3:line1","trollkin_v3:line2","trollkin_v3:line3","trollkin_v3:line4","trollkin_v3:line5"]}}
-#0039 !
-#data modify storage fetchr:registries items append value {id:"trollkin_v3:copper_lantern",item:{id:"minecraft:copper_lantern"},translation:"block.minecraft.copper_lantern",icon:"0039",categories:["trollkin_v3:fast_copper"],weight:1,icon_font:{actionbar:["trollkin_v3:line1","trollkin_v3:line2","trollkin_v3:line3","trollkin_v3:line4","trollkin_v3:line5"]}}
+#0039
+#
 #003a
 data modify storage fetchr:registries items append value {id:"trollkin_v3:chorus_fruit",item:{id:"minecraft:chorus_fruit"},translation:"item.minecraft.chorus_fruit",icon:"003a",categories:["trollkin_v3:end"],weight:1,icon_font:{actionbar:["trollkin_v3:line1","trollkin_v3:line2","trollkin_v3:line3","trollkin_v3:line4","trollkin_v3:line5"]}}
 #003b
@@ -217,8 +217,8 @@ data modify storage fetchr:registries items append value {id:"trollkin_v3:soul_t
 data modify storage fetchr:registries items append value {id:"trollkin_v3:soul_lantern",item:{id:"minecraft:soul_lantern"},translation:"block.minecraft.soul_lantern",icon:"0052",categories:["trollkin_v3:soul"],weight:5,icon_font:{actionbar:["trollkin_v3:line1","trollkin_v3:line2","trollkin_v3:line3","trollkin_v3:line4","trollkin_v3:line5"]}}
 #0053
 data modify storage fetchr:registries items append value {id:"trollkin_v3:soul_campfire",item:{id:"minecraft:soul_campfire"},translation:"block.minecraft.soul_campfire",icon:"0053",categories:["trollkin_v3:soul"],weight:10,icon_font:{actionbar:["trollkin_v3:line1","trollkin_v3:line2","trollkin_v3:line3","trollkin_v3:line4","trollkin_v3:line5"]}}
-#0054 !
-#data modify storage fetchr:registries items append value {id:"trollkin_v3:glow_lichen",item:{id:"minecraft:glow_lichen"},translation:"block.minecraft.glow_lichen",icon:"0054",categories:["trollkin_v3:diamond_ore"],weight:1,icon_font:{actionbar:["trollkin_v3:line1","trollkin_v3:line2","trollkin_v3:line3","trollkin_v3:line4","trollkin_v3:line5"]}}
+#0054
+#
 #0055
 data modify storage fetchr:registries items append value {id:"trollkin_v3:ghast_tear",item:{id:"minecraft:ghast_tear"},translation:"item.minecraft.ghast_tear",icon:"0055",categories:["trollkin_v3:ghast"],weight:1,icon_font:{actionbar:["trollkin_v3:line1","trollkin_v3:line2","trollkin_v3:line3","trollkin_v3:line4","trollkin_v3:line5"]}}
 #0056
@@ -243,7 +243,8 @@ data modify storage fetchr:registries items append value {id:"trollkin_v3:music_
 data modify storage fetchr:registries items append value {id:"trollkin_v3:ding",item:{id:"minecraft:ender_eye",components:{"minecraft:item_model":"trollkin_v3:ding"}},item_tests:[{type:"fetchr:predicate",id:"minecraft:custom_data",predicate:{item:"ding"}}],translation:"trollkin_v3.item.ding",icon:"005f",categories:["trollkin_v3:random"],weight:1,icon_font:{actionbar:["trollkin_v3:line1","trollkin_v3:line2","trollkin_v3:line3","trollkin_v3:line4","trollkin_v3:line5"]}}
 #0060
 data modify storage fetchr:registries items append value {id:"trollkin_v3:enderleaf_clover",item:{id:"minecraft:ender_eye",components:{"minecraft:item_model":"trollkin_v3:enderleaf_clover"}},item_tests:[{type:"fetchr:predicate",id:"minecraft:custom_data",predicate:{item:"enderleaf_clover"}}],translation:"trollkin_v3.item.enderleaf_clover",icon:"0060",categories:["trollkin_v3:endermars21"],weight:1,icon_font:{actionbar:["trollkin_v3:line1","trollkin_v3:line2","trollkin_v3:line3","trollkin_v3:line4","trollkin_v3:line5"]}}
-#0061 !
+#0061
+#
 #0062
 data modify storage fetchr:registries items append value {id:"trollkin_v3:sulfur_spike",item:{id:"minecraft:sulfur_spike"},translation:"block.minecraft.sulfur_spike",icon:"0062",categories:["trollkin_v3:sulfur"],weight:2,icon_font:{actionbar:["trollkin_v3:line1","trollkin_v3:line2","trollkin_v3:line3","trollkin_v3:line4","trollkin_v3:line5"]}}
 #0063
@@ -275,7 +276,7 @@ data modify storage fetchr:registries items append value {id:"trollkin_v3:anvil"
 #0107
 data modify storage fetchr:registries items append value {id:"trollkin_v3:chipped_anvil",item:{id:"minecraft:chipped_anvil"},translation:"block.minecraft.chipped_anvil",icon:"0107",categories:["trollkin_v3:anvil"],weight:2,icon_font:{actionbar:["trollkin_v3:line1","trollkin_v3:line2","trollkin_v3:line3","trollkin_v3:line4","trollkin_v3:line5"]}}
 #0108
-#data modify storage fetchr:registries items append value {id:"trollkin_v3:netherrack",item:{id:"minecraft:netherrack"},translation:"block.minecraft.netherrack",icon:"0108",categories:["trollkin_v3:netherrack"],weight:1,icon_font:{actionbar:["trollkin_v3:line1","trollkin_v3:line2","trollkin_v3:line3","trollkin_v3:line4","trollkin_v3:line5"]}}
+#
 #0109
 data modify storage fetchr:registries items append value {id:"trollkin_v3:nether_bricks",item:{id:"minecraft:nether_bricks"},translation:"block.minecraft.nether_bricks",icon:"0109",categories:["trollkin_v3:netherrack"],weight:2,icon_font:{actionbar:["trollkin_v3:line1","trollkin_v3:line2","trollkin_v3:line3","trollkin_v3:line4","trollkin_v3:line5"]}}
 #010a
@@ -301,7 +302,7 @@ data modify storage fetchr:registries items append value {id:"trollkin_v3:respaw
 #0114
 data modify storage fetchr:registries items append value {id:"trollkin_v3:crafter",item:{id:"minecraft:crafter"},translation:"block.minecraft.crafter",icon:"0114",categories:[{id:"trollkin_v3:annoying",weight:1},{id:"trollkin_v3:redstone",weight:2}],weight:1,icon_font:{actionbar:["trollkin_v3:line1","trollkin_v3:line2","trollkin_v3:line3","trollkin_v3:line4","trollkin_v3:line5"]}}
 #0115
-data modify storage fetchr:registries items append value {id:"trollkin_v3:rainbow_wool",item:{id:"minecraft:black_wool",components:{"minecraft:item_model":"trollkin_v3:rainbow_wool"}},item_tests:[{type:"fetchr:predicate",id:"minecraft:custom_data",predicate:{item:"rainbow_wool"}}],translation:"trollkin_v3.item.rainbow_wool",icon:"0115",categories:["trollkin_v3:rainbow"],weight:2,icon_font:{actionbar:["trollkin_v3:line1","trollkin_v3:line2","trollkin_v3:line3","trollkin_v3:line4","trollkin_v3:line5"]}}
+#
 #0116
 data modify storage fetchr:registries items append value {id:"trollkin_v3:spielmitstil",item:{id:"minecraft:player_head",components:{"minecraft:profile":{texture:"trollkin_v3:item/players/spielmitstil"}}},item_tests:[{type:"fetchr:predicate",id:"minecraft:custom_data",predicate:{item:"spielmitstil"}}],translation:"trollkin_v3.item.spielmitstil",icon:"0116",categories:["trollkin_v3:spielmitstil"],weight:1,icon_font:{actionbar:["trollkin_v3:line1","trollkin_v3:line2","trollkin_v3:line3","trollkin_v3:line4","trollkin_v3:line5"]}}
 #0117
@@ -340,16 +341,16 @@ data modify storage fetchr:registries items append value {id:"trollkin_v3:observ
 data modify storage fetchr:registries items append value {id:"trollkin_v3:daylight_detector",item:{id:"minecraft:daylight_detector"},translation:"block.minecraft.daylight_detector",icon:"0127",categories:["trollkin_v3:quartz","trollkin_v3:redstone"],weight:1,icon_font:{actionbar:["trollkin_v3:line1","trollkin_v3:line2","trollkin_v3:line3","trollkin_v3:line4","trollkin_v3:line5"]}}
 #0128
 data modify storage fetchr:registries items append value {id:"trollkin_v3:note_block",item:{id:"minecraft:note_block"},translation:"block.minecraft.note_block",icon:"0128",categories:["trollkin_v3:redstone"],weight:1,icon_font:{actionbar:["trollkin_v3:line1","trollkin_v3:line2","trollkin_v3:line3","trollkin_v3:line4","trollkin_v3:line5"]}}
-#0129 !
-#data modify storage fetchr:registries items append value {id:"trollkin_v3:tuff",item:{id:"minecraft:tuff"},translation:"block.minecraft.tuff",icon:"0129",categories:["trollkin_v3:tuff"],weight:1,icon_font:{actionbar:["trollkin_v3:line1","trollkin_v3:line2","trollkin_v3:line3","trollkin_v3:line4","trollkin_v3:line5"]}}
+#0129
+#
 #012a
 data modify storage fetchr:registries items append value {id:"trollkin_v3:chiseled_tuff",item:{id:"minecraft:chiseled_tuff"},translation:"block.minecraft.chiseled_tuff",icon:"012a",categories:["trollkin_v3:tuff"],weight:2,icon_font:{actionbar:["trollkin_v3:line1","trollkin_v3:line2","trollkin_v3:line3","trollkin_v3:line4","trollkin_v3:line5"]}}
 #012b
 data modify storage fetchr:registries items append value {id:"trollkin_v3:chiseled_tuff_bricks",item:{id:"minecraft:chiseled_tuff_bricks"},translation:"block.minecraft.chiseled_tuff_bricks",icon:"012b",categories:["trollkin_v3:tuff"],weight:2,icon_font:{actionbar:["trollkin_v3:line1","trollkin_v3:line2","trollkin_v3:line3","trollkin_v3:line4","trollkin_v3:line5"]}}
 #012c
 data modify storage fetchr:registries items append value {id:"trollkin_v3:netherite_block",item:{id:"minecraft:netherite_block"},translation:"block.minecraft.netherite_block",icon:"012c",categories:["trollkin_v3:netherite"],weight:3,icon_font:{actionbar:["trollkin_v3:line1","trollkin_v3:line2","trollkin_v3:line3","trollkin_v3:line4","trollkin_v3:line5"]}}
-#012d !
-#data modify storage fetchr:registries items append value {id:"trollkin_v3:bookshelf",item:{id:"minecraft:bookshelf"},translation:"block.minecraft.bookshelf",icon:"012d",categories:["trollkin_v3:shelf"],weight:4,icon_font:{actionbar:["trollkin_v3:line1","trollkin_v3:line2","trollkin_v3:line3","trollkin_v3:line4","trollkin_v3:line5"]}}
+#012d
+#
 #012e
 data modify storage fetchr:registries items append value {id:"trollkin_v3:chiseled_bookshelf",item:{id:"minecraft:chiseled_bookshelf"},translation:"block.minecraft.chiseled_bookshelf",icon:"012e",categories:["trollkin_v3:shelf"],weight:1,icon_font:{actionbar:["trollkin_v3:line1","trollkin_v3:line2","trollkin_v3:line3","trollkin_v3:line4","trollkin_v3:line5"]}}
 #012f
@@ -377,11 +378,11 @@ data modify storage fetchr:registries items append value {id:"trollkin_v3:dried_
 #013a
 data modify storage fetchr:registries items append value {id:"trollkin_v3:carved_pumpkin",item:{id:"minecraft:carved_pumpkin"},translation:"block.minecraft.carved_pumpkin",icon:"013a",categories:["trollkin_v3:trollkin"],weight:2,icon_font:{actionbar:["trollkin_v3:line1","trollkin_v3:line2","trollkin_v3:line3","trollkin_v3:line4","trollkin_v3:line5"]}}
 #013b
-#data modify storage fetchr:registries items append value {id:"trollkin_v3:jack_o_lantern",item:{id:"minecraft:jack_o_lantern"},translation:"block.minecraft.deepslate_diamond_ore",icon:"013b",categories:["trollkin_v3:trollkin"],weight:1,icon_font:{actionbar:["trollkin_v3:line1","trollkin_v3:line2","trollkin_v3:line3","trollkin_v3:line4","trollkin_v3:line5"]}}
+#
 #013c
 data modify storage fetchr:registries items append value {id:"trollkin_v3:dragon_egg",item:{id:"minecraft:dragon_egg"},translation:"block.minecraft.dragon_egg",icon:"013c",categories:["trollkin_v3:end"],weight:2,icon_font:{actionbar:["trollkin_v3:line1","trollkin_v3:line2","trollkin_v3:line3","trollkin_v3:line4","trollkin_v3:line5"]}}
 #013d
-data modify storage fetchr:registries items append value {id:"trollkin_v3:pride_flag",item:{id:"minecraft:netherite_spear",components:{"minecraft:item_model":"trollkin_v3:pride_flag"}},item_tests:[{type:"fetchr:predicate",id:"minecraft:custom_data",predicate:{item:"pride_flag"}}],translation:"trollkin_v3.item.pride_flag",icon:"013d",categories:["trollkin_v3:rainbow"],weight:6,icon_font:{actionbar:["trollkin_v3:line1","trollkin_v3:line2","trollkin_v3:line3","trollkin_v3:line4","trollkin_v3:line5"]}}
+data modify storage fetchr:registries items append value {id:"trollkin_v3:pride_flag",item:{id:"minecraft:netherite_spear",components:{"minecraft:item_model":"trollkin_v3:pride_flag"}},item_tests:[{type:"fetchr:predicate",id:"minecraft:custom_data",predicate:{item:"pride_flag"}}],translation:"trollkin_v3.item.pride_flag",icon:"013d",categories:["trollkin_v3:pride"],weight:6,icon_font:{actionbar:["trollkin_v3:line1","trollkin_v3:line2","trollkin_v3:line3","trollkin_v3:line4","trollkin_v3:line5"]}}
 #013e
 data modify storage fetchr:registries items append value {id:"trollkin_v3:sulfur",item:{id:"minecraft:sulfur"},translation:"block.minecraft.sulfur",icon:"013e",categories:["trollkin_v3:sulfur"],weight:4,icon_font:{actionbar:["trollkin_v3:line1","trollkin_v3:line2","trollkin_v3:line3","trollkin_v3:line4","trollkin_v3:line5"]}}
 #013f
