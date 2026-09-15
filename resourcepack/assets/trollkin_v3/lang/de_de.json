@@ -99,6 +99,7 @@
 	"trollkin_v3.item.pride_leggings": "§cP§6r§ei§ad§9e §dB§ce§6i§en§as§9c§dh§cu§6t§ez",
 	"trollkin_v3.item.pride_boots": "§cP§6r§ei§ad§9e §dS§ct§6i§ee§af§9e§dl",
 	"trollkin_v3.item.pride_shield": "§cP§6r§ei§ad§9e §dS§cc§6h§ei§al§9d",
+	"trollkin_v3.item.pride_token": "§cP§6r§ei§ad§9e §dM§ca§6r§ek§ae",
 
 	"trollkin_v3.item.": "",
 
@@ -236,6 +237,8 @@
 	"trollkin_v3.advancement.gods.desc": "Fühle den Zorn der drei Trollkin-Götter.",
 	"trollkin_v3.advancement.sniffer": "Ich bin ein Schnüffler!",
 	"trollkin_v3.advancement.sniffer.desc": "Nutze ein Abkratz-Werkzeug™ auf etwas Gras, um nach antiken Samen zu suchen.",
+	"trollkin_v3.advancement.pride_knight": "Ritter des Pride Monats",
+	"trollkin_v3.advancement.pride_knight.desc": "Habe alle Pride Gegenstände gleichzeitig ausgerüstet.",
 
 	"trollkin_v3.advancement.": "",
 	"trollkin_v3.advancement..desc": "",

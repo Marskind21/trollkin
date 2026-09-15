@@ -1,0 +1,266 @@
+[
+	{
+		"block_state_provider": {
+			"type": "minecraft:rule_based",
+			"rules": [
+				{
+					"if_true": {
+						"type": "minecraft:matching_blocks",
+						"blocks": [
+							"minecraft:blue_wool",
+							"minecraft:blue_terracotta",
+							"minecraft:blue_glazed_terracotta",
+							"minecraft:blue_concrete",
+							"minecraft:blue_concrete_powder",
+							"minecraft:blue_stained_glass"
+						]
+					},
+					"then": {
+						"type": "minecraft:random_block",
+						"blocks": [
+							"minecraft:purple_wool",
+							"minecraft:purple_terracotta",
+							"minecraft:purple_glazed_terracotta",
+							"minecraft:purple_concrete",
+							"minecraft:purple_concrete_powder",
+							"minecraft:purple_stained_glass"
+						]
+					}
+				}
+			]
+		},
+		"sound": "minecraft:block.amethyst_block.resonate",
+		"particle": "none",
+		"transform_type": "single_block",
+		"update_from_neighbors": true,
+		"consume_on_use": false
+	},
+	{
+		"block_state_provider": {
+			"type": "minecraft:rule_based",
+			"rules": [
+				{
+					"if_true": {
+						"type": "minecraft:matching_blocks",
+						"blocks": [
+							"minecraft:green_wool",
+							"minecraft:green_terracotta",
+							"minecraft:green_glazed_terracotta",
+							"minecraft:green_concrete",
+							"minecraft:green_concrete_powder",
+							"minecraft:green_stained_glass"
+						]
+					},
+					"then": {
+						"type": "minecraft:random_block",
+						"blocks": [
+							"minecraft:blue_wool",
+							"minecraft:blue_terracotta",
+							"minecraft:blue_glazed_terracotta",
+							"minecraft:blue_concrete",
+							"minecraft:blue_concrete_powder",
+							"minecraft:blue_stained_glass"
+						]
+					}
+				}
+			]
+		},
+		"sound": "minecraft:block.amethyst_block.resonate",
+		"particle": "none",
+		"transform_type": "single_block",
+		"update_from_neighbors": true,
+		"consume_on_use": false
+	},
+	{
+		"block_state_provider": {
+			"type": "minecraft:rule_based",
+			"rules": [
+				{
+					"if_true": {
+						"type": "minecraft:matching_blocks",
+						"blocks": [
+							"minecraft:yellow_wool",
+							"minecraft:yellow_terracotta",
+							"minecraft:yellow_glazed_terracotta",
+							"minecraft:yellow_concrete",
+							"minecraft:yellow_concrete_powder",
+							"minecraft:yellow_stained_glass"
+						]
+					},
+					"then": {
+						"type": "minecraft:random_block",
+						"blocks": [
+							"minecraft:green_wool",
+							"minecraft:green_terracotta",
+							"minecraft:green_glazed_terracotta",
+							"minecraft:green_concrete",
+							"minecraft:green_concrete_powder",
+							"minecraft:green_stained_glass"
+						]
+					}
+				}
+			]
+		},
+		"sound": "minecraft:block.amethyst_block.resonate",
+		"particle": "none",
+		"transform_type": "single_block",
+		"update_from_neighbors": true,
+		"consume_on_use": false
+	},
+	{
+		"block_state_provider": {
+			"type": "minecraft:rule_based",
+			"rules": [
+				{
+					"if_true": {
+						"type": "minecraft:matching_blocks",
+						"blocks": [
+							"minecraft:orange_wool",
+							"minecraft:orange_terracotta",
+							"minecraft:orange_glazed_terracotta",
+							"minecraft:orange_concrete",
+							"minecraft:orange_concrete_powder",
+							"minecraft:orange_stained_glass"
+						]
+					},
+					"then": {
+						"type": "minecraft:random_block",
+						"blocks": [
+							"minecraft:yellow_wool",
+							"minecraft:yellow_terracotta",
+							"minecraft:yellow_glazed_terracotta",
+							"minecraft:yellow_concrete",
+							"minecraft:yellow_concrete_powder",
+							"minecraft:yellow_stained_glass"
+						]
+					}
+				}
+			]
+		},
+		"sound": "minecraft:block.amethyst_block.resonate",
+		"particle": "none",
+		"transform_type": "single_block",
+		"update_from_neighbors": true,
+		"consume_on_use": false
+	},
+	{
+		"block_state_provider": {
+			"type": "minecraft:rule_based",
+			"rules": [
+				{
+					"if_true": {
+						"type": "minecraft:matching_blocks",
+						"blocks": [
+							"minecraft:red_wool",
+							"minecraft:red_terracotta",
+							"minecraft:red_glazed_terracotta",
+							"minecraft:red_concrete",
+							"minecraft:red_concrete_powder",
+							"minecraft:red_stained_glass"
+						]
+					},
+					"then": {
+						"type": "minecraft:random_block",
+						"blocks": [
+							"minecraft:orange_wool",
+							"minecraft:orange_terracotta",
+							"minecraft:orange_glazed_terracotta",
+							"minecraft:orange_concrete",
+							"minecraft:orange_concrete_powder",
+							"minecraft:orange_stained_glass"
+						]
+					}
+				}
+			]
+		},
+		"sound": "minecraft:block.amethyst_block.resonate",
+		"particle": "none",
+		"transform_type": "single_block",
+		"update_from_neighbors": true,
+		"consume_on_use": false
+	},
+	{
+		"block_state_provider": {
+			"type": "minecraft:rule_based",
+			"rules": [
+				{
+					"if_true": {
+						"type": "minecraft:matching_blocks",
+						"blocks": [
+							"minecraft:purple_wool",
+							"minecraft:purple_terracotta",
+							"minecraft:purple_glazed_terracotta",
+							"minecraft:purple_concrete",
+							"minecraft:purple_concrete_powder",
+							"minecraft:purple_stained_glass"
+						]
+					},
+					"then": {
+						"type": "minecraft:random_block",
+						"blocks": [
+							"minecraft:red_wool",
+							"minecraft:red_terracotta",
+							"minecraft:red_glazed_terracotta",
+							"minecraft:red_concrete",
+							"minecraft:red_concrete_powder",
+							"minecraft:red_stained_glass"
+						]
+					}
+				}
+			]
+		},
+		"sound": "minecraft:block.amethyst_block.resonate",
+		"particle": "none",
+		"transform_type": "single_block",
+		"update_from_neighbors": true,
+		"consume_on_use": false
+	},
+	{
+		"block_state_provider": {
+			"type": "minecraft:random_block",
+			"blocks": [
+				"minecraft:red_wool",
+				"minecraft:red_terracotta",
+				"minecraft:red_glazed_terracotta",
+				"minecraft:red_concrete",
+				"minecraft:red_concrete_powder",
+				"minecraft:red_stained_glass",
+				"minecraft:orange_wool",
+				"minecraft:orange_terracotta",
+				"minecraft:orange_glazed_terracotta",
+				"minecraft:orange_concrete",
+				"minecraft:orange_concrete_powder",
+				"minecraft:orange_stained_glass",
+				"minecraft:yellow_wool",
+				"minecraft:yellow_terracotta",
+				"minecraft:yellow_glazed_terracotta",
+				"minecraft:yellow_concrete",
+				"minecraft:yellow_concrete_powder",
+				"minecraft:yellow_stained_glass",
+				"minecraft:green_wool",
+				"minecraft:green_terracotta",
+				"minecraft:green_glazed_terracotta",
+				"minecraft:green_concrete",
+				"minecraft:green_concrete_powder",
+				"minecraft:green_stained_glass",
+				"minecraft:blue_wool",
+				"minecraft:blue_terracotta",
+				"minecraft:blue_glazed_terracotta",
+				"minecraft:blue_concrete",
+				"minecraft:blue_concrete_powder",
+				"minecraft:blue_stained_glass",
+				"minecraft:purple_wool",
+				"minecraft:purple_terracotta",
+				"minecraft:purple_glazed_terracotta",
+				"minecraft:purple_concrete",
+				"minecraft:purple_concrete_powder",
+				"minecraft:purple_stained_glass"
+			]
+		},
+		"sound": "minecraft:block.amethyst_block.resonate",
+		"particle": "none",
+		"transform_type": "single_block",
+		"update_from_neighbors": true,
+		"consume_on_use": false
+	}
+]

@@ -99,6 +99,7 @@
 	"trollkin_v3.item.pride_leggings": "§cP§6r§ei§ad§9e §dL§ce§6g§eg§ai§9n§dg§cs",
 	"trollkin_v3.item.pride_boots": "§cP§6r§ei§ad§9e §dB§co§6o§et§as",
 	"trollkin_v3.item.pride_shield": "§cP§6r§ei§ad§9e §dS§ch§6i§ee§al§9d",
+	"trollkin_v3.item.pride_token": "§cP§6r§ei§ad§9e §dT§co§6k§ee§an",
 
 	"trollkin_v3.item.": "",
 
@@ -236,6 +237,8 @@
 	"trollkin_v3.advancement.gods.desc": "Feel the anger of the three Trollkin gods.",
 	"trollkin_v3.advancement.sniffer": "I am a Sniffer!",
 	"trollkin_v3.advancement.sniffer.desc": "Use the Scraping Tool™ on some grass to look for ancient seeds.",
+	"trollkin_v3.advancement.pride_knight": "Knight of the Pride Month",
+	"trollkin_v3.advancement.pride_knight.desc": "Have all Pride items equipped at the same time.",
 
 	"trollkin_v3.advancement.": "",
 	"trollkin_v3.advancement..desc": "",

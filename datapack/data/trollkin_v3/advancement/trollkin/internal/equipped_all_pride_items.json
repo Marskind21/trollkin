@@ -1,0 +1,123 @@
+{
+	"parent": "trollkin_v3:trollkin/root",
+	"criteria": {
+		"inv_changed": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"player": {
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:equipment": {
+							"head": {
+								"components": {
+									"minecraft:custom_data": {
+										"item": "pride_helmet"
+									}
+								}
+							},
+							"chest": {
+								"components": {
+									"minecraft:custom_data": {
+										"item": "pride_chestplate"
+									}
+								}
+							},
+							"legs": {
+								"components": {
+									"minecraft:custom_data": {
+										"item": "pride_leggings"
+									}
+								}
+							},
+							"feet": {
+								"components": {
+									"minecraft:custom_data": {
+										"item": "pride_boots"
+									}
+								}
+							},
+							"offhand": {
+								"components": {
+									"minecraft:custom_data": {
+										"item": "pride_shield"
+									}
+								}
+							},
+							"mainhand": {
+								"components": {
+									"minecraft:custom_data": {
+										"item": "pride_flag"
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		},
+		"use_item": {
+			"trigger": "minecraft:using_item",
+			"conditions": {
+				"player": {
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:equipment": {
+							"head": {
+								"components": {
+									"minecraft:custom_data": {
+										"item": "pride_helmet"
+									}
+								}
+							},
+							"chest": {
+								"components": {
+									"minecraft:custom_data": {
+										"item": "pride_chestplate"
+									}
+								}
+							},
+							"legs": {
+								"components": {
+									"minecraft:custom_data": {
+										"item": "pride_leggings"
+									}
+								}
+							},
+							"feet": {
+								"components": {
+									"minecraft:custom_data": {
+										"item": "pride_boots"
+									}
+								}
+							},
+							"offhand": {
+								"components": {
+									"minecraft:custom_data": {
+										"item": "pride_shield"
+									}
+								}
+							},
+							"mainhand": {
+								"components": {
+									"minecraft:custom_data": {
+										"item": "pride_flag"
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"inv_changed", "use_item"
+		]
+	],
+	"rewards": {
+		"function": "trollkin_v3:pride_token"
+	}
+}

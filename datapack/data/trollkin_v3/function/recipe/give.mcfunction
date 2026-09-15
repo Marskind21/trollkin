@@ -72,3 +72,8 @@ recipe give @s trollkin_v3:pride_flag
 recipe give @s trollkin_v3:sulfur
 recipe give @s trollkin_v3:sulfur_spike
 recipe give @s trollkin_v3:sulfur_cube_bucket
+recipe give @s trollkin_v3:pride_helmet
+recipe give @s trollkin_v3:pride_chestplate
+recipe give @s trollkin_v3:pride_leggings
+recipe give @s trollkin_v3:pride_boots
+recipe give @s trollkin_v3:pride_shield
