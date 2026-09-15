@@ -1,0 +1,32 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"key": {
+		"1": "minecraft:red_wool",
+		"2": "minecraft:orange_wool",
+		"3": "minecraft:yellow_wool",
+		"4": "minecraft:green_wool",
+		"5": "minecraft:blue_wool",
+		"6": "minecraft:purple_wool",
+		"7": "minecraft:iron_ingot"
+	},
+	"pattern": [
+		"172",
+		"345",
+		" 6 "
+	],
+	"result": {
+		"id": "minecraft:shield",
+		"components": {
+			"minecraft:item_model": "trollkin_v3:pride_shield",
+			"minecraft:item_name": {
+				"translate": "trollkin_v3.item.pride_shield"
+			},
+			"minecraft:custom_data": {
+				"item": "pride_shield"
+			},
+			"!minecraft:max_damage": {},
+			"!minecraft:damage": {}
+		}
+	},
+	"category": "equipment"
+}
