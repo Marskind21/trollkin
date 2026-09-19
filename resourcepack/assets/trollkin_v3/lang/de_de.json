@@ -1,4 +1,6 @@
 {
+	"trollkin_v3.datapack": "Trollkin Datenpacket",
+
 	"trollkin_v3.item.endermars21": "§4EnderMars21",
 	"trollkin_v3.item.enderleaf_clover": "§4Marsianischer §5Enderblatt-§2Klee",
 
@@ -261,6 +263,8 @@
 	"trollkin_v3.message.gods.punishment2.2": "Du sollst nicht das Licht des Tages sehen!",
 	"trollkin_v3.message.gods.punishment3.1": "Der dritte Trollkin-Gott hat alle deine Gegenstände in Trollkins konvertiert.",
 	"trollkin_v3.message.gods.punishment3.2": "Du sollst unser Symbol tragen!",
+
+	"trollkin_v3.message.music": "Du kannst die Trollkin-Musik leiser stellen oder sogar ausschalten, indem du den %2$s Regler in den %1$s anpasst.",
 
 	"trollkin_v3.rainbow_test": "§c|§6|§e|§a|§b|§9|§d|",
 	"trollkin_v3.pride_test": "§c|§6|§e|§a|§9|§d|",

@@ -1,4 +1,6 @@
 {
+	"trollkin_v3.datapack": "Trollkin Datapack",
+
 	"trollkin_v3.item.endermars21": "§4EnderMars21",
 	"trollkin_v3.item.enderleaf_clover": "§4Martian §5Enderleaf §2Clover",
 
@@ -261,6 +263,8 @@
 	"trollkin_v3.message.gods.punishment2.2": "You shall not see the light of the day!",
 	"trollkin_v3.message.gods.punishment3.1": "The third Trollkin god converted all your items to Trollkins.",
 	"trollkin_v3.message.gods.punishment3.2": "You shall carry our symbol!",
+
+	"trollkin_v3.message.music": "You can turn down the Trollkin music or even turn it off in the %s by adjusting the %s slider.",
 
 	"trollkin_v3.rainbow_test": "§c|§6|§e|§a|§b|§9|§d|",
 	"trollkin_v3.pride_test": "§c|§6|§e|§a|§9|§d|",
