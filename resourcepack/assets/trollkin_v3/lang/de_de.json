@@ -266,6 +266,12 @@
 
 	"trollkin_v3.message.music": "Du kannst die Trollkin-Musik leiser stellen oder sogar ausschalten, indem du den %2$s Regler in den %1$s anpasst.",
 
+	"trollkin_v3.message.thanks": "Danke fürs Herunterladen und Installieren meiner Trollkin Erweiterung für Fetchr! :D\nHier sind ein paar nützliche Links:\n",
+	"trollkin_v3.message.discord": "Discord (EnderMars21 Projects)",
+	"trollkin_v3.message.discord.hover": "Mein Discord-Server, wo ich Updates zu all meinen Projekten poste.",
+	"trollkin_v3.message.github": "GitHub Bugtracker",
+	"trollkin_v3.message.github.hover": "Du kannst hier Fehler melden und Vorschläge hinzufügen.",
+
 	"trollkin_v3.rainbow_test": "§c|§6|§e|§a|§b|§9|§d|",
 	"trollkin_v3.pride_test": "§c|§6|§e|§a|§9|§d|",
 
