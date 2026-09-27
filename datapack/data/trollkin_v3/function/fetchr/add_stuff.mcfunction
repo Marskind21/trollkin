@@ -242,7 +242,7 @@ data modify storage fetchr:registries items append value {id:"trollkin_v3:music_
 #005f
 data modify storage fetchr:registries items append value {id:"trollkin_v3:ding",item:{id:"minecraft:ender_eye",components:{"minecraft:item_model":"trollkin_v3:ding"}},item_tests:[{type:"fetchr:predicate",id:"minecraft:custom_data",predicate:{item:"ding"}}],translation:"trollkin_v3.item.ding",icon:"005f",categories:["trollkin_v3:random"],weight:1,icon_font:{actionbar:["trollkin_v3:line1","trollkin_v3:line2","trollkin_v3:line3","trollkin_v3:line4","trollkin_v3:line5"]}}
 #0060
-data modify storage fetchr:registries items append value {id:"trollkin_v3:enderleaf_clover",item:{id:"minecraft:ender_eye",components:{"minecraft:item_model":"trollkin_v3:enderleaf_clover"}},item_tests:[{type:"fetchr:predicate",id:"minecraft:custom_data",predicate:{item:"enderleaf_clover"}}],translation:"trollkin_v3.item.enderleaf_clover",icon:"0060",categories:["trollkin_v3:endermars21"],weight:1,icon_font:{actionbar:["trollkin_v3:line1","trollkin_v3:line2","trollkin_v3:line3","trollkin_v3:line4","trollkin_v3:line5"]}}
+data modify storage fetchr:registries items append value {id:"trollkin_v3:enderleaf_clover",item:{id:"minecraft:test_block",components:{"minecraft:item_model":"trollkin_v3:enderleaf_clover"}},item_tests:[{type:"fetchr:predicate",id:"minecraft:custom_data",predicate:{item:"enderleaf_clover"}}],translation:"trollkin_v3.item.enderleaf_clover",icon:"0060",categories:["trollkin_v3:endermars21"],weight:1,icon_font:{actionbar:["trollkin_v3:line1","trollkin_v3:line2","trollkin_v3:line3","trollkin_v3:line4","trollkin_v3:line5"]}}
 #0061
 #
 #0062
