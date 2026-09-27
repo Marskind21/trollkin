@@ -1,8 +1,8 @@
 {
 	"type": "minecraft:crafting_shaped",
 	"key": {
-		"1": "minecraft:potent_sulfur",
-		"2": "minecraft:slime_block",
+		"1": "minecraft:sulfur",
+		"2": "minecraft:slime_ball",
 		"3": "minecraft:bucket"
 	},
 	"pattern": [

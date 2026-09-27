@@ -99,6 +99,9 @@
 	"trollkin_v3.item.pride_shield": "§cP§6r§ei§ad§9e §dS§cc§6h§ei§al§9d",
 	"trollkin_v3.item.pride_token": "§cP§6r§ei§ad§9e §dM§ca§6r§ek§ae",
 
+	"trollkin_v3.item.netherstar.warning.line1": "Du fühlst dich von den Trollkin-Göttern beobachtet.",
+	"trollkin_v3.item.netherstar.warning.line2": "Vielleicht solltest du stattdessen einen Wither bekämpfen.",
+
 	"trollkin_v3.item.": "",
 
 	"trollkin_v3.category.endermars21": "§4EnderMars21",
@@ -259,9 +262,9 @@
 	"trollkin_v3.message.gods.punishment1.star.2": "Du sollst einen Wither bekämpfen, um diesen einzigartigen Gegenstand zu erhalten!",
 	"trollkin_v3.message.gods.punishment1.scrape.1": "Der erste Trollkin-Gott hat dir dein Abkratz-Werkzeug™ gestohlen.",
 	"trollkin_v3.message.gods.punishment1.scrape.2": "Du sollst nichts mehr abkratzen!",
-	"trollkin_v3.message.gods.punishment2.1": "Der zweite Trollkin-Gott hat dein Sehvermögen für 20 Minuten reduziert.",
+	"trollkin_v3.message.gods.punishment2.1": "Der zweite Trollkin-Gott hat dein Sehvermögen für 5 Minuten reduziert.",
 	"trollkin_v3.message.gods.punishment2.2": "Du sollst nicht das Licht des Tages sehen!",
-	"trollkin_v3.message.gods.punishment3.1": "Der dritte Trollkin-Gott hat alle deine Gegenstände in Trollkins konvertiert.",
+	"trollkin_v3.message.gods.punishment3.1": "Der dritte Trollkin-Gott hat circa die Hälfte deiner Gegenstände in Trollkins konvertiert.",
 	"trollkin_v3.message.gods.punishment3.2": "Du sollst unser Symbol tragen!",
 
 	"trollkin_v3.message.music": "Du kannst die Trollkin-Musik leiser stellen oder sogar ausschalten, indem du den %2$s Regler in den %1$s anpasst.",

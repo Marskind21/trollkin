@@ -1,0 +1,35 @@
+{
+	"type": "minecraft:group",
+	"terms": [
+		{
+			"type": "minecraft:slot_range",
+			"slots": "inventory.*",
+			"source": "this"
+		},
+		{
+			"type": "minecraft:slot_range",
+			"slots": "hotbar.*",
+			"source": "this"
+		},
+		{
+			"type": "minecraft:slot_range",
+			"slots": "armor.*",
+			"source": "this"
+		},
+		{
+			"type": "minecraft:slot_range",
+			"slots": "weapon.*",
+			"source": "this"
+		},
+		{
+			"type": "minecraft:slot_range",
+			"slots": "player.cursor",
+			"source": "this"
+		},
+		{
+			"type": "minecraft:slot_range",
+			"slots": "player.crafting.*",
+			"source": "this"
+		}
+	]
+}

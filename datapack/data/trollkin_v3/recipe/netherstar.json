@@ -2,19 +2,30 @@
 	"type": "minecraft:crafting_shaped",
 	"key": {
 		"1": "minecraft:wither_skeleton_skull",
-		"2": "minecraft:soul_sand",
 		"3": "minecraft:amethyst_shard"
 	},
 	"pattern": [
-		"232",
+		" 3 ",
 		"313",
-		"232"
+		" 3 "
 	],
 	"result": {
 		"count": 1,
 		"id": "minecraft:nether_star",
 		"components": {
-			"minecraft:enchantment_glint_override": false
+			"minecraft:enchantment_glint_override": false,
+			"minecraft:lore": [
+				{
+					"translate": "trollkin_v3.item.netherstar.warning.line1",
+					"italic": false,
+					"color": "red"
+				},
+				{
+					"translate": "trollkin_v3.item.netherstar.warning.line2",
+					"italic": false,
+					"color": "red"
+				}
+			]
 		}
 	}
 }

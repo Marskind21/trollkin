@@ -2,12 +2,12 @@
 	"type": "minecraft:crafting_shaped",
 	"key": {
 		"1": "minecraft:skeleton_skull",
-		"2": "minecraft:coal"
+		"2": "#minecraft:coals"
 	},
 	"pattern": [
-		"222",
+		" 2 ",
 		"212",
-		"222"
+		" 2 "
 	],
 	"result": {
 		"id": "minecraft:wither_skeleton_skull"
